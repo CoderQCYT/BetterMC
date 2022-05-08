@@ -26,6 +26,7 @@ import info.coderqc.mc.bettermc.item.CopperPickaxeItem;
 import info.coderqc.mc.bettermc.item.CopperHoeItem;
 import info.coderqc.mc.bettermc.item.CopperAxeItem;
 import info.coderqc.mc.bettermc.item.CopperArmorItem;
+import info.coderqc.mc.bettermc.item.CoconutWaterItem;
 import info.coderqc.mc.bettermc.item.CoconutItem;
 import info.coderqc.mc.bettermc.item.BeansItem;
 import info.coderqc.mc.bettermc.item.AmethystSwordItem;
@@ -136,6 +137,7 @@ public class BettermcModItems {
 	public static final RegistryObject<Item> AMBER_ARMOR_BOOTS = REGISTRY.register("amber_armor_boots", () -> new AmberArmorItem.Boots());
 	public static final RegistryObject<Item> GERANIUM = block(BettermcModBlocks.GERANIUM, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> SHADOW_INGOT = REGISTRY.register("shadow_ingot", () -> new ShadowIngotItem());
+	public static final RegistryObject<Item> COCONUT_WATER = REGISTRY.register("coconut_water", () -> new CoconutWaterItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

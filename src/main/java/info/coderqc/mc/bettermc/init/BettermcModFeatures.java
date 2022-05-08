@@ -24,6 +24,7 @@ import java.util.ArrayList;
 
 import info.coderqc.mc.bettermc.world.features.plants.GeraniumFeature;
 import info.coderqc.mc.bettermc.world.features.ores.AmberOreFeature;
+import info.coderqc.mc.bettermc.world.features.PalmTreeFeature;
 import info.coderqc.mc.bettermc.world.features.DouglasFirTreeFeature;
 import info.coderqc.mc.bettermc.world.features.BaobabTreeFeature;
 import info.coderqc.mc.bettermc.BettermcMod;
@@ -41,6 +42,8 @@ public class BettermcModFeatures {
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, AmberOreFeature.GENERATE_BIOMES, AmberOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> GERANIUM = register("geranium", GeraniumFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, GeraniumFeature.GENERATE_BIOMES, GeraniumFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> PALM_TREE = register("palm_tree", PalmTreeFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, PalmTreeFeature.GENERATE_BIOMES, PalmTreeFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);
