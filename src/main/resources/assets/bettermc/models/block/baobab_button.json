@@ -1,6 +1,6 @@
 {
   "parent": "block/button",
   "textures": {
-    "texture": "bettermc:blocks/baobab_planks"
+    "texture": "bettermc:blocks/planks"
   }
 }

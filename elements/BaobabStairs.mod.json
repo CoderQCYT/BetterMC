@@ -2,10 +2,10 @@
   "_fv": 28,
   "_type": "block",
   "definition": {
-    "texture": "baobab_planks",
-    "textureTop": "baobab_planks",
+    "texture": "planks",
+    "textureTop": "planks",
     "textureLeft": "",
-    "textureFront": "baobab_planks",
+    "textureFront": "planks",
     "textureRight": "",
     "textureBack": "",
     "renderType": 10,

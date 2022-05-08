@@ -6,26 +6,26 @@
   ],
   "key": {
     "0": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:eucalyptus_planks"
     },
     "1": {
       "item": "minecraft:stick"
     },
     "2": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:eucalyptus_planks"
     },
     "3": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:eucalyptus_planks"
     },
     "4": {
       "item": "minecraft:stick"
     },
     "5": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:eucalyptus_planks"
     }
   },
   "result": {
-    "item": "bettermc:deleted_mod_element",
+    "item": "bettermc:eucalyptus_fence",
     "count": 3
   }
 }

@@ -1,8 +1,8 @@
 {
   "parent": "block/slab_top",
   "textures": {
-    "bottom": "bettermc:blocks/baobab_planks",
-    "top": "bettermc:blocks/baobab_planks",
-    "side": "bettermc:blocks/baobab_planks"
+    "bottom": "bettermc:blocks/planks",
+    "top": "bettermc:blocks/planks",
+    "side": "bettermc:blocks/planks"
   }
 }

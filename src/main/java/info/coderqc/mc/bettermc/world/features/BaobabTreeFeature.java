@@ -25,15 +25,15 @@ import net.minecraft.core.BlockPos;
 import java.util.Set;
 import java.util.List;
 
-public class DouglasFirTreeFeature extends Feature<NoneFeatureConfiguration> {
-	public static DouglasFirTreeFeature FEATURE = null;
+public class BaobabTreeFeature extends Feature<NoneFeatureConfiguration> {
+	public static BaobabTreeFeature FEATURE = null;
 	public static Holder<ConfiguredFeature<NoneFeatureConfiguration, ?>> CONFIGURED_FEATURE = null;
 	public static Holder<PlacedFeature> PLACED_FEATURE = null;
 
 	public static Feature<?> feature() {
-		FEATURE = new DouglasFirTreeFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("bettermc:douglas_fir_tree", FEATURE, FeatureConfiguration.NONE);
-		PLACED_FEATURE = PlacementUtils.register("bettermc:douglas_fir_tree", CONFIGURED_FEATURE, List.of(BiomeFilter.biome()));
+		FEATURE = new BaobabTreeFeature();
+		CONFIGURED_FEATURE = FeatureUtils.register("bettermc:baobab_tree", FEATURE, FeatureConfiguration.NONE);
+		PLACED_FEATURE = PlacementUtils.register("bettermc:baobab_tree", CONFIGURED_FEATURE, List.of(BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -41,11 +41,11 @@ public class DouglasFirTreeFeature extends Feature<NoneFeatureConfiguration> {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("plains"));
+	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("savanna"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 	private StructureTemplate template = null;
 
-	public DouglasFirTreeFeature() {
+	public BaobabTreeFeature() {
 		super(NoneFeatureConfiguration.CODEC);
 	}
 
@@ -54,7 +54,7 @@ public class DouglasFirTreeFeature extends Feature<NoneFeatureConfiguration> {
 		if (!generate_dimensions.contains(context.level().getLevel().dimension()))
 			return false;
 		if (template == null)
-			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("bettermc", "dogfir"));
+			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("bettermc", "baobab_tree"));
 		if (template == null)
 			return false;
 		boolean anyPlaced = false;

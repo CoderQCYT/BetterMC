@@ -6,20 +6,20 @@
   ],
   "key": {
     "0": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:baobab_log"
     },
     "1": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:baobab_log"
     },
     "2": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:baobab_log"
     },
     "3": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:baobab_log"
     }
   },
   "result": {
-    "item": "bettermc:deleted_mod_element",
+    "item": "bettermc:baobab_wood",
     "count": 3
   }
 }

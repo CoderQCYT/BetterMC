@@ -5,14 +5,14 @@
   ],
   "key": {
     "0": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:baobab_planks"
     },
     "1": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:baobab_planks"
     }
   },
   "result": {
-    "item": "bettermc:deleted_mod_element",
+    "item": "bettermc:baobab_pressure_plate",
     "count": 1
   }
 }

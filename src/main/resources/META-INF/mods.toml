@@ -6,9 +6,9 @@ license="Academic Free License v3.0"
 modId="bettermc"
 version="1.0.0"
 displayName="bettermc"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="qcoll, MCreator"
+credits="Made with MCreator!"
+displayURL="http://www.coderqc.info"
+authors="CoderQC & Robotkid0925"
 
 [[dependencies.bettermc]]
     modId="minecraft"

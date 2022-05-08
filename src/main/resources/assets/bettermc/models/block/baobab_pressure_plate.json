@@ -1,6 +1,6 @@
 {
   "parent": "block/pressure_plate_up",
   "textures": {
-    "texture": "bettermc:blocks/baobab_planks"
+    "texture": "bettermc:blocks/planks"
   }
 }
