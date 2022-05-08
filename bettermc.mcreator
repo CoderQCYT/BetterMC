@@ -461,6 +461,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "Coconut",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut"
     }
   ],
   "variable_elements": [
@@ -490,7 +498,6 @@
       "item.bettermc.copper_armor_boots": "Copper Boots",
       "item.bettermc.emerald_armor_chestplate": "Emerald Chestplate",
       "item.bettermc.amethyst_armor_helmet": "Amethyst Helmet",
-      "item.bettermc.beans": "Beans",
       "item.bettermc.copper_shovel": "Copper Shovel",
       "item.bettermc.amethyst_armor_boots": "Amethyst Boots",
       "item.bettermc.emerald_shovel": "Emerald Shovel",
