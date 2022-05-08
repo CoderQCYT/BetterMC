@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "bettermc:amber"
+    },
+    "1": {
+      "item": "bettermc:amber"
+    },
+    "2": {
+      "item": "bettermc:amber"
+    },
+    "3": {
+      "item": "bettermc:amber"
+    },
+    "5": {
+      "item": "bettermc:amber"
+    }
+  },
+  "result": {
+    "item": "bettermc:deleted_mod_element_helmet",
+    "count": 1
+  }
+}

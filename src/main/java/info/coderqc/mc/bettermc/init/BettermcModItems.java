@@ -33,6 +33,13 @@ import info.coderqc.mc.bettermc.item.AmethystPickaxeItem;
 import info.coderqc.mc.bettermc.item.AmethystHoeItem;
 import info.coderqc.mc.bettermc.item.AmethystAxeItem;
 import info.coderqc.mc.bettermc.item.AmethystArmorItem;
+import info.coderqc.mc.bettermc.item.AmberSwordItem;
+import info.coderqc.mc.bettermc.item.AmberShovelItem;
+import info.coderqc.mc.bettermc.item.AmberPickaxeItem;
+import info.coderqc.mc.bettermc.item.AmberItem;
+import info.coderqc.mc.bettermc.item.AmberHoeItem;
+import info.coderqc.mc.bettermc.item.AmberAxeItem;
+import info.coderqc.mc.bettermc.item.AmberArmorItem;
 import info.coderqc.mc.bettermc.BettermcMod;
 
 public class BettermcModItems {
@@ -113,6 +120,19 @@ public class BettermcModItems {
 	public static final RegistryObject<Item> WILLOW_FENCE_GATE = block(BettermcModBlocks.WILLOW_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> WILLOW_PRESSURE_PLATE = block(BettermcModBlocks.WILLOW_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> WILLOW_BUTTON = block(BettermcModBlocks.WILLOW_BUTTON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> AMBER = REGISTRY.register("amber", () -> new AmberItem());
+	public static final RegistryObject<Item> AMBER_ORE = block(BettermcModBlocks.AMBER_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> AMBER_BLOCK = block(BettermcModBlocks.AMBER_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> AMBER_PICKAXE = REGISTRY.register("amber_pickaxe", () -> new AmberPickaxeItem());
+	public static final RegistryObject<Item> AMBER_AXE = REGISTRY.register("amber_axe", () -> new AmberAxeItem());
+	public static final RegistryObject<Item> AMBER_SWORD = REGISTRY.register("amber_sword", () -> new AmberSwordItem());
+	public static final RegistryObject<Item> AMBER_SHOVEL = REGISTRY.register("amber_shovel", () -> new AmberShovelItem());
+	public static final RegistryObject<Item> AMBER_HOE = REGISTRY.register("amber_hoe", () -> new AmberHoeItem());
+	public static final RegistryObject<Item> AMBER_ARMOR_HELMET = REGISTRY.register("amber_armor_helmet", () -> new AmberArmorItem.Helmet());
+	public static final RegistryObject<Item> AMBER_ARMOR_CHESTPLATE = REGISTRY.register("amber_armor_chestplate",
+			() -> new AmberArmorItem.Chestplate());
+	public static final RegistryObject<Item> AMBER_ARMOR_LEGGINGS = REGISTRY.register("amber_armor_leggings", () -> new AmberArmorItem.Leggings());
+	public static final RegistryObject<Item> AMBER_ARMOR_BOOTS = REGISTRY.register("amber_armor_boots", () -> new AmberArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

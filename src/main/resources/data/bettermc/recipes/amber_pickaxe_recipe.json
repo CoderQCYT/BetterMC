@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "bettermc:amber"
+    },
+    "1": {
+      "item": "bettermc:amber"
+    },
+    "2": {
+      "item": "bettermc:amber"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "bettermc:amber_pickaxe",
+    "count": 1
+  }
+}

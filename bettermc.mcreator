@@ -1157,6 +1157,180 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "levitation_recipe"
+    },
+    {
+      "name": "AmberAxeRecipe",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_axe_recipe"
+    },
+    {
+      "name": "Amber",
+      "type": "item",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber"
+    },
+    {
+      "name": "AmberBlock",
+      "type": "block",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_block"
+    },
+    {
+      "name": "AmberHoeRecipe",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_hoe_recipe"
+    },
+    {
+      "name": "AmberPickaxe",
+      "type": "tool",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_pickaxe"
+    },
+    {
+      "name": "AmberSwordRecipe",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_sword_recipe"
+    },
+    {
+      "name": "AmberShovelRecipe",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_shovel_recipe"
+    },
+    {
+      "name": "AmberArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_armor_body_recipe"
+    },
+    {
+      "name": "AmberHoe",
+      "type": "tool",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_hoe"
+    },
+    {
+      "name": "AmberBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_block_ore_recipe"
+    },
+    {
+      "name": "AmberArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_armor_leggings_recipe"
+    },
+    {
+      "name": "AmberOre",
+      "type": "block",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_ore"
+    },
+    {
+      "name": "AmberArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_armor_boots_recipe"
+    },
+    {
+      "name": "AmberPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_pickaxe_recipe"
+    },
+    {
+      "name": "AmberShovel",
+      "type": "tool",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_shovel"
+    },
+    {
+      "name": "AmberOreSmelting",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_ore_smelting"
+    },
+    {
+      "name": "AmberArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_armor_helmet_recipe"
+    },
+    {
+      "name": "AmberAxe",
+      "type": "tool",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_axe"
+    },
+    {
+      "name": "AmberSword",
+      "type": "tool",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_sword"
+    },
+    {
+      "name": "AmberOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_ore_block_recipe"
+    },
+    {
+      "name": "AmberArmor",
+      "type": "armor",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [
@@ -1175,9 +1349,13 @@
       "item.bettermc.emerald_pickaxe": "Emerald Pickaxe",
       "item.bettermc.copper_axe": "Copper Axe",
       "item.bettermc.emerald_axe": "Emerald Axe",
+      "block.bettermc.willow_pressure_plate": "Willow Pressure Plate",
+      "block.bettermc.willow_planks": "Willow Planks",
       "block.bettermc.douglas_fir_button": "DouglasFir Button",
       "item.bettermc.copper_sword": "Copper Sword",
       "block.bettermc.douglas_fir_fence": "DouglasFir Fence",
+      "block.bettermc.willow_fence": "Willow Fence",
+      "block.bettermc.willow_leaves": "Willow Leaves",
       "block.bettermc.eucalyptus_fence_gate": "Eucalyptus Fence Gate",
       "block.bettermc.douglas_fir_pressure_plate": "DouglasFir Pressure Plate",
       "item.bettermc.emerald_armor_leggings": "Emerald Leggings",
@@ -1208,12 +1386,15 @@
       "item.bettermc.amethyst_axe": "Amethyst Axe",
       "block.bettermc.eucalyptus_wood": "Eucalyptus Wood",
       "item.bettermc.copper_hoe": "Copper Hoe",
+      "block.bettermc.willow_log": "Willow Log",
+      "block.bettermc.willow_button": "Willow Button",
       "block.bettermc.eucalyptus_planks": "Eucalyptus Planks",
       "block.bettermc.baobab_planks": "Baobab Planks",
       "item.bettermc.copper_armor_boots": "Copper Boots",
       "block.bettermc.douglas_fir_stairs": "DouglasFir Stairs",
       "item.bettermc.emerald_armor_chestplate": "Emerald Chestplate",
       "item.bettermc.amethyst_armor_helmet": "Amethyst Helmet",
+      "block.bettermc.willow_fence_gate": "Willow Fence Gate",
       "item.bettermc.copper_shovel": "Copper Shovel",
       "block.bettermc.eucalyptus_fence": "Eucalyptus Fence",
       "block.bettermc.eucalyptus_pressure_plate": "Eucalyptus Pressure Plate",
