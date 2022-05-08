@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bettermc:blocks/willow_log_top",
+    "up": "bettermc:blocks/willow_log_top",
+    "north": "bettermc:blocks/willow_log_side",
+    "east": "bettermc:blocks/willow_log_side",
+    "south": "bettermc:blocks/willow_log_side",
+    "west": "bettermc:blocks/willow_log_side",
+    "particle": "bettermc:blocks/willow_log_top"
+  }
+}

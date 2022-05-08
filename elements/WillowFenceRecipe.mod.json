@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WillowPlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:WillowPlanks"
+      },
+      {
+        "value": "CUSTOM:WillowPlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:WillowPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WillowFence"
+    },
+    "name": "willow_fence_recipe",
+    "namespace": "mod"
+  }
+}

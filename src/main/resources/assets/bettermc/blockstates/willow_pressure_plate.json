@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "bettermc:block/willow_pressure_plate"
+    },
+    "powered=true": {
+      "model": "bettermc:block/willow_pressure_plate_down"
+    }
+  }
+}

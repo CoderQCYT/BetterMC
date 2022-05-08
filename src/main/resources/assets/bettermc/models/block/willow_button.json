@@ -1,0 +1,6 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "bettermc:blocks/willow_planks"
+  }
+}

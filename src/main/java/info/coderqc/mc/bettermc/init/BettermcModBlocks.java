@@ -10,6 +10,16 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import info.coderqc.mc.bettermc.block.WillowWoodBlock;
+import info.coderqc.mc.bettermc.block.WillowStairsBlock;
+import info.coderqc.mc.bettermc.block.WillowSlabBlock;
+import info.coderqc.mc.bettermc.block.WillowPressurePlateBlock;
+import info.coderqc.mc.bettermc.block.WillowPlanksBlock;
+import info.coderqc.mc.bettermc.block.WillowLogBlock;
+import info.coderqc.mc.bettermc.block.WillowLeavesBlock;
+import info.coderqc.mc.bettermc.block.WillowFenceGateBlock;
+import info.coderqc.mc.bettermc.block.WillowFenceBlock;
+import info.coderqc.mc.bettermc.block.WillowButtonBlock;
 import info.coderqc.mc.bettermc.block.EucalyptusWoodBlock;
 import info.coderqc.mc.bettermc.block.EucalyptusStairsBlock;
 import info.coderqc.mc.bettermc.block.EucalyptusSlabBlock;
@@ -79,4 +89,15 @@ public class BettermcModBlocks {
 	public static final RegistryObject<Block> BAOBAB_PRESSURE_PLATE = REGISTRY.register("baobab_pressure_plate",
 			() -> new BaobabPressurePlateBlock());
 	public static final RegistryObject<Block> BAOBAB_BUTTON = REGISTRY.register("baobab_button", () -> new BaobabButtonBlock());
+	public static final RegistryObject<Block> WILLOW_WOOD = REGISTRY.register("willow_wood", () -> new WillowWoodBlock());
+	public static final RegistryObject<Block> WILLOW_LOG = REGISTRY.register("willow_log", () -> new WillowLogBlock());
+	public static final RegistryObject<Block> WILLOW_PLANKS = REGISTRY.register("willow_planks", () -> new WillowPlanksBlock());
+	public static final RegistryObject<Block> WILLOW_LEAVES = REGISTRY.register("willow_leaves", () -> new WillowLeavesBlock());
+	public static final RegistryObject<Block> WILLOW_STAIRS = REGISTRY.register("willow_stairs", () -> new WillowStairsBlock());
+	public static final RegistryObject<Block> WILLOW_SLAB = REGISTRY.register("willow_slab", () -> new WillowSlabBlock());
+	public static final RegistryObject<Block> WILLOW_FENCE = REGISTRY.register("willow_fence", () -> new WillowFenceBlock());
+	public static final RegistryObject<Block> WILLOW_FENCE_GATE = REGISTRY.register("willow_fence_gate", () -> new WillowFenceGateBlock());
+	public static final RegistryObject<Block> WILLOW_PRESSURE_PLATE = REGISTRY.register("willow_pressure_plate",
+			() -> new WillowPressurePlateBlock());
+	public static final RegistryObject<Block> WILLOW_BUTTON = REGISTRY.register("willow_button", () -> new WillowButtonBlock());
 }

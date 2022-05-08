@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:forge:willow_log"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WillowPlanks"
+    },
+    "name": "willow_planks_recipe",
+    "namespace": "mod"
+  }
+}

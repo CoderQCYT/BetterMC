@@ -965,6 +965,166 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_tree"
+    },
+    {
+      "name": "WillowWood",
+      "type": "block",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willow_wood"
+    },
+    {
+      "name": "WillowLog",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willow_log"
+    },
+    {
+      "name": "WillowPlanks",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willow_planks"
+    },
+    {
+      "name": "WillowLeaves",
+      "type": "block",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willow_leaves"
+    },
+    {
+      "name": "WillowStairs",
+      "type": "block",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willow_stairs"
+    },
+    {
+      "name": "WillowSlab",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willow_slab"
+    },
+    {
+      "name": "WillowFence",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willow_fence"
+    },
+    {
+      "name": "WillowFenceGate",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willow_fence_gate"
+    },
+    {
+      "name": "WillowPressurePlate",
+      "type": "block",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willow_pressure_plate"
+    },
+    {
+      "name": "WillowButton",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willow_button"
+    },
+    {
+      "name": "WillowItemsTag",
+      "type": "tag",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willow_items_tag"
+    },
+    {
+      "name": "WillowWoodRecipe",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willow_wood_recipe"
+    },
+    {
+      "name": "WillowPlanksRecipe",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willow_planks_recipe"
+    },
+    {
+      "name": "WillowStairsRecipe",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willow_stairs_recipe"
+    },
+    {
+      "name": "WillowSlabRecipe",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willow_slab_recipe"
+    },
+    {
+      "name": "WillowFenceRecipe",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willow_fence_recipe"
+    },
+    {
+      "name": "WillowFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willow_fence_gate_recipe"
+    },
+    {
+      "name": "WillowPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willow_pressure_plate_recipe"
+    },
+    {
+      "name": "WillowButtonRecipe",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willow_button_recipe"
+    },
+    {
+      "name": "WillowStickRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willow_stick_recipe"
     }
   ],
   "variable_elements": [
@@ -978,17 +1138,24 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.bettermc.copper_pickaxe": "Copper Pickaxe",
       "item.bettermc.copper_armor_chestplate": "Copper Chestplate",
-      "item.bettermc.emerald_pickaxe": "Emerald Pickaxe",
+      "item.bettermc.copper_pickaxe": "Copper Pickaxe",
       "item.bettermc.copper_axe": "Copper Axe",
+      "item.bettermc.emerald_pickaxe": "Emerald Pickaxe",
       "item.bettermc.emerald_axe": "Emerald Axe",
+      "block.bettermc.willow_pressure_plate": "Willow Pressure Plate",
+      "block.bettermc.willow_planks": "Willow Planks",
       "block.bettermc.douglas_fir_button": "DouglasFir Button",
-      "item.bettermc.copper_sword": "Copper Sword",
       "block.bettermc.douglas_fir_fence": "DouglasFir Fence",
+      "item.bettermc.copper_sword": "Copper Sword",
+      "block.bettermc.willow_fence": "Willow Fence",
+      "block.bettermc.willow_leaves": "Willow Leaves",
       "block.bettermc.eucalyptus_fence_gate": "Eucalyptus Fence Gate",
-      "block.bettermc.douglas_fir_pressure_plate": "DouglasFir Pressure Plate",
+      "block.bettermc.willow_slab": "Willow Slab",
       "item.bettermc.emerald_armor_leggings": "Emerald Leggings",
+      "block.bettermc.douglas_fir_pressure_plate": "DouglasFir Pressure Plate",
+      "block.bettermc.willow_stairs": "Willow Stairs",
+      "block.bettermc.willow_wood": "Willow Wood",
       "item.bettermc.amethyst_shovel": "Amethyst Shovel",
       "block.bettermc.eucalyptus_button": "Eucalyptus Button",
       "block.bettermc.douglas_fir_log": "DouglasFir Log",
@@ -1016,12 +1183,15 @@
       "item.bettermc.amethyst_axe": "Amethyst Axe",
       "block.bettermc.eucalyptus_wood": "Eucalyptus Wood",
       "item.bettermc.copper_hoe": "Copper Hoe",
+      "block.bettermc.willow_log": "Willow Log",
+      "block.bettermc.willow_button": "Willow Button",
       "block.bettermc.eucalyptus_planks": "Eucalyptus Planks",
       "block.bettermc.baobab_planks": "Baobab Planks",
       "item.bettermc.copper_armor_boots": "Copper Boots",
       "block.bettermc.douglas_fir_stairs": "DouglasFir Stairs",
       "item.bettermc.emerald_armor_chestplate": "Emerald Chestplate",
       "item.bettermc.amethyst_armor_helmet": "Amethyst Helmet",
+      "block.bettermc.willow_fence_gate": "Willow Fence Gate",
       "item.bettermc.copper_shovel": "Copper Shovel",
       "block.bettermc.eucalyptus_fence": "Eucalyptus Fence",
       "block.bettermc.eucalyptus_pressure_plate": "Eucalyptus Pressure Plate",

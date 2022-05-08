@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "bettermc:block/willow_slab"
+    },
+    "type=top": {
+      "model": "bettermc:block/willow_slab_top"
+    },
+    "type=double": {
+      "model": "bettermc:block/willow_slab_full"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:willow_log"
+    }
+  ],
+  "result": {
+    "item": "bettermc:willow_planks",
+    "count": 4
+  }
+}

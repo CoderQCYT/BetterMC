@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:WillowWood"
+      },
+      {
+        "value": "CUSTOM:WillowLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "willow_log",
+    "namespace": "forge"
+  }
+}

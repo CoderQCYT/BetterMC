@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "bettermc:blocks/willow_planks",
+    "top": "bettermc:blocks/willow_planks",
+    "side": "bettermc:blocks/willow_planks"
+  }
+}

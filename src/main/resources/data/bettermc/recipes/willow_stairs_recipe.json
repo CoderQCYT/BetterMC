@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "bettermc:willow_planks"
+    },
+    "3": {
+      "item": "bettermc:willow_planks"
+    },
+    "4": {
+      "item": "bettermc:willow_planks"
+    },
+    "6": {
+      "item": "bettermc:willow_planks"
+    },
+    "7": {
+      "item": "bettermc:willow_planks"
+    },
+    "8": {
+      "item": "bettermc:willow_planks"
+    }
+  },
+  "result": {
+    "item": "bettermc:willow_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bettermc:willow_planks"
+    }
+  ],
+  "result": {
+    "item": "bettermc:willow_button",
+    "count": 1
+  }
+}
