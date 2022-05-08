@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import info.coderqc.mc.bettermc.item.ShadowIngotItem;
 import info.coderqc.mc.bettermc.item.EmeraldzSwordItem;
 import info.coderqc.mc.bettermc.item.EmeraldzShovelItem;
 import info.coderqc.mc.bettermc.item.EmeraldzPickaxeItem;
@@ -134,6 +135,7 @@ public class BettermcModItems {
 	public static final RegistryObject<Item> AMBER_ARMOR_LEGGINGS = REGISTRY.register("amber_armor_leggings", () -> new AmberArmorItem.Leggings());
 	public static final RegistryObject<Item> AMBER_ARMOR_BOOTS = REGISTRY.register("amber_armor_boots", () -> new AmberArmorItem.Boots());
 	public static final RegistryObject<Item> GERANIUM = block(BettermcModBlocks.GERANIUM, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> SHADOW_INGOT = REGISTRY.register("shadow_ingot", () -> new ShadowIngotItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
