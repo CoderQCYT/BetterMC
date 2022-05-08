@@ -32,6 +32,7 @@ import java.util.function.BiConsumer;
 
 import info.coderqc.mc.bettermc.init.BettermcModPotions;
 import info.coderqc.mc.bettermc.init.BettermcModItems;
+import info.coderqc.mc.bettermc.init.BettermcModFluids;
 import info.coderqc.mc.bettermc.init.BettermcModFeatures;
 import info.coderqc.mc.bettermc.init.BettermcModBlocks;
 
@@ -51,6 +52,7 @@ public class BettermcMod {
 		BettermcModItems.REGISTRY.register(bus);
 
 		BettermcModFeatures.REGISTRY.register(bus);
+		BettermcModFluids.REGISTRY.register(bus);
 
 		BettermcModPotions.REGISTRY.register(bus);
 
