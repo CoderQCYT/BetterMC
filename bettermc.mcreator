@@ -1511,8 +1511,8 @@
   "workspaceSettings": {
     "modid": "bettermc",
     "modName": "bettermc",
-    "version": "1.0.0",
-    "author": "CoderQC \u0026 Robotkid0925",
+    "version": "0.1.0",
+    "author": "CoderQC, Robotkid0925, and Scratcharts900",
     "websiteURL": "http://www.coderqc.info",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
