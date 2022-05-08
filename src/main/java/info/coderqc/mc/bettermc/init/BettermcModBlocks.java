@@ -7,6 +7,10 @@ package info.coderqc.mc.bettermc.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
@@ -20,6 +24,7 @@ import info.coderqc.mc.bettermc.block.WillowLeavesBlock;
 import info.coderqc.mc.bettermc.block.WillowFenceGateBlock;
 import info.coderqc.mc.bettermc.block.WillowFenceBlock;
 import info.coderqc.mc.bettermc.block.WillowButtonBlock;
+import info.coderqc.mc.bettermc.block.GeraniumBlock;
 import info.coderqc.mc.bettermc.block.EucalyptusWoodBlock;
 import info.coderqc.mc.bettermc.block.EucalyptusStairsBlock;
 import info.coderqc.mc.bettermc.block.EucalyptusSlabBlock;
@@ -104,4 +109,13 @@ public class BettermcModBlocks {
 	public static final RegistryObject<Block> WILLOW_BUTTON = REGISTRY.register("willow_button", () -> new WillowButtonBlock());
 	public static final RegistryObject<Block> AMBER_ORE = REGISTRY.register("amber_ore", () -> new AmberOreBlock());
 	public static final RegistryObject<Block> AMBER_BLOCK = REGISTRY.register("amber_block", () -> new AmberBlockBlock());
+	public static final RegistryObject<Block> GERANIUM = REGISTRY.register("geranium", () -> new GeraniumBlock());
+
+	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+	public static class ClientSideHandler {
+		@SubscribeEvent
+		public static void clientSetup(FMLClientSetupEvent event) {
+			GeraniumBlock.registerRenderLayer();
+		}
+	}
 }

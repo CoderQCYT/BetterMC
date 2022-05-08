@@ -1,7 +1,14 @@
 
 package info.coderqc.mc.bettermc.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.AxeItem;
+
+import info.coderqc.mc.bettermc.init.BettermcModItems;
 
 public class AmberAxeItem extends AxeItem {
 	public AmberAxeItem() {
@@ -29,11 +36,6 @@ public class AmberAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(BettermcModItems.AMBER.get()));
 			}
-		},
-
-				1, -3f,
-
-				new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
-
 }
