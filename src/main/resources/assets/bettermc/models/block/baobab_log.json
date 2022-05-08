@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bettermc:blocks/baobab_log_top",
+    "up": "bettermc:blocks/baobab_log_top",
+    "north": "bettermc:blocks/baobab_log_side",
+    "east": "bettermc:blocks/baobab_log_side",
+    "south": "bettermc:blocks/baobab_log_side",
+    "west": "bettermc:blocks/baobab_log_side",
+    "particle": "bettermc:blocks/baobab_log_top"
+  }
+}

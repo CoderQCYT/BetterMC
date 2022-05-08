@@ -30,6 +30,16 @@ import info.coderqc.mc.bettermc.block.DouglasFirLeavesBlock;
 import info.coderqc.mc.bettermc.block.DouglasFirFenceGateBlock;
 import info.coderqc.mc.bettermc.block.DouglasFirFenceBlock;
 import info.coderqc.mc.bettermc.block.DouglasFirButtonBlock;
+import info.coderqc.mc.bettermc.block.BaobabWoodBlock;
+import info.coderqc.mc.bettermc.block.BaobabStairsBlock;
+import info.coderqc.mc.bettermc.block.BaobabSlabBlock;
+import info.coderqc.mc.bettermc.block.BaobabPressurePlateBlock;
+import info.coderqc.mc.bettermc.block.BaobabPlanksBlock;
+import info.coderqc.mc.bettermc.block.BaobabLogBlock;
+import info.coderqc.mc.bettermc.block.BaobabLeavesBlock;
+import info.coderqc.mc.bettermc.block.BaobabFenceGateBlock;
+import info.coderqc.mc.bettermc.block.BaobabFenceBlock;
+import info.coderqc.mc.bettermc.block.BaobabButtonBlock;
 import info.coderqc.mc.bettermc.BettermcMod;
 
 public class BettermcModBlocks {
@@ -58,4 +68,15 @@ public class BettermcModBlocks {
 	public static final RegistryObject<Block> DOUGLAS_FIR_PRESSURE_PLATE = REGISTRY.register("douglas_fir_pressure_plate",
 			() -> new DouglasFirPressurePlateBlock());
 	public static final RegistryObject<Block> DOUGLAS_FIR_BUTTON = REGISTRY.register("douglas_fir_button", () -> new DouglasFirButtonBlock());
+	public static final RegistryObject<Block> BAOBAB_WOOD = REGISTRY.register("baobab_wood", () -> new BaobabWoodBlock());
+	public static final RegistryObject<Block> BAOBAB_LOG = REGISTRY.register("baobab_log", () -> new BaobabLogBlock());
+	public static final RegistryObject<Block> BAOBAB_PLANKS = REGISTRY.register("baobab_planks", () -> new BaobabPlanksBlock());
+	public static final RegistryObject<Block> BAOBAB_LEAVES = REGISTRY.register("baobab_leaves", () -> new BaobabLeavesBlock());
+	public static final RegistryObject<Block> BAOBAB_STAIRS = REGISTRY.register("baobab_stairs", () -> new BaobabStairsBlock());
+	public static final RegistryObject<Block> BAOBAB_SLAB = REGISTRY.register("baobab_slab", () -> new BaobabSlabBlock());
+	public static final RegistryObject<Block> BAOBAB_FENCE = REGISTRY.register("baobab_fence", () -> new BaobabFenceBlock());
+	public static final RegistryObject<Block> BAOBAB_FENCE_GATE = REGISTRY.register("baobab_fence_gate", () -> new BaobabFenceGateBlock());
+	public static final RegistryObject<Block> BAOBAB_PRESSURE_PLATE = REGISTRY.register("baobab_pressure_plate",
+			() -> new BaobabPressurePlateBlock());
+	public static final RegistryObject<Block> BAOBAB_BUTTON = REGISTRY.register("baobab_button", () -> new BaobabButtonBlock());
 }

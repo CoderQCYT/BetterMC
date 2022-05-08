@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "bettermc:baobab_log"
+    },
+    "1": {
+      "item": "bettermc:baobab_log"
+    },
+    "2": {
+      "item": "bettermc:baobab_log"
+    },
+    "3": {
+      "item": "bettermc:baobab_log"
+    }
+  },
+  "result": {
+    "item": "bettermc:baobab_wood",
+    "count": 3
+  }
+}

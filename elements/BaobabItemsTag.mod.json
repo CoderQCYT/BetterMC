@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:BaobabWood"
+      },
+      {
+        "value": "CUSTOM:BaobabLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "baobab_log",
+    "namespace": "forge"
+  }
+}

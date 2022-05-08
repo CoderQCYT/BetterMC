@@ -93,6 +93,16 @@ public class BettermcModItems {
 	public static final RegistryObject<Item> DOUGLAS_FIR_PRESSURE_PLATE = block(BettermcModBlocks.DOUGLAS_FIR_PRESSURE_PLATE,
 			CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> DOUGLAS_FIR_BUTTON = block(BettermcModBlocks.DOUGLAS_FIR_BUTTON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BAOBAB_WOOD = block(BettermcModBlocks.BAOBAB_WOOD, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BAOBAB_LOG = block(BettermcModBlocks.BAOBAB_LOG, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BAOBAB_PLANKS = block(BettermcModBlocks.BAOBAB_PLANKS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BAOBAB_LEAVES = block(BettermcModBlocks.BAOBAB_LEAVES, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> BAOBAB_STAIRS = block(BettermcModBlocks.BAOBAB_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BAOBAB_SLAB = block(BettermcModBlocks.BAOBAB_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BAOBAB_FENCE = block(BettermcModBlocks.BAOBAB_FENCE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> BAOBAB_FENCE_GATE = block(BettermcModBlocks.BAOBAB_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> BAOBAB_PRESSURE_PLATE = block(BettermcModBlocks.BAOBAB_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> BAOBAB_BUTTON = block(BettermcModBlocks.BAOBAB_BUTTON, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

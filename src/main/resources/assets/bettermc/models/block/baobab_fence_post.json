@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "bettermc:blocks/baobab_planks",
+    "particle": "bettermc:blocks/baobab_planks"
+  }
+}

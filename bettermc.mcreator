@@ -478,7 +478,7 @@
       "name": "DouglasFirButton",
       "type": "block",
       "sortid": 77,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "douglas_fir_button"
     },
@@ -494,7 +494,7 @@
       "name": "DouglasFirFenceGate",
       "type": "block",
       "sortid": 75,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "douglas_fir_fence_gate"
     },
@@ -502,7 +502,7 @@
       "name": "DouglasFirPressurePlate",
       "type": "block",
       "sortid": 76,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "douglas_fir_pressure_plate"
     },
@@ -534,7 +534,7 @@
       "name": "DouglasFirLeaves",
       "type": "block",
       "sortid": 71,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "douglas_fir_leaves"
     },
@@ -590,7 +590,7 @@
       "name": "DouglasFirLog",
       "type": "block",
       "sortid": 69,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "douglas_fir_log"
     },
@@ -690,7 +690,7 @@
       "name": "DouglasFirFence",
       "type": "block",
       "sortid": 74,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "douglas_fir_fence"
     },
@@ -738,7 +738,7 @@
       "name": "DouglasFirPlanks",
       "type": "block",
       "sortid": 70,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "douglas_fir_planks"
     },
@@ -789,6 +789,166 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "douglas_fir_stairs_recipe"
+    },
+    {
+      "name": "BaobabWood",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_wood"
+    },
+    {
+      "name": "BaobabLog",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_log"
+    },
+    {
+      "name": "BaobabPlanks",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_planks"
+    },
+    {
+      "name": "BaobabLeaves",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_leaves"
+    },
+    {
+      "name": "BaobabStairs",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_stairs"
+    },
+    {
+      "name": "BaobabSlab",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_slab"
+    },
+    {
+      "name": "BaobabFence",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_fence"
+    },
+    {
+      "name": "BaobabFenceGate",
+      "type": "block",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_fence_gate"
+    },
+    {
+      "name": "BaobabPressurePlate",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_pressure_plate"
+    },
+    {
+      "name": "BaobabButton",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_button"
+    },
+    {
+      "name": "BaobabItemsTag",
+      "type": "tag",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_items_tag"
+    },
+    {
+      "name": "BaobabWoodRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_wood_recipe"
+    },
+    {
+      "name": "BaobabPlanksRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_planks_recipe"
+    },
+    {
+      "name": "BaobabStairsRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_stairs_recipe"
+    },
+    {
+      "name": "BaobabSlabRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_slab_recipe"
+    },
+    {
+      "name": "BaobabFenceRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_fence_recipe"
+    },
+    {
+      "name": "BaobabFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_fence_gate_recipe"
+    },
+    {
+      "name": "BaobabPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_pressure_plate_recipe"
+    },
+    {
+      "name": "BaobabButtonRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_button_recipe"
+    },
+    {
+      "name": "BaobabStickRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_stick_recipe"
     }
   ],
   "variable_elements": [
@@ -817,23 +977,31 @@
       "block.bettermc.eucalyptus_button": "Eucalyptus Button",
       "block.bettermc.douglas_fir_log": "DouglasFir Log",
       "item.bettermc.amethyst_hoe": "Amethyst Hoe",
+      "block.bettermc.baobab_leaves": "Baobab Leaves",
+      "block.bettermc.baobab_slab": "Baobab Slab",
+      "block.bettermc.baobab_fence_gate": "Baobab Fence Gate",
       "item.bettermc.coconut": "Coconut",
       "block.bettermc.eucalyptus_stairs": "Eucalyptus Stairs",
       "item.bettermc.beans": "Beans",
       "item.bettermc.amethyst_armor_boots": "Amethyst Boots",
+      "block.bettermc.baobab_wood": "Baobab Wood",
+      "block.bettermc.baobab_fence": "Baobab Fence",
       "block.bettermc.douglas_fir_slab": "DouglasFir Slab",
       "item.bettermc.emerald_hoe": "Emerald Hoe",
       "block.bettermc.eucalyptus_slab": "Eucalyptus Slab",
       "block.bettermc.douglas_fir_wood": "DouglasFir Wood",
       "block.bettermc.douglas_fir_leaves": "DouglasFir Leaves",
       "block.bettermc.eucalyptus_leaves": "Eucalyptus Leaves",
+      "block.bettermc.baobab_stairs": "Baobab Stairs",
       "block.bettermc.douglas_fir_planks": "DouglasFir Planks",
       "item.bettermc.emerald_sword": "Emerald Sword",
+      "block.bettermc.baobab_pressure_plate": "Baobab Pressure Plate",
       "item.bettermc.amethyst_armor_leggings": "Amethyst Leggings",
       "item.bettermc.amethyst_axe": "Amethyst Axe",
       "block.bettermc.eucalyptus_wood": "Eucalyptus Wood",
       "item.bettermc.copper_hoe": "Copper Hoe",
       "block.bettermc.eucalyptus_planks": "Eucalyptus Planks",
+      "block.bettermc.baobab_planks": "Baobab Planks",
       "item.bettermc.copper_armor_boots": "Copper Boots",
       "block.bettermc.douglas_fir_stairs": "DouglasFir Stairs",
       "item.bettermc.emerald_armor_chestplate": "Emerald Chestplate",
@@ -842,10 +1010,12 @@
       "block.bettermc.eucalyptus_fence": "Eucalyptus Fence",
       "block.bettermc.eucalyptus_pressure_plate": "Eucalyptus Pressure Plate",
       "item.bettermc.emerald_shovel": "Emerald Shovel",
+      "block.bettermc.baobab_button": "Baobab Button",
       "item.bettermc.copper_armor_leggings": "Copper Leggings",
       "item.bettermc.amethyst_armor_chestplate": "Amethyst Chestplate",
       "item.bettermc.emerald_armor_boots": "Emerald Boots",
       "block.bettermc.eucalyptus_log": "Eucalyptus Log",
+      "block.bettermc.baobab_log": "Baobab Log",
       "block.bettermc.douglas_fir_fence_gate": "DouglasFir Fence Gate",
       "item.bettermc.copper_armor_helmet": "Copper Helmet",
       "item.bettermc.emerald_armor_helmet": "Emerald Helmet",
