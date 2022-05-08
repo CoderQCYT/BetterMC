@@ -10,6 +10,9 @@
     "textureLeggings": "copper_leggings",
     "enableBoots": true,
     "textureBoots": "copper_boots",
+    "onHelmetTick": {
+      "name": "CopperArmorTickEvent"
+    },
     "creativeTab": {
       "value": "COMBAT"
     },

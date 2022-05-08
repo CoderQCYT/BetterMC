@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "bettermc:blocks/douglasfir_planks",
+    "particle": "bettermc:blocks/douglasfir_planks"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "bettermc:deleted_mod_element"
+    },
+    "1": {
+      "item": "bettermc:deleted_mod_element"
+    },
+    "2": {
+      "item": "bettermc:deleted_mod_element"
+    },
+    "3": {
+      "item": "bettermc:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "bettermc:douglas_fir_wood",
+    "count": 3
+  }
+}

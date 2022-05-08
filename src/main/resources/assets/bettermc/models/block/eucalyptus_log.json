@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bettermc:blocks/eucalyptus_log_top",
+    "up": "bettermc:blocks/eucalyptus_log_top",
+    "north": "bettermc:blocks/eucalyptus_log_side",
+    "east": "bettermc:blocks/eucalyptus_log_side",
+    "south": "bettermc:blocks/eucalyptus_log_side",
+    "west": "bettermc:blocks/eucalyptus_log_side",
+    "particle": "bettermc:blocks/eucalyptus_log_top"
+  }
+}

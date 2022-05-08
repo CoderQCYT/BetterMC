@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bettermc:eucalyptus_planks"
+    }
+  ],
+  "result": {
+    "item": "bettermc:eucalyptus_button",
+    "count": 1
+  }
+}

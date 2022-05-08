@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "bettermc:blocks/eucalyptus_planks",
+    "top": "bettermc:blocks/eucalyptus_planks",
+    "side": "bettermc:blocks/eucalyptus_planks"
+  }
+}

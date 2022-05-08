@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:EucalyptusWood"
+      },
+      {
+        "value": "CUSTOM:EucalyptusLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "eucalyptus_log",
+    "namespace": "forge"
+  }
+}

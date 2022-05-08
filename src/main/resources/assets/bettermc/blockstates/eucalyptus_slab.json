@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "bettermc:block/eucalyptus_slab"
+    },
+    "type=top": {
+      "model": "bettermc:block/eucalyptus_slab_top"
+    },
+    "type=double": {
+      "model": "bettermc:block/eucalyptus_slab_full"
+    }
+  }
+}
