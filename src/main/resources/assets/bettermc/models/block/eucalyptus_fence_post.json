@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "bettermc:blocks/eucalyptus_planks",
+    "particle": "bettermc:blocks/eucalyptus_planks"
+  }
+}

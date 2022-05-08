@@ -469,6 +469,166 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut"
+    },
+    {
+      "name": "EucalyptusWood",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_wood"
+    },
+    {
+      "name": "EucalyptusLog",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_log"
+    },
+    {
+      "name": "EucalyptusPlanks",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_planks"
+    },
+    {
+      "name": "EucalyptusLeaves",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_leaves"
+    },
+    {
+      "name": "EucalyptusStairs",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_stairs"
+    },
+    {
+      "name": "EucalyptusSlab",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_slab"
+    },
+    {
+      "name": "EucalyptusFence",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_fence"
+    },
+    {
+      "name": "EucalyptusFenceGate",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_fence_gate"
+    },
+    {
+      "name": "EucalyptusPressurePlate",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_pressure_plate"
+    },
+    {
+      "name": "EucalyptusButton",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_button"
+    },
+    {
+      "name": "EucalyptusItemsTag",
+      "type": "tag",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_items_tag"
+    },
+    {
+      "name": "EucalyptusWoodRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_wood_recipe"
+    },
+    {
+      "name": "EucalyptusPlanksRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_planks_recipe"
+    },
+    {
+      "name": "EucalyptusStairsRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_stairs_recipe"
+    },
+    {
+      "name": "EucalyptusSlabRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_slab_recipe"
+    },
+    {
+      "name": "EucalyptusFenceRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_fence_recipe"
+    },
+    {
+      "name": "EucalyptusFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_fence_gate_recipe"
+    },
+    {
+      "name": "EucalyptusPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_pressure_plate_recipe"
+    },
+    {
+      "name": "EucalyptusButtonRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_button_recipe"
+    },
+    {
+      "name": "EucalyptusStickRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_stick_recipe"
     }
   ],
   "variable_elements": [
@@ -486,25 +646,37 @@
       "item.bettermc.copper_pickaxe": "Copper Pickaxe",
       "item.bettermc.emerald_pickaxe": "Emerald Pickaxe",
       "item.bettermc.copper_axe": "Copper Axe",
+      "block.bettermc.eucalyptus_slab": "Eucalyptus Slab",
       "item.bettermc.emerald_axe": "Emerald Axe",
+      "block.bettermc.eucalyptus_leaves": "Eucalyptus Leaves",
       "item.bettermc.copper_sword": "Copper Sword",
       "item.bettermc.emerald_sword": "Emerald Sword",
+      "block.bettermc.eucalyptus_fence_gate": "Eucalyptus Fence Gate",
       "item.bettermc.amethyst_armor_leggings": "Amethyst Leggings",
       "item.bettermc.amethyst_axe": "Amethyst Axe",
       "item.bettermc.copper_hoe": "Copper Hoe",
       "item.bettermc.emerald_armor_leggings": "Emerald Leggings",
+      "block.bettermc.eucalyptus_wood": "Eucalyptus Wood",
       "item.bettermc.amethyst_shovel": "Amethyst Shovel",
+      "block.bettermc.eucalyptus_button": "Eucalyptus Button",
+      "block.bettermc.eucalyptus_planks": "Eucalyptus Planks",
       "item.bettermc.amethyst_hoe": "Amethyst Hoe",
       "item.bettermc.copper_armor_boots": "Copper Boots",
+      "item.bettermc.coconut": "Coconut",
       "item.bettermc.emerald_armor_chestplate": "Emerald Chestplate",
       "item.bettermc.amethyst_armor_helmet": "Amethyst Helmet",
+      "item.bettermc.beans": "Beans",
+      "block.bettermc.eucalyptus_stairs": "Eucalyptus Stairs",
       "item.bettermc.copper_shovel": "Copper Shovel",
+      "block.bettermc.eucalyptus_fence": "Eucalyptus Fence",
       "item.bettermc.amethyst_armor_boots": "Amethyst Boots",
+      "block.bettermc.eucalyptus_pressure_plate": "Eucalyptus Pressure Plate",
       "item.bettermc.emerald_shovel": "Emerald Shovel",
       "item.bettermc.copper_armor_leggings": "Copper Leggings",
       "item.bettermc.amethyst_armor_chestplate": "Amethyst Chestplate",
       "item.bettermc.emerald_armor_boots": "Emerald Boots",
       "item.bettermc.emerald_hoe": "Emerald Hoe",
+      "block.bettermc.eucalyptus_log": "Eucalyptus Log",
       "item.bettermc.copper_armor_helmet": "Copper Helmet",
       "item.bettermc.emerald_armor_helmet": "Emerald Helmet",
       "item.bettermc.amethyst_pickaxe": "Amethyst Pickaxe",
@@ -519,8 +691,8 @@
     "modid": "bettermc",
     "modName": "bettermc",
     "version": "1.0.0",
-    "author": "qcoll, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "author": "CoderQC \u0026 Robotkid0925",
+    "websiteURL": "http://www.coderqc.info",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -529,6 +701,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
+    "credits": "Made with MCreator!",
     "modElementsPackage": "info.coderqc.mc.bettermc",
     "lockBaseModFiles": false
   },

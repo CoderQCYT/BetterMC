@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "bettermc:eucalyptus_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "bettermc:eucalyptus_planks"
+    },
+    "3": {
+      "item": "bettermc:eucalyptus_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "bettermc:eucalyptus_planks"
+    }
+  },
+  "result": {
+    "item": "bettermc:eucalyptus_fence",
+    "count": 3
+  }
+}

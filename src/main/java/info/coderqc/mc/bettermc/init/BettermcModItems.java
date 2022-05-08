@@ -8,7 +8,10 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.BlockItem;
 
 import info.coderqc.mc.bettermc.item.EmeraldzSwordItem;
 import info.coderqc.mc.bettermc.item.EmeraldzShovelItem;
@@ -68,4 +71,19 @@ public class BettermcModItems {
 	public static final RegistryObject<Item> AMETHYST_ARMOR_BOOTS = REGISTRY.register("amethyst_armor_boots", () -> new AmethystArmorItem.Boots());
 	public static final RegistryObject<Item> BEANS = REGISTRY.register("beans", () -> new BeansItem());
 	public static final RegistryObject<Item> COCONUT = REGISTRY.register("coconut", () -> new CoconutItem());
+	public static final RegistryObject<Item> EUCALYPTUS_WOOD = block(BettermcModBlocks.EUCALYPTUS_WOOD, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> EUCALYPTUS_LOG = block(BettermcModBlocks.EUCALYPTUS_LOG, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> EUCALYPTUS_PLANKS = block(BettermcModBlocks.EUCALYPTUS_PLANKS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> EUCALYPTUS_LEAVES = block(BettermcModBlocks.EUCALYPTUS_LEAVES, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> EUCALYPTUS_STAIRS = block(BettermcModBlocks.EUCALYPTUS_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> EUCALYPTUS_SLAB = block(BettermcModBlocks.EUCALYPTUS_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> EUCALYPTUS_FENCE = block(BettermcModBlocks.EUCALYPTUS_FENCE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> EUCALYPTUS_FENCE_GATE = block(BettermcModBlocks.EUCALYPTUS_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> EUCALYPTUS_PRESSURE_PLATE = block(BettermcModBlocks.EUCALYPTUS_PRESSURE_PLATE,
+			CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> EUCALYPTUS_BUTTON = block(BettermcModBlocks.EUCALYPTUS_BUTTON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+
+	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+	}
 }

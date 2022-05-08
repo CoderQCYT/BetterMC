@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "bettermc:eucalyptus_log"
+    },
+    "1": {
+      "item": "bettermc:eucalyptus_log"
+    },
+    "2": {
+      "item": "bettermc:eucalyptus_log"
+    },
+    "3": {
+      "item": "bettermc:eucalyptus_log"
+    }
+  },
+  "result": {
+    "item": "bettermc:eucalyptus_wood",
+    "count": 3
+  }
+}

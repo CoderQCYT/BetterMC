@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:eucalyptus_log"
+    }
+  ],
+  "result": {
+    "item": "bettermc:eucalyptus_planks",
+    "count": 4
+  }
+}

@@ -31,6 +31,7 @@ import java.util.function.Function;
 import java.util.function.BiConsumer;
 
 import info.coderqc.mc.bettermc.init.BettermcModItems;
+import info.coderqc.mc.bettermc.init.BettermcModBlocks;
 
 @Mod("bettermc")
 public class BettermcMod {
@@ -44,7 +45,7 @@ public class BettermcMod {
 	public BettermcMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		BettermcModBlocks.REGISTRY.register(bus);
 		BettermcModItems.REGISTRY.register(bus);
 
 	}
