@@ -377,6 +377,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_armor_boots_recipe"
+    },
+    {
+      "name": "Coconut",
+      "type": "painting",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut"
     }
   ],
   "variable_elements": [],
