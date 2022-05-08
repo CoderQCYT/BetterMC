@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bettermc:blocks/baobab_log_side",
+    "particle": "bettermc:blocks/baobab_log_side"
+  }
+}

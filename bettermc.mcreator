@@ -797,6 +797,166 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "douglas_fir_tree"
+    },
+    {
+      "name": "BaobabSlabRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_slab_recipe"
+    },
+    {
+      "name": "BaobabPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_pressure_plate_recipe"
+    },
+    {
+      "name": "BaobabFenceGate",
+      "type": "block",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_fence_gate"
+    },
+    {
+      "name": "BaobabWoodRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_wood_recipe"
+    },
+    {
+      "name": "BaobabItemsTag",
+      "type": "tag",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_items_tag"
+    },
+    {
+      "name": "BaobabFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_fence_gate_recipe"
+    },
+    {
+      "name": "BaobabPlanksRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_planks_recipe"
+    },
+    {
+      "name": "BaobabFenceRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_fence_recipe"
+    },
+    {
+      "name": "BaobabStairsRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_stairs_recipe"
+    },
+    {
+      "name": "BaobabLeaves",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_leaves"
+    },
+    {
+      "name": "BaobabStickRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_stick_recipe"
+    },
+    {
+      "name": "BaobabPlanks",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_planks"
+    },
+    {
+      "name": "BaobabButtonRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_button_recipe"
+    },
+    {
+      "name": "BaobabFence",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_fence"
+    },
+    {
+      "name": "BaobabWood",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_wood"
+    },
+    {
+      "name": "BaobabLog",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_log"
+    },
+    {
+      "name": "BaobabSlab",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_slab"
+    },
+    {
+      "name": "BaobabStairs",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_stairs"
+    },
+    {
+      "name": "BaobabPressurePlate",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_pressure_plate"
+    },
+    {
+      "name": "BaobabButton",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_button"
     }
   ],
   "variable_elements": [

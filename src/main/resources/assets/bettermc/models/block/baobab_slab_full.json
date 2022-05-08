@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "bettermc:blocks/baobab_planks",
+    "top": "bettermc:blocks/baobab_planks",
+    "side": "bettermc:blocks/baobab_planks"
+  }
+}
