@@ -1349,6 +1349,14 @@
       "registry_name": "emerald_trade"
     },
     {
+      "name": "WateryMilkRecipe",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "watery_milk_recipe"
+    },
+    {
       "name": "Milk",
       "type": "fluid",
       "sortid": 152,
@@ -1358,14 +1366,6 @@
       "metadata": {
         "gb": true
       }
-    },
-    {
-      "name": "WateryMilkRecipe",
-      "type": "recipe",
-      "sortid": 153,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "watery_milk_recipe"
     }
   ],
   "variable_elements": [

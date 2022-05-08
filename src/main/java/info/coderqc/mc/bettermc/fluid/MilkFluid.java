@@ -1,20 +1,8 @@
 
 package info.coderqc.mc.bettermc.fluid;
 
-import net.minecraftforge.fluids.ForgeFlowingFluid;
-import net.minecraftforge.fluids.FluidAttributes;
-
-import net.minecraft.world.level.material.FluidState;
-import net.minecraft.world.level.material.Fluid;
-import net.minecraft.world.level.block.state.StateDefinition;
-import net.minecraft.world.level.block.LiquidBlock;
-import net.minecraft.resources.ResourceLocation;
-
-import info.coderqc.mc.bettermc.init.BettermcModItems;
-import info.coderqc.mc.bettermc.init.BettermcModFluids;
-import info.coderqc.mc.bettermc.init.BettermcModBlocks;
-
 public abstract class MilkFluid extends ForgeFlowingFluid {
+
 	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(BettermcModFluids.MILK,
 			BettermcModFluids.FLOWING_MILK,
 			FluidAttributes.builder(new ResourceLocation("bettermc:blocks/milk"), new ResourceLocation("bettermc:blocks/milk"))
@@ -59,4 +47,5 @@ public abstract class MilkFluid extends ForgeFlowingFluid {
 			return false;
 		}
 	}
+
 }
