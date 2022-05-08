@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "bettermc:baobab_wood",
+    "bettermc:baobab_log"
+  ]
 }

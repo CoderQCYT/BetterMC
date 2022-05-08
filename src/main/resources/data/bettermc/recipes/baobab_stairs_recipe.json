@@ -7,26 +7,26 @@
   ],
   "key": {
     "0": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:baobab_planks"
     },
     "3": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:baobab_planks"
     },
     "4": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:baobab_planks"
     },
     "6": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:baobab_planks"
     },
     "7": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:baobab_planks"
     },
     "8": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:baobab_planks"
     }
   },
   "result": {
-    "item": "bettermc:deleted_mod_element",
+    "item": "bettermc:baobab_stairs",
     "count": 4
   }
 }
