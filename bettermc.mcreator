@@ -978,7 +978,7 @@
       "name": "WillowPressurePlate",
       "type": "block",
       "sortid": 117,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "willow_pressure_plate"
     },
@@ -1018,7 +1018,7 @@
       "name": "WillowLeaves",
       "type": "block",
       "sortid": 112,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "willow_leaves"
     },
@@ -1026,7 +1026,7 @@
       "name": "WillowFenceGate",
       "type": "block",
       "sortid": 116,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "willow_fence_gate"
     },
@@ -1050,7 +1050,7 @@
       "name": "WillowFence",
       "type": "block",
       "sortid": 115,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "willow_fence"
     },
@@ -1058,7 +1058,7 @@
       "name": "WillowLog",
       "type": "block",
       "sortid": 110,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "willow_log"
     },
@@ -1074,7 +1074,7 @@
       "name": "WillowPlanks",
       "type": "block",
       "sortid": 111,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "willow_planks"
     },
@@ -1090,7 +1090,7 @@
       "name": "WillowButton",
       "type": "block",
       "sortid": 118,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "willow_button"
     },
@@ -1465,6 +1465,7 @@
       "block.bettermc.douglas_fir_leaves": "DouglasFir Leaves",
       "block.bettermc.eucalyptus_leaves": "Eucalyptus Leaves",
       "block.bettermc.baobab_stairs": "Baobab Stairs",
+      "fluid.bettermc.milk": "Watery Milk",
       "block.bettermc.douglas_fir_planks": "DouglasFir Planks",
       "item.bettermc.emerald_sword": "Emerald Sword",
       "block.bettermc.baobab_pressure_plate": "Baobab Pressure Plate",
@@ -1477,6 +1478,7 @@
       "block.bettermc.eucalyptus_planks": "Eucalyptus Planks",
       "block.bettermc.baobab_planks": "Baobab Planks",
       "item.bettermc.amber_armor_helmet": "Amber Helmet",
+      "block.bettermc.milk": "Watery Milk",
       "item.bettermc.copper_armor_boots": "Copper Boots",
       "block.bettermc.douglas_fir_stairs": "DouglasFir Stairs",
       "item.bettermc.emerald_armor_chestplate": "Emerald Chestplate",
@@ -1490,6 +1492,7 @@
       "item.bettermc.copper_armor_leggings": "Copper Leggings",
       "item.bettermc.amethyst_armor_chestplate": "Amethyst Chestplate",
       "item.bettermc.emerald_armor_boots": "Emerald Boots",
+      "item.bettermc.milk_bucket": "Watery Milk Bucket",
       "block.bettermc.eucalyptus_log": "Eucalyptus Log",
       "block.bettermc.baobab_log": "Baobab Log",
       "block.bettermc.douglas_fir_fence_gate": "DouglasFir Fence Gate",
