@@ -2,18 +2,18 @@
 package info.coderqc.mc.bettermc.recipes.brewing;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public class IdklolBrewingRecipe implements IBrewingRecipe {
+public class LevitationRecipeBrewingRecipe implements IBrewingRecipe {
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
-		event.enqueueWork(() -> BrewingRecipeRegistry.addRecipe(new IdklolBrewingRecipe()));
+		event.enqueueWork(() -> BrewingRecipeRegistry.addRecipe(new LevitationRecipeBrewingRecipe()));
 	}
 
 	@Override
 	public boolean isInput(ItemStack input) {
 		Item inputItem = input.getItem();
 		return (inputItem == Items.POTION || inputItem == Items.SPLASH_POTION || inputItem == Items.LINGERING_POTION)
-				&& PotionUtils.getPotion(input) == Potions.WATER;
+				&& PotionUtils.getPotion(input) == Potions.MUNDANE;
 	}
 
 	@Override
