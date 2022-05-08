@@ -125,6 +125,132 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_armor_boots_recipe"
+    },
+    {
+      "name": "EmeraldzPickaxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldz_pickaxe"
+    },
+    {
+      "name": "EmeraldzAxe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldz_axe"
+    },
+    {
+      "name": "EmeraldzSword",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldz_sword"
+    },
+    {
+      "name": "EmeraldzShovel",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldz_shovel"
+    },
+    {
+      "name": "EmeraldzHoe",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldz_hoe"
+    },
+    {
+      "name": "EmeraldzPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldz_pickaxe_recipe"
+    },
+    {
+      "name": "EmeraldzAxeRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldz_axe_recipe"
+    },
+    {
+      "name": "EmeraldzSwordRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldz_sword_recipe"
+    },
+    {
+      "name": "EmeraldzShovelRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldz_shovel_recipe"
+    },
+    {
+      "name": "EmeraldzHoeRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldz_hoe_recipe"
+    },
+    {
+      "name": "EmeraldzArmor",
+      "type": "armor",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldz_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "EmeraldzArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldz_armor_helmet_recipe"
+    },
+    {
+      "name": "EmeraldzArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldz_armor_body_recipe"
+    },
+    {
+      "name": "EmeraldzArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldz_armor_leggings_recipe"
+    },
+    {
+      "name": "EmeraldzArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldz_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
@@ -134,12 +260,21 @@
       "item.bettermc.copper_pickaxe": "Copper Pickaxe",
       "item.bettermc.copper_armor_chestplate": "Copper Chestplate",
       "item.bettermc.copper_axe": "Copper Axe",
-      "item.bettermc.copper_hoe": "Copper Hoe",
+      "item.bettermc.emeraldz_armor_leggings": "Emeraldz Leggings",
       "item.bettermc.copper_armor_boots": "Copper Boots",
-      "item.bettermc.copper_armor_helmet": "Copper Helmet",
       "item.bettermc.copper_shovel": "Copper Shovel",
+      "item.bettermc.emeraldz_axe": "Emeraldz Axe",
+      "item.bettermc.emeraldz_armor_helmet": "Emeraldz Helmet",
+      "item.bettermc.emeraldz_sword": "Emeraldz Sword",
+      "item.bettermc.emeraldz_shovel": "Emeraldz Shovel",
       "item.bettermc.copper_sword": "Copper Sword",
-      "item.bettermc.copper_armor_leggings": "Copper Leggings"
+      "item.bettermc.copper_armor_leggings": "Copper Leggings",
+      "item.bettermc.copper_hoe": "Copper Hoe",
+      "item.bettermc.emeraldz_armor_boots": "Emeraldz Boots",
+      "item.bettermc.copper_armor_helmet": "Copper Helmet",
+      "item.bettermc.emeraldz_hoe": "Emeraldz Hoe",
+      "item.bettermc.emeraldz_armor_chestplate": "Emeraldz Chestplate",
+      "item.bettermc.emeraldz_pickaxe": "Emeraldz Pickaxe"
     }
   },
   "foldersRoot": {
