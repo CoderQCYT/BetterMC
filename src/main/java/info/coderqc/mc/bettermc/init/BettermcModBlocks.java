@@ -50,6 +50,8 @@ import info.coderqc.mc.bettermc.block.BaobabLeavesBlock;
 import info.coderqc.mc.bettermc.block.BaobabFenceGateBlock;
 import info.coderqc.mc.bettermc.block.BaobabFenceBlock;
 import info.coderqc.mc.bettermc.block.BaobabButtonBlock;
+import info.coderqc.mc.bettermc.block.AmberOreBlock;
+import info.coderqc.mc.bettermc.block.AmberBlockBlock;
 import info.coderqc.mc.bettermc.BettermcMod;
 
 public class BettermcModBlocks {
@@ -100,4 +102,6 @@ public class BettermcModBlocks {
 	public static final RegistryObject<Block> WILLOW_PRESSURE_PLATE = REGISTRY.register("willow_pressure_plate",
 			() -> new WillowPressurePlateBlock());
 	public static final RegistryObject<Block> WILLOW_BUTTON = REGISTRY.register("willow_button", () -> new WillowButtonBlock());
+	public static final RegistryObject<Block> AMBER_ORE = REGISTRY.register("amber_ore", () -> new AmberOreBlock());
+	public static final RegistryObject<Block> AMBER_BLOCK = REGISTRY.register("amber_block", () -> new AmberBlockBlock());
 }

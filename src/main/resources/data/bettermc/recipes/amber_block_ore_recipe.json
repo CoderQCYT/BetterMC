@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bettermc:amber_block"
+    }
+  ],
+  "result": {
+    "item": "bettermc:amber",
+    "count": 9
+  }
+}

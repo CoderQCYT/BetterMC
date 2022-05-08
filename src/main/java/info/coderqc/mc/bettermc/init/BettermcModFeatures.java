@@ -22,6 +22,7 @@ import java.util.Set;
 import java.util.List;
 import java.util.ArrayList;
 
+import info.coderqc.mc.bettermc.world.features.ores.AmberOreFeature;
 import info.coderqc.mc.bettermc.world.features.DouglasFirTreeFeature;
 import info.coderqc.mc.bettermc.world.features.BaobabTreeFeature;
 import info.coderqc.mc.bettermc.BettermcMod;
@@ -35,6 +36,8 @@ public class BettermcModFeatures {
 					DouglasFirTreeFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> BAOBAB_TREE = register("baobab_tree", BaobabTreeFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.SURFACE_STRUCTURES, BaobabTreeFeature.GENERATE_BIOMES, BaobabTreeFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> AMBER_ORE = register("amber_ore", AmberOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, AmberOreFeature.GENERATE_BIOMES, AmberOreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);
