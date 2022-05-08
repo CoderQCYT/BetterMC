@@ -24,6 +24,7 @@ import info.coderqc.mc.bettermc.block.WillowLeavesBlock;
 import info.coderqc.mc.bettermc.block.WillowFenceGateBlock;
 import info.coderqc.mc.bettermc.block.WillowFenceBlock;
 import info.coderqc.mc.bettermc.block.WillowButtonBlock;
+import info.coderqc.mc.bettermc.block.MilkBlock;
 import info.coderqc.mc.bettermc.block.GeraniumBlock;
 import info.coderqc.mc.bettermc.block.EucalyptusWoodBlock;
 import info.coderqc.mc.bettermc.block.EucalyptusStairsBlock;
@@ -110,6 +111,7 @@ public class BettermcModBlocks {
 	public static final RegistryObject<Block> AMBER_ORE = REGISTRY.register("amber_ore", () -> new AmberOreBlock());
 	public static final RegistryObject<Block> AMBER_BLOCK = REGISTRY.register("amber_block", () -> new AmberBlockBlock());
 	public static final RegistryObject<Block> GERANIUM = REGISTRY.register("geranium", () -> new GeraniumBlock());
+	public static final RegistryObject<Block> MILK = REGISTRY.register("milk", () -> new MilkBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
