@@ -1,0 +1,167 @@
+{
+  "mod_elements": [
+    {
+      "name": "CopperPickaxe",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe"
+    },
+    {
+      "name": "CopperAxe",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe"
+    },
+    {
+      "name": "CopperSword",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword"
+    },
+    {
+      "name": "CopperShovel",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel"
+    },
+    {
+      "name": "CopperHoe",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe"
+    },
+    {
+      "name": "CopperPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe_recipe"
+    },
+    {
+      "name": "CopperAxeRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe_recipe"
+    },
+    {
+      "name": "CopperSwordRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword_recipe"
+    },
+    {
+      "name": "CopperShovelRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel_recipe"
+    },
+    {
+      "name": "CopperHoeRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe_recipe"
+    },
+    {
+      "name": "CopperArmor",
+      "type": "armor",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "CopperArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_helmet_recipe"
+    },
+    {
+      "name": "CopperArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_body_recipe"
+    },
+    {
+      "name": "CopperArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_leggings_recipe"
+    },
+    {
+      "name": "CopperArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_boots_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.bettermc.copper_pickaxe": "Copper Pickaxe",
+      "item.bettermc.copper_armor_chestplate": "Copper Chestplate",
+      "item.bettermc.copper_axe": "Copper Axe",
+      "item.bettermc.copper_hoe": "Copper Hoe",
+      "item.bettermc.copper_armor_boots": "Copper Boots",
+      "item.bettermc.copper_armor_helmet": "Copper Helmet",
+      "item.bettermc.copper_shovel": "Copper Shovel",
+      "item.bettermc.copper_sword": "Copper Sword",
+      "item.bettermc.copper_armor_leggings": "Copper Leggings"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "bettermc",
+    "modName": "bettermc",
+    "version": "1.0.0",
+    "author": "qcoll, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "info.coderqc.mc.bettermc",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200119518
+}
