@@ -1339,6 +1339,33 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "shadow_ingot"
+    },
+    {
+      "name": "EmeraldTrade",
+      "type": "villagertrade",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_trade"
+    },
+    {
+      "name": "Milk",
+      "type": "fluid",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milk",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "WateryMilkRecipe",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "watery_milk_recipe"
     }
   ],
   "variable_elements": [
@@ -1405,6 +1432,7 @@
       "block.bettermc.douglas_fir_leaves": "DouglasFir Leaves",
       "block.bettermc.eucalyptus_leaves": "Eucalyptus Leaves",
       "block.bettermc.baobab_stairs": "Baobab Stairs",
+      "fluid.bettermc.milk": "Watery Milk",
       "block.bettermc.douglas_fir_planks": "DouglasFir Planks",
       "item.bettermc.emerald_sword": "Emerald Sword",
       "block.bettermc.baobab_pressure_plate": "Baobab Pressure Plate",
@@ -1417,6 +1445,7 @@
       "block.bettermc.eucalyptus_planks": "Eucalyptus Planks",
       "block.bettermc.baobab_planks": "Baobab Planks",
       "item.bettermc.amber_armor_helmet": "Amber Helmet",
+      "block.bettermc.milk": "Watery Milk",
       "item.bettermc.copper_armor_boots": "Copper Boots",
       "block.bettermc.douglas_fir_stairs": "DouglasFir Stairs",
       "item.bettermc.emerald_armor_chestplate": "Emerald Chestplate",
@@ -1430,6 +1459,7 @@
       "item.bettermc.copper_armor_leggings": "Copper Leggings",
       "item.bettermc.amethyst_armor_chestplate": "Amethyst Chestplate",
       "item.bettermc.emerald_armor_boots": "Emerald Boots",
+      "item.bettermc.milk_bucket": "Watery Milk Bucket",
       "block.bettermc.eucalyptus_log": "Eucalyptus Log",
       "block.bettermc.baobab_log": "Baobab Log",
       "block.bettermc.douglas_fir_fence_gate": "DouglasFir Fence Gate",
