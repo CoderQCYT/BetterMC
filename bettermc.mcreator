@@ -978,7 +978,7 @@
       "name": "WillowPressurePlate",
       "type": "block",
       "sortid": 117,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "willow_pressure_plate"
     },
@@ -1018,7 +1018,7 @@
       "name": "WillowLeaves",
       "type": "block",
       "sortid": 112,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "willow_leaves"
     },
@@ -1026,7 +1026,7 @@
       "name": "WillowFenceGate",
       "type": "block",
       "sortid": 116,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "willow_fence_gate"
     },
@@ -1050,7 +1050,7 @@
       "name": "WillowFence",
       "type": "block",
       "sortid": 115,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "willow_fence"
     },
@@ -1058,7 +1058,7 @@
       "name": "WillowLog",
       "type": "block",
       "sortid": 110,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "willow_log"
     },
@@ -1074,7 +1074,7 @@
       "name": "WillowPlanks",
       "type": "block",
       "sortid": 111,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "willow_planks"
     },
@@ -1090,7 +1090,7 @@
       "name": "WillowButton",
       "type": "block",
       "sortid": 118,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "willow_button"
     },
@@ -1151,12 +1151,12 @@
       "registry_name": "craftingtablebaobab"
     },
     {
-      "name": "Idklol",
+      "name": "LevitationRecipe",
       "type": "recipe",
-      "sortid": 112,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "idklol"
+      "registry_name": "levitation_recipe"
     }
   ],
   "variable_elements": [

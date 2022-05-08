@@ -9,7 +9,7 @@
     "group": "",
     "recipeShapeless": false,
     "brewingInputStack": {
-      "value": "POTION:WATER"
+      "value": "POTION:MUNDANE"
     },
     "brewingIngredientStack": {
       "value": "Items.PHANTOM_MEMBRANE"
@@ -17,7 +17,7 @@
     "brewingReturnStack": {
       "value": "POTION:CUSTOM:Levitation"
     },
-    "name": "idklol",
+    "name": "levitation_recipe",
     "namespace": "mod"
   }
 }
