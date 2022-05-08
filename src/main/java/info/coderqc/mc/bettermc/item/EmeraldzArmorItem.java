@@ -45,7 +45,7 @@ public abstract class EmeraldzArmorItem extends ArmorItem {
 
 			@Override
 			public String getName() {
-				return "emeraldz_armor";
+				return "emerald_armor";
 			}
 
 			@Override

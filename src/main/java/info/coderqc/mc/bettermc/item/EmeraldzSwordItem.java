@@ -21,7 +21,7 @@ public class EmeraldzSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 1f;
+				return 6f;
 			}
 
 			public int getLevel() {

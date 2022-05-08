@@ -21,7 +21,7 @@ public class EmeraldzAxeItem extends AxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 1f;
+				return 9f;
 			}
 
 			public int getLevel() {

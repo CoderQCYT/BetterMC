@@ -132,7 +132,7 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emeraldz_pickaxe"
+      "registry_name": "emerald_pickaxe"
     },
     {
       "name": "EmeraldzAxe",
@@ -140,7 +140,7 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emeraldz_axe"
+      "registry_name": "emerald_axe"
     },
     {
       "name": "EmeraldzSword",
@@ -148,7 +148,7 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emeraldz_sword"
+      "registry_name": "emerald_sword"
     },
     {
       "name": "EmeraldzShovel",
@@ -156,7 +156,7 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emeraldz_shovel"
+      "registry_name": "emerald_shovel"
     },
     {
       "name": "EmeraldzHoe",
@@ -164,7 +164,7 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emeraldz_hoe"
+      "registry_name": "emerald_hoe"
     },
     {
       "name": "EmeraldzPickaxeRecipe",
@@ -212,7 +212,7 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emeraldz_armor",
+      "registry_name": "emerald_armor",
       "metadata": {
         "eh": true,
         "el": true,
@@ -251,30 +251,165 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "emeraldz_armor_boots_recipe"
+    },
+    {
+      "name": "AmethystPickaxe",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_pickaxe"
+    },
+    {
+      "name": "AmethystAxe",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_axe"
+    },
+    {
+      "name": "AmethystSword",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_sword"
+    },
+    {
+      "name": "AmethystShovel",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_shovel"
+    },
+    {
+      "name": "AmethystHoe",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_hoe"
+    },
+    {
+      "name": "AmethystPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_pickaxe_recipe"
+    },
+    {
+      "name": "AmethystAxeRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_axe_recipe"
+    },
+    {
+      "name": "AmethystSwordRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_sword_recipe"
+    },
+    {
+      "name": "AmethystShovelRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_shovel_recipe"
+    },
+    {
+      "name": "AmethystHoeRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_hoe_recipe"
+    },
+    {
+      "name": "AmethystArmor",
+      "type": "armor",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "AmethystArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_armor_helmet_recipe"
+    },
+    {
+      "name": "AmethystArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_armor_body_recipe"
+    },
+    {
+      "name": "AmethystArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_armor_leggings_recipe"
+    },
+    {
+      "name": "AmethystArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.bettermc.copper_pickaxe": "Copper Pickaxe",
       "item.bettermc.copper_armor_chestplate": "Copper Chestplate",
+      "item.bettermc.copper_pickaxe": "Copper Pickaxe",
       "item.bettermc.copper_axe": "Copper Axe",
-      "item.bettermc.emeraldz_armor_leggings": "Emeraldz Leggings",
-      "item.bettermc.copper_armor_boots": "Copper Boots",
-      "item.bettermc.copper_shovel": "Copper Shovel",
-      "item.bettermc.emeraldz_axe": "Emeraldz Axe",
-      "item.bettermc.emeraldz_armor_helmet": "Emeraldz Helmet",
-      "item.bettermc.emeraldz_sword": "Emeraldz Sword",
-      "item.bettermc.emeraldz_shovel": "Emeraldz Shovel",
+      "item.bettermc.emerald_pickaxe": "Emeraldz Pickaxe",
+      "item.bettermc.emerald_axe": "Emeraldz Axe",
       "item.bettermc.copper_sword": "Copper Sword",
-      "item.bettermc.copper_armor_leggings": "Copper Leggings",
+      "item.bettermc.emerald_sword": "Emeraldz Sword",
+      "item.bettermc.amethyst_axe": "Amethyst Axe",
+      "item.bettermc.amethyst_armor_leggings": "Amethyst Leggings",
+      "item.bettermc.emerald_armor_leggings": "Emeraldz Leggings",
       "item.bettermc.copper_hoe": "Copper Hoe",
-      "item.bettermc.emeraldz_armor_boots": "Emeraldz Boots",
+      "item.bettermc.amethyst_shovel": "Amethyst Shovel",
+      "item.bettermc.amethyst_hoe": "Amethyst Hoe",
+      "item.bettermc.copper_armor_boots": "Copper Boots",
+      "item.bettermc.emerald_armor_chestplate": "Emeraldz Chestplate",
+      "item.bettermc.amethyst_armor_helmet": "Amethyst Helmet",
+      "item.bettermc.copper_shovel": "Copper Shovel",
+      "item.bettermc.amethyst_armor_boots": "Amethyst Boots",
+      "item.bettermc.emerald_shovel": "Emeraldz Shovel",
+      "item.bettermc.copper_armor_leggings": "Copper Leggings",
+      "item.bettermc.amethyst_armor_chestplate": "Amethyst Chestplate",
+      "item.bettermc.emerald_armor_boots": "Emeraldz Boots",
+      "item.bettermc.emerald_hoe": "Emeraldz Hoe",
       "item.bettermc.copper_armor_helmet": "Copper Helmet",
-      "item.bettermc.emeraldz_hoe": "Emeraldz Hoe",
-      "item.bettermc.emeraldz_armor_chestplate": "Emeraldz Chestplate",
-      "item.bettermc.emeraldz_pickaxe": "Emeraldz Pickaxe"
+      "item.bettermc.emerald_armor_helmet": "Emeraldz Helmet",
+      "item.bettermc.amethyst_pickaxe": "Amethyst Pickaxe",
+      "item.bettermc.amethyst_sword": "Amethyst Sword"
     }
   },
   "foldersRoot": {
