@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.875,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "bettermc:amber_ore"
+  },
+  "result": "bettermc:amber"
+}

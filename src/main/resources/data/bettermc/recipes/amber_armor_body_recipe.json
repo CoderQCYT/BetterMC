@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "bettermc:amber"
+    },
+    "2": {
+      "item": "bettermc:amber"
+    },
+    "3": {
+      "item": "bettermc:amber"
+    },
+    "4": {
+      "item": "bettermc:amber"
+    },
+    "5": {
+      "item": "bettermc:amber"
+    },
+    "6": {
+      "item": "bettermc:amber"
+    },
+    "7": {
+      "item": "bettermc:amber"
+    },
+    "8": {
+      "item": "bettermc:amber"
+    }
+  },
+  "result": {
+    "item": "bettermc:amber_armor_chestplate",
+    "count": 1
+  }
+}

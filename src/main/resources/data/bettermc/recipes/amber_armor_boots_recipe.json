@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "bettermc:amber"
+    },
+    "2": {
+      "item": "bettermc:amber"
+    },
+    "3": {
+      "item": "bettermc:amber"
+    },
+    "5": {
+      "item": "bettermc:amber"
+    }
+  },
+  "result": {
+    "item": "bettermc:amber_armor_boots",
+    "count": 1
+  }
+}

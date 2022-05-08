@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "bettermc:amber"
+    },
+    "1": {
+      "item": "bettermc:amber"
+    },
+    "2": {
+      "item": "bettermc:amber"
+    },
+    "3": {
+      "item": "bettermc:amber"
+    },
+    "5": {
+      "item": "bettermc:amber"
+    },
+    "6": {
+      "item": "bettermc:amber"
+    },
+    "8": {
+      "item": "bettermc:amber"
+    }
+  },
+  "result": {
+    "item": "bettermc:amber_armor_leggings",
+    "count": 1
+  }
+}
