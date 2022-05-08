@@ -19,17 +19,8 @@
     "restrictionBiomes": [
       {
         "value": "plains"
-      },
-      {
-        "value": "forest"
-      },
-      {
-        "value": "taiga"
-      },
-      {
-        "value": "taiga_hills"
       }
     ],
-    "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK"
+    "ignoreBlocks": "STRUCTURE_BLOCK"
   }
 }
