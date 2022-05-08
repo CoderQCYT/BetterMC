@@ -1,11 +1,8 @@
 package info.coderqc.mc.bettermc.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.network.chat.TextComponent;
+import net.minecraftforge.eventbus.api.Event;
 
-import info.coderqc.mc.bettermc.network.BettermcModVariables;
+import javax.annotation.Nullable;
 
 public class JokesCommandExecutedProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
