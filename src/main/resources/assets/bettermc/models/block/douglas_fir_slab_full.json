@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "bettermc:blocks/douglasfir_planks",
+    "top": "bettermc:blocks/douglasfir_planks",
+    "side": "bettermc:blocks/douglasfir_planks"
+  }
+}

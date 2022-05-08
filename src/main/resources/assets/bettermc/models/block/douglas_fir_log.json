@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bettermc:blocks/douglasfir_log_top",
+    "up": "bettermc:blocks/douglasfir_log_top",
+    "north": "bettermc:blocks/douglasfir_log_side",
+    "east": "bettermc:blocks/douglasfir_log_side",
+    "south": "bettermc:blocks/douglasfir_log_side",
+    "west": "bettermc:blocks/douglasfir_log_side",
+    "particle": "bettermc:blocks/douglasfir_log_top"
+  }
+}

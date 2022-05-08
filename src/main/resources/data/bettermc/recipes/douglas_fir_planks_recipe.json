@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:douglasfir_log"
+    }
+  ],
+  "result": {
+    "item": "bettermc:douglas_fir_planks",
+    "count": 4
+  }
+}

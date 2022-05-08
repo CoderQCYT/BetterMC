@@ -3,6 +3,9 @@
   "values": [
     "bettermc:eucalyptus_wood",
     "bettermc:eucalyptus_log",
-    "bettermc:eucalyptus_planks"
+    "bettermc:eucalyptus_planks",
+    "bettermc:douglas_fir_wood",
+    "bettermc:douglas_fir_log",
+    "bettermc:douglas_fir_planks"
   ]
 }

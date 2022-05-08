@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "bettermc:douglas_fir_planks"
+    },
+    "3": {
+      "item": "bettermc:douglas_fir_planks"
+    },
+    "4": {
+      "item": "bettermc:douglas_fir_planks"
+    },
+    "6": {
+      "item": "bettermc:douglas_fir_planks"
+    },
+    "7": {
+      "item": "bettermc:douglas_fir_planks"
+    },
+    "8": {
+      "item": "bettermc:douglas_fir_planks"
+    }
+  },
+  "result": {
+    "item": "bettermc:douglas_fir_stairs",
+    "count": 4
+  }
+}

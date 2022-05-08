@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:DouglasFirWood"
+      },
+      {
+        "value": "CUSTOM:DouglasFirLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "douglasfir_log",
+    "namespace": "forge"
+  }
+}

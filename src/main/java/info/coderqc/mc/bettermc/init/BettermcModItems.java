@@ -82,6 +82,17 @@ public class BettermcModItems {
 	public static final RegistryObject<Item> EUCALYPTUS_PRESSURE_PLATE = block(BettermcModBlocks.EUCALYPTUS_PRESSURE_PLATE,
 			CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> EUCALYPTUS_BUTTON = block(BettermcModBlocks.EUCALYPTUS_BUTTON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> DOUGLAS_FIR_WOOD = block(BettermcModBlocks.DOUGLAS_FIR_WOOD, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> DOUGLAS_FIR_LOG = block(BettermcModBlocks.DOUGLAS_FIR_LOG, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> DOUGLAS_FIR_PLANKS = block(BettermcModBlocks.DOUGLAS_FIR_PLANKS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> DOUGLAS_FIR_LEAVES = block(BettermcModBlocks.DOUGLAS_FIR_LEAVES, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> DOUGLAS_FIR_STAIRS = block(BettermcModBlocks.DOUGLAS_FIR_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> DOUGLAS_FIR_SLAB = block(BettermcModBlocks.DOUGLAS_FIR_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> DOUGLAS_FIR_FENCE = block(BettermcModBlocks.DOUGLAS_FIR_FENCE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> DOUGLAS_FIR_FENCE_GATE = block(BettermcModBlocks.DOUGLAS_FIR_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> DOUGLAS_FIR_PRESSURE_PLATE = block(BettermcModBlocks.DOUGLAS_FIR_PRESSURE_PLATE,
+			CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> DOUGLAS_FIR_BUTTON = block(BettermcModBlocks.DOUGLAS_FIR_BUTTON, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

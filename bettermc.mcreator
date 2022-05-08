@@ -629,6 +629,166 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "eucalyptus_stick_recipe"
+    },
+    {
+      "name": "DouglasFirWood",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_wood"
+    },
+    {
+      "name": "DouglasFirLog",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_log"
+    },
+    {
+      "name": "DouglasFirPlanks",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_planks"
+    },
+    {
+      "name": "DouglasFirLeaves",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_leaves"
+    },
+    {
+      "name": "DouglasFirStairs",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_stairs"
+    },
+    {
+      "name": "DouglasFirSlab",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_slab"
+    },
+    {
+      "name": "DouglasFirFence",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_fence"
+    },
+    {
+      "name": "DouglasFirFenceGate",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_fence_gate"
+    },
+    {
+      "name": "DouglasFirPressurePlate",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_pressure_plate"
+    },
+    {
+      "name": "DouglasFirButton",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_button"
+    },
+    {
+      "name": "DouglasFirItemsTag",
+      "type": "tag",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_items_tag"
+    },
+    {
+      "name": "DouglasFirWoodRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_wood_recipe"
+    },
+    {
+      "name": "DouglasFirPlanksRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_planks_recipe"
+    },
+    {
+      "name": "DouglasFirStairsRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_stairs_recipe"
+    },
+    {
+      "name": "DouglasFirSlabRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_slab_recipe"
+    },
+    {
+      "name": "DouglasFirFenceRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_fence_recipe"
+    },
+    {
+      "name": "DouglasFirFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_fence_gate_recipe"
+    },
+    {
+      "name": "DouglasFirPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_pressure_plate_recipe"
+    },
+    {
+      "name": "DouglasFirButtonRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_button_recipe"
+    },
+    {
+      "name": "DouglasFirStickRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_stick_recipe"
     }
   ],
   "variable_elements": [
@@ -646,37 +806,47 @@
       "item.bettermc.copper_pickaxe": "Copper Pickaxe",
       "item.bettermc.emerald_pickaxe": "Emerald Pickaxe",
       "item.bettermc.copper_axe": "Copper Axe",
-      "block.bettermc.eucalyptus_slab": "Eucalyptus Slab",
       "item.bettermc.emerald_axe": "Emerald Axe",
-      "block.bettermc.eucalyptus_leaves": "Eucalyptus Leaves",
+      "block.bettermc.douglas_fir_button": "DouglasFir Button",
       "item.bettermc.copper_sword": "Copper Sword",
-      "item.bettermc.emerald_sword": "Emerald Sword",
+      "block.bettermc.douglas_fir_fence": "DouglasFir Fence",
       "block.bettermc.eucalyptus_fence_gate": "Eucalyptus Fence Gate",
-      "item.bettermc.amethyst_armor_leggings": "Amethyst Leggings",
-      "item.bettermc.amethyst_axe": "Amethyst Axe",
-      "item.bettermc.copper_hoe": "Copper Hoe",
       "item.bettermc.emerald_armor_leggings": "Emerald Leggings",
-      "block.bettermc.eucalyptus_wood": "Eucalyptus Wood",
+      "block.bettermc.douglas_fir_pressure_plate": "DouglasFir Pressure Plate",
       "item.bettermc.amethyst_shovel": "Amethyst Shovel",
       "block.bettermc.eucalyptus_button": "Eucalyptus Button",
-      "block.bettermc.eucalyptus_planks": "Eucalyptus Planks",
+      "block.bettermc.douglas_fir_log": "DouglasFir Log",
       "item.bettermc.amethyst_hoe": "Amethyst Hoe",
-      "item.bettermc.copper_armor_boots": "Copper Boots",
       "item.bettermc.coconut": "Coconut",
-      "item.bettermc.emerald_armor_chestplate": "Emerald Chestplate",
-      "item.bettermc.amethyst_armor_helmet": "Amethyst Helmet",
       "item.bettermc.beans": "Beans",
       "block.bettermc.eucalyptus_stairs": "Eucalyptus Stairs",
+      "item.bettermc.amethyst_armor_boots": "Amethyst Boots",
+      "block.bettermc.douglas_fir_slab": "DouglasFir Slab",
+      "item.bettermc.emerald_hoe": "Emerald Hoe",
+      "block.bettermc.eucalyptus_slab": "Eucalyptus Slab",
+      "block.bettermc.douglas_fir_wood": "DouglasFir Wood",
+      "block.bettermc.douglas_fir_leaves": "DouglasFir Leaves",
+      "block.bettermc.eucalyptus_leaves": "Eucalyptus Leaves",
+      "block.bettermc.douglas_fir_planks": "DouglasFir Planks",
+      "item.bettermc.emerald_sword": "Emerald Sword",
+      "item.bettermc.amethyst_armor_leggings": "Amethyst Leggings",
+      "item.bettermc.amethyst_axe": "Amethyst Axe",
+      "block.bettermc.eucalyptus_wood": "Eucalyptus Wood",
+      "item.bettermc.copper_hoe": "Copper Hoe",
+      "block.bettermc.eucalyptus_planks": "Eucalyptus Planks",
+      "item.bettermc.copper_armor_boots": "Copper Boots",
+      "block.bettermc.douglas_fir_stairs": "DouglasFir Stairs",
+      "item.bettermc.emerald_armor_chestplate": "Emerald Chestplate",
+      "item.bettermc.amethyst_armor_helmet": "Amethyst Helmet",
       "item.bettermc.copper_shovel": "Copper Shovel",
       "block.bettermc.eucalyptus_fence": "Eucalyptus Fence",
-      "item.bettermc.amethyst_armor_boots": "Amethyst Boots",
       "block.bettermc.eucalyptus_pressure_plate": "Eucalyptus Pressure Plate",
       "item.bettermc.emerald_shovel": "Emerald Shovel",
       "item.bettermc.copper_armor_leggings": "Copper Leggings",
       "item.bettermc.amethyst_armor_chestplate": "Amethyst Chestplate",
       "item.bettermc.emerald_armor_boots": "Emerald Boots",
-      "item.bettermc.emerald_hoe": "Emerald Hoe",
       "block.bettermc.eucalyptus_log": "Eucalyptus Log",
+      "block.bettermc.douglas_fir_fence_gate": "DouglasFir Fence Gate",
       "item.bettermc.copper_armor_helmet": "Copper Helmet",
       "item.bettermc.emerald_armor_helmet": "Emerald Helmet",
       "item.bettermc.amethyst_pickaxe": "Amethyst Pickaxe",
