@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "beans",
+    "customModelName": "Normal",
+    "name": "Beans",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "BeansPlayerFinishesUsingItem"
+    },
+    "hasDispenseBehavior": false,
+    "isFood": true,
+    "nutritionalValue": 3,
+    "saturation": 3.5,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": true,
+    "isAlwaysEdible": true,
+    "animation": "eat"
+  }
+}

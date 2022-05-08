@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "command",
+  "definition": {
+    "commandName": "jokes",
+    "permissionLevel": "2",
+    "onCommandExecuted": {
+      "name": "JokesCommandExecuted"
+    }
+  }
+}

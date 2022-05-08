@@ -23,6 +23,7 @@ import info.coderqc.mc.bettermc.item.CopperHoeItem;
 import info.coderqc.mc.bettermc.item.CopperAxeItem;
 import info.coderqc.mc.bettermc.item.CopperArmorItem;
 import info.coderqc.mc.bettermc.item.CoconutItem;
+import info.coderqc.mc.bettermc.item.BeansItem;
 import info.coderqc.mc.bettermc.item.AmethystSwordItem;
 import info.coderqc.mc.bettermc.item.AmethystShovelItem;
 import info.coderqc.mc.bettermc.item.AmethystPickaxeItem;
@@ -66,4 +67,5 @@ public class BettermcModItems {
 			() -> new AmethystArmorItem.Leggings());
 	public static final RegistryObject<Item> AMETHYST_ARMOR_BOOTS = REGISTRY.register("amethyst_armor_boots", () -> new AmethystArmorItem.Boots());
 	public static final RegistryObject<Item> COCONUT = REGISTRY.register("coconut", () -> new CoconutItem());
+	public static final RegistryObject<Item> BEANS = REGISTRY.register("beans", () -> new BeansItem());
 }

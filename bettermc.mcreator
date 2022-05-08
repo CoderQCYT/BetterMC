@@ -385,9 +385,72 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut"
+    },
+    {
+      "name": "BeansPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beans_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jokes",
+      "type": "command",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jokes"
+    },
+    {
+      "name": "Beans",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beans"
+    },
+    {
+      "name": "JokesCommandExecuted",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jokes_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "jokesEnabled",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
