@@ -6,26 +6,26 @@
   ],
   "key": {
     "0": {
-      "item": "bettermc:baobab_planks"
+      "item": "bettermc:deleted_mod_element"
     },
     "1": {
       "item": "minecraft:stick"
     },
     "2": {
-      "item": "bettermc:baobab_planks"
+      "item": "bettermc:deleted_mod_element"
     },
     "3": {
-      "item": "bettermc:baobab_planks"
+      "item": "bettermc:deleted_mod_element"
     },
     "4": {
       "item": "minecraft:stick"
     },
     "5": {
-      "item": "bettermc:baobab_planks"
+      "item": "bettermc:deleted_mod_element"
     }
   },
   "result": {
-    "item": "bettermc:baobab_fence",
+    "item": "bettermc:deleted_mod_element",
     "count": 3
   }
 }

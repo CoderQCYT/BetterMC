@@ -379,14 +379,6 @@
       "registry_name": "amethyst_armor_boots_recipe"
     },
     {
-      "name": "Coconut",
-      "type": "item",
-      "sortid": 46,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "coconut"
-    },
-    {
       "name": "BeansPlayerFinishesUsingItem",
       "type": "procedure",
       "sortid": 46,
@@ -443,198 +435,6 @@
       }
     },
     {
-      "name": "EucalyptusLog",
-      "type": "block",
-      "sortid": 49,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eucalyptus_log"
-    },
-    {
-      "name": "EucalyptusSlabRecipe",
-      "type": "recipe",
-      "sortid": 62,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eucalyptus_slab_recipe"
-    },
-    {
-      "name": "DouglasFirStickRecipe",
-      "type": "recipe",
-      "sortid": 87,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "douglas_fir_stick_recipe"
-    },
-    {
-      "name": "EucalyptusItemsTag",
-      "type": "tag",
-      "sortid": 58,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eucalyptus_items_tag"
-    },
-    {
-      "name": "DouglasFirButton",
-      "type": "block",
-      "sortid": 77,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "douglas_fir_button"
-    },
-    {
-      "name": "DouglasFirSlabRecipe",
-      "type": "recipe",
-      "sortid": 82,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "douglas_fir_slab_recipe"
-    },
-    {
-      "name": "DouglasFirFenceGate",
-      "type": "block",
-      "sortid": 75,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "douglas_fir_fence_gate"
-    },
-    {
-      "name": "DouglasFirPressurePlate",
-      "type": "block",
-      "sortid": 76,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "douglas_fir_pressure_plate"
-    },
-    {
-      "name": "DouglasFirWood",
-      "type": "block",
-      "sortid": 68,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "douglas_fir_wood"
-    },
-    {
-      "name": "EucalyptusStairsRecipe",
-      "type": "recipe",
-      "sortid": 61,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eucalyptus_stairs_recipe"
-    },
-    {
-      "name": "EucalyptusFenceGateRecipe",
-      "type": "recipe",
-      "sortid": 64,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eucalyptus_fence_gate_recipe"
-    },
-    {
-      "name": "DouglasFirLeaves",
-      "type": "block",
-      "sortid": 71,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "douglas_fir_leaves"
-    },
-    {
-      "name": "EucalyptusFenceGate",
-      "type": "block",
-      "sortid": 55,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eucalyptus_fence_gate"
-    },
-    {
-      "name": "DouglasFirWoodRecipe",
-      "type": "recipe",
-      "sortid": 79,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "douglas_fir_wood_recipe"
-    },
-    {
-      "name": "DouglasFirStairs",
-      "type": "block",
-      "sortid": 72,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "douglas_fir_stairs"
-    },
-    {
-      "name": "EucalyptusButton",
-      "type": "block",
-      "sortid": 57,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eucalyptus_button"
-    },
-    {
-      "name": "EucalyptusFenceRecipe",
-      "type": "recipe",
-      "sortid": 63,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eucalyptus_fence_recipe"
-    },
-    {
-      "name": "EucalyptusPlanks",
-      "type": "block",
-      "sortid": 50,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eucalyptus_planks"
-    },
-    {
-      "name": "DouglasFirLog",
-      "type": "block",
-      "sortid": 69,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "douglas_fir_log"
-    },
-    {
-      "name": "DouglasFirSlab",
-      "type": "block",
-      "sortid": 73,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "douglas_fir_slab"
-    },
-    {
-      "name": "EucalyptusSlab",
-      "type": "block",
-      "sortid": 53,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eucalyptus_slab"
-    },
-    {
-      "name": "EucalyptusButtonRecipe",
-      "type": "recipe",
-      "sortid": 66,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eucalyptus_button_recipe"
-    },
-    {
-      "name": "DouglasFirPlanksRecipe",
-      "type": "recipe",
-      "sortid": 80,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "douglas_fir_planks_recipe"
-    },
-    {
-      "name": "EucalyptusPlanksRecipe",
-      "type": "recipe",
-      "sortid": 60,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eucalyptus_planks_recipe"
-    },
-    {
       "name": "CopperArmorTickEvent",
       "type": "procedure",
       "sortid": 47,
@@ -663,12 +463,36 @@
       }
     },
     {
-      "name": "DouglasFirFenceRecipe",
-      "type": "recipe",
-      "sortid": 83,
+      "name": "Coconut",
+      "type": "item",
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "douglas_fir_fence_recipe"
+      "registry_name": "coconut"
+    },
+    {
+      "name": "EucalyptusWood",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_wood"
+    },
+    {
+      "name": "EucalyptusLog",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_log"
+    },
+    {
+      "name": "EucalyptusPlanks",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_planks"
     },
     {
       "name": "EucalyptusLeaves",
@@ -679,20 +503,60 @@
       "registry_name": "eucalyptus_leaves"
     },
     {
-      "name": "EucalyptusPressurePlateRecipe",
-      "type": "recipe",
-      "sortid": 65,
+      "name": "EucalyptusStairs",
+      "type": "block",
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "eucalyptus_pressure_plate_recipe"
+      "registry_name": "eucalyptus_stairs"
     },
     {
-      "name": "DouglasFirFence",
+      "name": "EucalyptusSlab",
       "type": "block",
-      "sortid": 74,
-      "compiles": false,
+      "sortid": 53,
+      "compiles": true,
       "locked_code": false,
-      "registry_name": "douglas_fir_fence"
+      "registry_name": "eucalyptus_slab"
+    },
+    {
+      "name": "EucalyptusFence",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_fence"
+    },
+    {
+      "name": "EucalyptusFenceGate",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_fence_gate"
+    },
+    {
+      "name": "EucalyptusPressurePlate",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_pressure_plate"
+    },
+    {
+      "name": "EucalyptusButton",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_button"
+    },
+    {
+      "name": "EucalyptusItemsTag",
+      "type": "tag",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_items_tag"
     },
     {
       "name": "EucalyptusWoodRecipe",
@@ -701,6 +565,198 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "eucalyptus_wood_recipe"
+    },
+    {
+      "name": "EucalyptusPlanksRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_planks_recipe"
+    },
+    {
+      "name": "EucalyptusStairsRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_stairs_recipe"
+    },
+    {
+      "name": "EucalyptusSlabRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_slab_recipe"
+    },
+    {
+      "name": "EucalyptusFenceRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_fence_recipe"
+    },
+    {
+      "name": "EucalyptusFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_fence_gate_recipe"
+    },
+    {
+      "name": "EucalyptusPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_pressure_plate_recipe"
+    },
+    {
+      "name": "EucalyptusButtonRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_button_recipe"
+    },
+    {
+      "name": "EucalyptusStickRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_stick_recipe"
+    },
+    {
+      "name": "DouglasFirWood",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_wood"
+    },
+    {
+      "name": "DouglasFirLog",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_log"
+    },
+    {
+      "name": "DouglasFirPlanks",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_planks"
+    },
+    {
+      "name": "DouglasFirLeaves",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_leaves"
+    },
+    {
+      "name": "DouglasFirStairs",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_stairs"
+    },
+    {
+      "name": "DouglasFirSlab",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_slab"
+    },
+    {
+      "name": "DouglasFirFence",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_fence"
+    },
+    {
+      "name": "DouglasFirFenceGate",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_fence_gate"
+    },
+    {
+      "name": "DouglasFirPressurePlate",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_pressure_plate"
+    },
+    {
+      "name": "DouglasFirButton",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_button"
+    },
+    {
+      "name": "DouglasFirItemsTag",
+      "type": "tag",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_items_tag"
+    },
+    {
+      "name": "DouglasFirWoodRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_wood_recipe"
+    },
+    {
+      "name": "DouglasFirPlanksRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_planks_recipe"
+    },
+    {
+      "name": "DouglasFirStairsRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_stairs_recipe"
+    },
+    {
+      "name": "DouglasFirSlabRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_slab_recipe"
+    },
+    {
+      "name": "DouglasFirFenceRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_fence_recipe"
     },
     {
       "name": "DouglasFirFenceGateRecipe",
@@ -719,46 +775,6 @@
       "registry_name": "douglas_fir_pressure_plate_recipe"
     },
     {
-      "name": "EucalyptusPressurePlate",
-      "type": "block",
-      "sortid": 56,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eucalyptus_pressure_plate"
-    },
-    {
-      "name": "EucalyptusFence",
-      "type": "block",
-      "sortid": 54,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eucalyptus_fence"
-    },
-    {
-      "name": "DouglasFirPlanks",
-      "type": "block",
-      "sortid": 70,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "douglas_fir_planks"
-    },
-    {
-      "name": "EucalyptusWood",
-      "type": "block",
-      "sortid": 48,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eucalyptus_wood"
-    },
-    {
-      "name": "EucalyptusStickRecipe",
-      "type": "recipe",
-      "sortid": 67,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eucalyptus_stick_recipe"
-    },
-    {
       "name": "DouglasFirButtonRecipe",
       "type": "recipe",
       "sortid": 86,
@@ -767,28 +783,132 @@
       "registry_name": "douglas_fir_button_recipe"
     },
     {
-      "name": "EucalyptusStairs",
-      "type": "block",
-      "sortid": 52,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eucalyptus_stairs"
-    },
-    {
-      "name": "DouglasFirItemsTag",
-      "type": "tag",
-      "sortid": 78,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "douglas_fir_items_tag"
-    },
-    {
-      "name": "DouglasFirStairsRecipe",
+      "name": "DouglasFirStickRecipe",
       "type": "recipe",
-      "sortid": 81,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "douglas_fir_stairs_recipe"
+      "registry_name": "douglas_fir_stick_recipe"
+    },
+    {
+      "name": "DouglasFirTree",
+      "type": "structure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas_fir_tree"
+    },
+    {
+      "name": "BaobabSlabRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_slab_recipe"
+    },
+    {
+      "name": "BaobabPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_pressure_plate_recipe"
+    },
+    {
+      "name": "BaobabFenceGate",
+      "type": "block",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_fence_gate"
+    },
+    {
+      "name": "BaobabWoodRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_wood_recipe"
+    },
+    {
+      "name": "BaobabItemsTag",
+      "type": "tag",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_items_tag"
+    },
+    {
+      "name": "BaobabFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_fence_gate_recipe"
+    },
+    {
+      "name": "BaobabPlanksRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_planks_recipe"
+    },
+    {
+      "name": "BaobabFenceRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_fence_recipe"
+    },
+    {
+      "name": "BaobabStairsRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_stairs_recipe"
+    },
+    {
+      "name": "BaobabLeaves",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_leaves"
+    },
+    {
+      "name": "BaobabStickRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_stick_recipe"
+    },
+    {
+      "name": "BaobabPlanks",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_planks"
+    },
+    {
+      "name": "BaobabButtonRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_button_recipe"
+    },
+    {
+      "name": "BaobabFence",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baobab_fence"
     },
     {
       "name": "BaobabWood",
@@ -807,30 +927,6 @@
       "registry_name": "baobab_log"
     },
     {
-      "name": "BaobabPlanks",
-      "type": "block",
-      "sortid": 90,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "baobab_planks"
-    },
-    {
-      "name": "BaobabLeaves",
-      "type": "block",
-      "sortid": 91,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "baobab_leaves"
-    },
-    {
-      "name": "BaobabStairs",
-      "type": "block",
-      "sortid": 92,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "baobab_stairs"
-    },
-    {
       "name": "BaobabSlab",
       "type": "block",
       "sortid": 93,
@@ -839,20 +935,12 @@
       "registry_name": "baobab_slab"
     },
     {
-      "name": "BaobabFence",
+      "name": "BaobabStairs",
       "type": "block",
-      "sortid": 94,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "baobab_fence"
-    },
-    {
-      "name": "BaobabFenceGate",
-      "type": "block",
-      "sortid": 95,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "baobab_fence_gate"
+      "registry_name": "baobab_stairs"
     },
     {
       "name": "BaobabPressurePlate",
@@ -869,86 +957,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_button"
-    },
-    {
-      "name": "BaobabItemsTag",
-      "type": "tag",
-      "sortid": 98,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "baobab_items_tag"
-    },
-    {
-      "name": "BaobabWoodRecipe",
-      "type": "recipe",
-      "sortid": 99,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "baobab_wood_recipe"
-    },
-    {
-      "name": "BaobabPlanksRecipe",
-      "type": "recipe",
-      "sortid": 100,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "baobab_planks_recipe"
-    },
-    {
-      "name": "BaobabStairsRecipe",
-      "type": "recipe",
-      "sortid": 101,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "baobab_stairs_recipe"
-    },
-    {
-      "name": "BaobabSlabRecipe",
-      "type": "recipe",
-      "sortid": 102,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "baobab_slab_recipe"
-    },
-    {
-      "name": "BaobabFenceRecipe",
-      "type": "recipe",
-      "sortid": 103,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "baobab_fence_recipe"
-    },
-    {
-      "name": "BaobabFenceGateRecipe",
-      "type": "recipe",
-      "sortid": 104,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "baobab_fence_gate_recipe"
-    },
-    {
-      "name": "BaobabPressurePlateRecipe",
-      "type": "recipe",
-      "sortid": 105,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "baobab_pressure_plate_recipe"
-    },
-    {
-      "name": "BaobabButtonRecipe",
-      "type": "recipe",
-      "sortid": 106,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "baobab_button_recipe"
-    },
-    {
-      "name": "BaobabStickRecipe",
-      "type": "recipe",
-      "sortid": 107,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "baobab_stick_recipe"
     }
   ],
   "variable_elements": [
@@ -977,31 +985,23 @@
       "block.bettermc.eucalyptus_button": "Eucalyptus Button",
       "block.bettermc.douglas_fir_log": "DouglasFir Log",
       "item.bettermc.amethyst_hoe": "Amethyst Hoe",
-      "block.bettermc.baobab_leaves": "Baobab Leaves",
-      "block.bettermc.baobab_slab": "Baobab Slab",
-      "block.bettermc.baobab_fence_gate": "Baobab Fence Gate",
       "item.bettermc.coconut": "Coconut",
       "item.bettermc.beans": "Beans",
       "block.bettermc.eucalyptus_stairs": "Eucalyptus Stairs",
       "item.bettermc.amethyst_armor_boots": "Amethyst Boots",
-      "block.bettermc.baobab_wood": "Baobab Wood",
-      "block.bettermc.baobab_fence": "Baobab Fence",
       "block.bettermc.douglas_fir_slab": "DouglasFir Slab",
       "item.bettermc.emerald_hoe": "Emerald Hoe",
       "block.bettermc.eucalyptus_slab": "Eucalyptus Slab",
       "block.bettermc.douglas_fir_wood": "DouglasFir Wood",
       "block.bettermc.douglas_fir_leaves": "DouglasFir Leaves",
       "block.bettermc.eucalyptus_leaves": "Eucalyptus Leaves",
-      "block.bettermc.baobab_stairs": "Baobab Stairs",
       "block.bettermc.douglas_fir_planks": "DouglasFir Planks",
       "item.bettermc.emerald_sword": "Emerald Sword",
-      "block.bettermc.baobab_pressure_plate": "Baobab Pressure Plate",
       "item.bettermc.amethyst_armor_leggings": "Amethyst Leggings",
       "item.bettermc.amethyst_axe": "Amethyst Axe",
       "block.bettermc.eucalyptus_wood": "Eucalyptus Wood",
       "item.bettermc.copper_hoe": "Copper Hoe",
       "block.bettermc.eucalyptus_planks": "Eucalyptus Planks",
-      "block.bettermc.baobab_planks": "Baobab Planks",
       "item.bettermc.copper_armor_boots": "Copper Boots",
       "block.bettermc.douglas_fir_stairs": "DouglasFir Stairs",
       "item.bettermc.emerald_armor_chestplate": "Emerald Chestplate",
@@ -1010,12 +1010,10 @@
       "block.bettermc.eucalyptus_fence": "Eucalyptus Fence",
       "block.bettermc.eucalyptus_pressure_plate": "Eucalyptus Pressure Plate",
       "item.bettermc.emerald_shovel": "Emerald Shovel",
-      "block.bettermc.baobab_button": "Baobab Button",
       "item.bettermc.copper_armor_leggings": "Copper Leggings",
       "item.bettermc.amethyst_armor_chestplate": "Amethyst Chestplate",
       "item.bettermc.emerald_armor_boots": "Emerald Boots",
       "block.bettermc.eucalyptus_log": "Eucalyptus Log",
-      "block.bettermc.baobab_log": "Baobab Log",
       "block.bettermc.douglas_fir_fence_gate": "DouglasFir Fence Gate",
       "item.bettermc.copper_armor_helmet": "Copper Helmet",
       "item.bettermc.emerald_armor_helmet": "Emerald Helmet",
@@ -1031,8 +1029,8 @@
     "modid": "bettermc",
     "modName": "bettermc",
     "version": "1.0.0",
-    "author": "qcoll, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "author": "CoderQC \u0026 Robotkid0925",
+    "websiteURL": "http://www.coderqc.info",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -1041,6 +1039,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
+    "credits": "Made with MCreator!",
     "modElementsPackage": "info.coderqc.mc.bettermc",
     "lockBaseModFiles": false
   },
