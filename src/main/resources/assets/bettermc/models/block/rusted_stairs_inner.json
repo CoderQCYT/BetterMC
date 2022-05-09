@@ -1,8 +1,0 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "bottom": "bettermc:blocks/rusted_planks",
-    "top": "bettermc:blocks/rusted_planks",
-    "side": "bettermc:blocks/rusted_planks"
-  }
-}

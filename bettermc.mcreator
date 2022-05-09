@@ -1400,177 +1400,9 @@
       "registry_name": "obsidian_armor_boots_recipe"
     },
     {
-      "name": "RustedWood",
-      "type": "block",
-      "sortid": 216,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_wood"
-    },
-    {
-      "name": "RustedLog",
-      "type": "block",
-      "sortid": 217,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_log"
-    },
-    {
-      "name": "RustedPlanks",
-      "type": "block",
-      "sortid": 218,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_planks"
-    },
-    {
-      "name": "RustedLeaves",
-      "type": "block",
-      "sortid": 219,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_leaves"
-    },
-    {
-      "name": "RustedStairs",
-      "type": "block",
-      "sortid": 220,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_stairs"
-    },
-    {
-      "name": "RustedSlab",
-      "type": "block",
-      "sortid": 221,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_slab"
-    },
-    {
-      "name": "RustedFence",
-      "type": "block",
-      "sortid": 222,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_fence"
-    },
-    {
-      "name": "RustedFenceGate",
-      "type": "block",
-      "sortid": 223,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_fence_gate"
-    },
-    {
-      "name": "RustedPressurePlate",
-      "type": "block",
-      "sortid": 224,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_pressure_plate"
-    },
-    {
-      "name": "RustedButton",
-      "type": "block",
-      "sortid": 225,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_button"
-    },
-    {
-      "name": "RustedItemsTag",
-      "type": "tag",
-      "sortid": 226,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_items_tag"
-    },
-    {
-      "name": "RustedWoodRecipe",
-      "type": "recipe",
-      "sortid": 227,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_wood_recipe"
-    },
-    {
-      "name": "RustedPlanksRecipe",
-      "type": "recipe",
-      "sortid": 228,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_planks_recipe"
-    },
-    {
-      "name": "RustedStairsRecipe",
-      "type": "recipe",
-      "sortid": 229,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_stairs_recipe"
-    },
-    {
-      "name": "RustedSlabRecipe",
-      "type": "recipe",
-      "sortid": 230,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_slab_recipe"
-    },
-    {
-      "name": "RustedFenceRecipe",
-      "type": "recipe",
-      "sortid": 231,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_fence_recipe"
-    },
-    {
-      "name": "RustedFenceGateRecipe",
-      "type": "recipe",
-      "sortid": 232,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_fence_gate_recipe"
-    },
-    {
-      "name": "RustedPressurePlateRecipe",
-      "type": "recipe",
-      "sortid": 233,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_pressure_plate_recipe"
-    },
-    {
-      "name": "RustedButtonRecipe",
-      "type": "recipe",
-      "sortid": 234,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_button_recipe"
-    },
-    {
-      "name": "RustedStickRecipe",
-      "type": "recipe",
-      "sortid": 235,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_stick_recipe"
-    },
-    {
-      "name": "RecipeForRusted",
-      "type": "recipe",
-      "sortid": 236,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "recipe_for_rusted"
-    },
-    {
       "name": "ShadowArmor",
       "type": "armor",
-      "sortid": 237,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shadow_armor",
@@ -1584,7 +1416,7 @@
     {
       "name": "ShadowArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 238,
+      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shadow_armor_helmet_recipe"
@@ -1592,7 +1424,7 @@
     {
       "name": "ShadowArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 239,
+      "sortid": 218,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shadow_armor_body_recipe"
@@ -1600,7 +1432,7 @@
     {
       "name": "ShadowArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 240,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shadow_armor_leggings_recipe"
@@ -1608,42 +1440,18 @@
     {
       "name": "ShadowArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 241,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shadow_armor_boots_recipe"
     },
     {
-      "name": "ShadowPickaxe",
-      "type": "tool",
-      "sortid": 242,
+      "name": "RustedStairsRecipe",
+      "type": "recipe",
+      "sortid": 229,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "shadow_pickaxe"
-    },
-    {
-      "name": "ShadowAxe",
-      "type": "tool",
-      "sortid": 243,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shadow_axe"
-    },
-    {
-      "name": "ShadowSword",
-      "type": "tool",
-      "sortid": 244,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shadow_sword"
-    },
-    {
-      "name": "ShadowShovel",
-      "type": "tool",
-      "sortid": 245,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shadow_shovel"
+      "registry_name": "rusted_stairs_recipe"
     },
     {
       "name": "ShadowHoe",
@@ -1654,12 +1462,116 @@
       "registry_name": "shadow_hoe"
     },
     {
+      "name": "RustedPlanks",
+      "type": "block",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_planks"
+    },
+    {
+      "name": "RustedFenceRecipe",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_fence_recipe"
+    },
+    {
+      "name": "ShadowShovel",
+      "type": "tool",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_shovel"
+    },
+    {
+      "name": "RustedButton",
+      "type": "block",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_button"
+    },
+    {
+      "name": "RustedFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_fence_gate_recipe"
+    },
+    {
+      "name": "RustedLog",
+      "type": "block",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_log"
+    },
+    {
+      "name": "RustedSlabRecipe",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_slab_recipe"
+    },
+    {
+      "name": "ShadowSword",
+      "type": "tool",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_sword"
+    },
+    {
+      "name": "RustedFence",
+      "type": "block",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_fence"
+    },
+    {
+      "name": "RecipeForRusted",
+      "type": "recipe",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_for_rusted"
+    },
+    {
+      "name": "ShadowShovelRecipe",
+      "type": "recipe",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_shovel_recipe"
+    },
+    {
+      "name": "RustedWoodRecipe",
+      "type": "recipe",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_wood_recipe"
+    },
+    {
       "name": "ShadowPickaxeRecipe",
       "type": "recipe",
       "sortid": 247,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shadow_pickaxe_recipe"
+    },
+    {
+      "name": "RustedItemsTag",
+      "type": "tag",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_items_tag"
     },
     {
       "name": "ShadowAxeRecipe",
@@ -1678,12 +1590,84 @@
       "registry_name": "shadow_sword_recipe"
     },
     {
-      "name": "ShadowShovelRecipe",
-      "type": "recipe",
-      "sortid": 250,
+      "name": "RustedStairs",
+      "type": "block",
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "shadow_shovel_recipe"
+      "registry_name": "rusted_stairs"
+    },
+    {
+      "name": "RustedStickRecipe",
+      "type": "recipe",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_stick_recipe"
+    },
+    {
+      "name": "RustedPlanksRecipe",
+      "type": "recipe",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_planks_recipe"
+    },
+    {
+      "name": "RustedPressurePlate",
+      "type": "block",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_pressure_plate"
+    },
+    {
+      "name": "ShadowAxe",
+      "type": "tool",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_axe"
+    },
+    {
+      "name": "RustedPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_pressure_plate_recipe"
+    },
+    {
+      "name": "RustedSlab",
+      "type": "block",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_slab"
+    },
+    {
+      "name": "RustedButtonRecipe",
+      "type": "recipe",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_button_recipe"
+    },
+    {
+      "name": "ShadowPickaxe",
+      "type": "tool",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_pickaxe"
+    },
+    {
+      "name": "RustedWood",
+      "type": "block",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_wood"
     },
     {
       "name": "ShadowHoeRecipe",
@@ -1692,6 +1676,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "shadow_hoe_recipe"
+    },
+    {
+      "name": "RustedLeaves",
+      "type": "block",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_leaves"
+    },
+    {
+      "name": "RustedFenceGate",
+      "type": "block",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_fence_gate"
     }
   ],
   "variable_elements": [
@@ -1722,9 +1722,8 @@
       "item.bettermc.amber_pickaxe": "Amber Pickaxe",
       "block.bettermc.willow_wood": "Willow Wood",
       "block.bettermc.rusted_stairs": "Rusted Stairs",
-      "block.bettermc.rusted_button": "Rusted Button",
       "item.bettermc.amber_sword": "Amber Sword",
-      "item.bettermc.shadow_sword": "Shadow Sword",
+      "block.bettermc.rusted_button": "Rusted Button",
       "block.bettermc.baobab_slab": "Baobab Slab",
       "block.bettermc.baobab_fence_gate": "Baobab Fence Gate",
       "item.bettermc.beans": "Beans",
@@ -1760,7 +1759,6 @@
       "block.bettermc.eucalyptus_log": "Eucalyptus Log",
       "block.bettermc.baobab_log": "Baobab Log",
       "item.bettermc.emerald_armor_helmet": "Emerald Helmet",
-      "item.bettermc.shadow_axe": "Shadow Axe",
       "item.bettermc.emerald_pickaxe": "Emerald Pickaxe",
       "block.bettermc.willow_pressure_plate": "Willow Pressure Plate",
       "item.bettermc.shadow_armor_boots": "Shadow Boots",
@@ -1784,13 +1782,10 @@
       "item.bettermc.shadow_armor_leggings": "Shadow Leggings",
       "block.bettermc.eucalyptus_stairs": "Eucalyptus Stairs",
       "block.bettermc.rock": "Stone of Rock",
-      "item.bettermc.shadow_hoe": "Shadow Hoe",
       "block.bettermc.baobab_wood": "Baobab Wood",
       "item.bettermc.amber_shovel": "Amber Shovel",
       "block.bettermc.rusted_log": "Rusted Log",
       "block.bettermc.douglas_fir_slab": "DouglasFir Slab",
-      "item.bettermc.shadow_pickaxe": "Shadow Pickaxe",
-      "item.bettermc.shadow_shovel": "Shadow Shovel",
       "item.bettermc.obsidian_armor_chestplate": "Obsidian Chestplate",
       "block.bettermc.eucalyptus_slab": "Eucalyptus Slab",
       "block.bettermc.douglas_fir_leaves": "DouglasFir Leaves",
