@@ -1366,6 +1366,14 @@
       "metadata": {
         "gb": true
       }
+    },
+    {
+      "name": "Rock",
+      "type": "block",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rock"
     }
   ],
   "variable_elements": [
@@ -1416,6 +1424,7 @@
       "item.bettermc.coconut": "Coconut",
       "block.bettermc.eucalyptus_stairs": "Eucalyptus Stairs",
       "item.bettermc.beans": "Beans",
+      "block.bettermc.rock": "Stone of Rock",
       "item.bettermc.amethyst_armor_boots": "Amethyst Boots",
       "block.bettermc.baobab_wood": "Baobab Wood",
       "block.bettermc.baobab_fence": "Baobab Fence",
