@@ -1,0 +1,33 @@
+{
+  "_fv": 28,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "WEAPONSMITH"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Blocks.SLIME_BLOCK"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:Amber"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:EmeraldzSword"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.IRON_INGOT"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.BUCKET"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:ShadowIngot"
+    },
+    "name": "iron_ingot_to_shadow_ingot",
+    "namespace": "mod"
+  }
+}

@@ -1373,19 +1373,11 @@
       "registry_name": "coconut_water"
     },
     {
-      "name": "EmeraldTrade",
-      "type": "villagertrade",
-      "sortid": 151,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "emerald_trade"
-    },
-    {
       "name": "WateryMilkRecipe",
       "type": "recipe",
       "sortid": 153,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "watery_milk_recipe"
     },
     {
@@ -1406,6 +1398,46 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "planks"
+    },
+    {
+      "name": "EmeraldToolsTrades",
+      "type": "villagertrade",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_tools_trades"
+    },
+    {
+      "name": "TempEucaRecipe",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temp_euca_recipe"
+    },
+    {
+      "name": "TempWillowRecipe",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temp_willow_recipe"
+    },
+    {
+      "name": "TempCoconutRecipe",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temp_coconut_recipe"
+    },
+    {
+      "name": "IronIngotToShadowIngot",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_ingot_to_shadow_ingot"
     }
   ],
   "variable_elements": [
@@ -1519,7 +1551,7 @@
   "workspaceSettings": {
     "modid": "bettermc",
     "modName": "bettermc",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": "CoderQC, Robotkid0925, and Scratcharts900",
     "websiteURL": "http://www.coderqc.info",
     "license": "Academic Free License v3.0",
