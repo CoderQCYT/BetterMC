@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "bettermc:tinted_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "bettermc:tinted_planks"
+    },
+    "3": {
+      "item": "bettermc:tinted_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "bettermc:tinted_planks"
+    }
+  },
+  "result": {
+    "item": "bettermc:tinted_fence",
+    "count": 3
+  }
+}

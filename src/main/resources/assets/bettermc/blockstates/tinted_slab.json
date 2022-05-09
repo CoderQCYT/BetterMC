@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "bettermc:block/tinted_slab"
+    },
+    "type=top": {
+      "model": "bettermc:block/tinted_slab_top"
+    },
+    "type=double": {
+      "model": "bettermc:block/tinted_slab_full"
+    }
+  }
+}

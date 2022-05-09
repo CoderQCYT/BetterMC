@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bettermc:tinted_planks"
+    }
+  ],
+  "result": {
+    "item": "bettermc:tinted_button",
+    "count": 1
+  }
+}

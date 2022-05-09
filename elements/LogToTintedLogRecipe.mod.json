@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.AMETHYST_SHARD"
       },
       {
-        "value": ""
+        "value": "Items.AMETHYST_SHARD"
       },
       {
-        "value": ""
+        "value": "Items.AMETHYST_SHARD"
       },
       {
-        "value": "CUSTOM:BaobabPlanks"
+        "value": "Items.AMETHYST_SHARD"
       },
       {
-        "value": "CUSTOM:BaobabPlanks"
+        "value": "TAG:logs"
       },
       {
-        "value": ""
+        "value": "Items.AMETHYST_SHARD"
       },
       {
-        "value": "CUSTOM:BaobabPlanks"
+        "value": "Items.AMETHYST_SHARD"
       },
       {
-        "value": "CUSTOM:BaobabPlanks"
+        "value": "Items.AMETHYST_SHARD"
       },
       {
-        "value": ""
+        "value": "Items.AMETHYST_SHARD"
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.CRAFTING_TABLE"
+      "value": "CUSTOM:TintedLog"
     },
-    "name": "craftingtablebaobab",
+    "name": "log_to_tinted_log_recipe",
     "namespace": "mod"
   }
 }

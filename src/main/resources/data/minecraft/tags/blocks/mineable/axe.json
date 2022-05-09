@@ -12,6 +12,9 @@
     "bettermc:baobab_planks",
     "bettermc:willow_wood",
     "bettermc:willow_log",
-    "bettermc:willow_planks"
+    "bettermc:willow_planks",
+    "bettermc:tinted_wood",
+    "bettermc:tinted_log",
+    "bettermc:tinted_planks"
   ]
 }

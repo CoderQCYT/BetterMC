@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "bettermc:block/tinted_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "bettermc:block/tinted_log"
+    },
+    "axis=z": {
+      "model": "bettermc:block/tinted_log",
+      "x": 90
+    }
+  }
+}
