@@ -1127,14 +1127,6 @@
       "registry_name": "willow_pressure_plate_recipe"
     },
     {
-      "name": "BaobabFuel",
-      "type": "fuel",
-      "sortid": 110,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "baobab_fuel"
-    },
-    {
       "name": "Levitation",
       "type": "potion",
       "sortid": 111,
@@ -1366,6 +1358,46 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "power_bow"
+    },
+    {
+      "name": "ObsidianArmor",
+      "type": "armor",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_armor"
+    },
+    {
+      "name": "ObsidianArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_armor_helmet_recipe"
+    },
+    {
+      "name": "ObsidianArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_armor_body_recipe"
+    },
+    {
+      "name": "ObsidianArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_armor_leggings_recipe"
+    },
+    {
+      "name": "ObsidianArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_armor_boots_recipe"
     }
   ],
   "variable_elements": [
@@ -1406,6 +1438,7 @@
       "item.bettermc.amber_pickaxe": "Amber Pickaxe",
       "block.bettermc.willow_wood": "Willow Wood",
       "item.bettermc.amethyst_shovel": "Amethyst Shovel",
+      "item.bettermc.obsidian_armor_leggings": "Obsidian Leggings",
       "block.bettermc.eucalyptus_button": "Eucalyptus Button",
       "item.bettermc.amber_sword": "Amber Sword",
       "block.bettermc.douglas_fir_log": "DouglasFir Log",
@@ -1428,7 +1461,9 @@
       "item.minecraft.lingering_potion.effect.levitation": "Lingering Potion of Levitation",
       "item.bettermc.amber_armor_chestplate": "Amber Chestplate",
       "item.bettermc.amber_hoe": "Amber Hoe",
+      "item.bettermc.obsidian_armor_chestplate": "Obsidian Chestplate",
       "block.bettermc.eucalyptus_slab": "Eucalyptus Slab",
+      "item.bettermc.obsidian_armor_helmet": "Obsidian Helmet",
       "block.bettermc.douglas_fir_wood": "DouglasFir Wood",
       "block.bettermc.douglas_fir_leaves": "DouglasFir Leaves",
       "block.bettermc.eucalyptus_leaves": "Eucalyptus Leaves",
@@ -1442,6 +1477,7 @@
       "block.bettermc.eucalyptus_wood": "Eucalyptus Wood",
       "item.bettermc.copper_hoe": "Copper Hoe",
       "item.bettermc.power_bow": "Power Bow",
+      "item.bettermc.obsidian_armor_boots": "Obsidian Boots",
       "block.bettermc.willow_log": "Willow Log",
       "block.bettermc.willow_button": "Willow Button",
       "block.bettermc.eucalyptus_planks": "Eucalyptus Planks",

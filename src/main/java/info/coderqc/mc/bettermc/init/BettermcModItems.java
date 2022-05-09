@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import info.coderqc.mc.bettermc.item.ShadowIngotItem;
 import info.coderqc.mc.bettermc.item.PowerBowItem;
+import info.coderqc.mc.bettermc.item.ObsidianArmorItem;
 import info.coderqc.mc.bettermc.item.MilkItem;
 import info.coderqc.mc.bettermc.item.EmeraldzSwordItem;
 import info.coderqc.mc.bettermc.item.EmeraldzShovelItem;
@@ -140,6 +141,12 @@ public class BettermcModItems {
 	public static final RegistryObject<Item> MILK_BUCKET = REGISTRY.register("milk_bucket", () -> new MilkItem());
 	public static final RegistryObject<Item> ROCK = block(BettermcModBlocks.ROCK, CreativeModeTab.TAB_MATERIALS);
 	public static final RegistryObject<Item> POWER_BOW = REGISTRY.register("power_bow", () -> new PowerBowItem());
+	public static final RegistryObject<Item> OBSIDIAN_ARMOR_HELMET = REGISTRY.register("obsidian_armor_helmet", () -> new ObsidianArmorItem.Helmet());
+	public static final RegistryObject<Item> OBSIDIAN_ARMOR_CHESTPLATE = REGISTRY.register("obsidian_armor_chestplate",
+			() -> new ObsidianArmorItem.Chestplate());
+	public static final RegistryObject<Item> OBSIDIAN_ARMOR_LEGGINGS = REGISTRY.register("obsidian_armor_leggings",
+			() -> new ObsidianArmorItem.Leggings());
+	public static final RegistryObject<Item> OBSIDIAN_ARMOR_BOOTS = REGISTRY.register("obsidian_armor_boots", () -> new ObsidianArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
