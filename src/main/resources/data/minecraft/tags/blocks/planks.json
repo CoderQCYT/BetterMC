@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:acacia_planks",
+    "bettermc:baobab_planks",
+    "bettermc:douglas_fir_planks",
+    "minecraft:warped_planks",
+    "minecraft:spruce_planks",
+    "minecraft:crimson_planks",
+    "bettermc:willow_planks",
+    "minecraft:jungle_planks",
+    "bettermc:rusted_planks",
+    "minecraft:dark_oak_planks",
+    "minecraft:oak_planks",
+    "bettermc:eucalyptus_planks",
+    "minecraft:birch_planks"
+  ]
+}
