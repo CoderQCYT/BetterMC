@@ -14,6 +14,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import info.coderqc.mc.bettermc.item.ShadowIngotItem;
+import info.coderqc.mc.bettermc.item.PowerBowItem;
 import info.coderqc.mc.bettermc.item.MilkItem;
 import info.coderqc.mc.bettermc.item.EmeraldzSwordItem;
 import info.coderqc.mc.bettermc.item.EmeraldzShovelItem;
@@ -138,6 +139,7 @@ public class BettermcModItems {
 	public static final RegistryObject<Item> SHADOW_INGOT = REGISTRY.register("shadow_ingot", () -> new ShadowIngotItem());
 	public static final RegistryObject<Item> MILK_BUCKET = REGISTRY.register("milk_bucket", () -> new MilkItem());
 	public static final RegistryObject<Item> ROCK = block(BettermcModBlocks.ROCK, CreativeModeTab.TAB_MATERIALS);
+	public static final RegistryObject<Item> POWER_BOW = REGISTRY.register("power_bow", () -> new PowerBowItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

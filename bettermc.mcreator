@@ -1143,14 +1143,6 @@
       "registry_name": "levitation"
     },
     {
-      "name": "Craftingtablebaobab",
-      "type": "recipe",
-      "sortid": 109,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "craftingtablebaobab"
-    },
-    {
       "name": "LevitationRecipe",
       "type": "recipe",
       "sortid": 129,
@@ -1341,14 +1333,6 @@
       "registry_name": "shadow_ingot"
     },
     {
-      "name": "EmeraldTrade",
-      "type": "villagertrade",
-      "sortid": 151,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "emerald_trade"
-    },
-    {
       "name": "WateryMilkRecipe",
       "type": "recipe",
       "sortid": 153,
@@ -1374,6 +1358,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "rock"
+    },
+    {
+      "name": "PowerBow",
+      "type": "rangeditem",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_bow"
     }
   ],
   "variable_elements": [
@@ -1449,6 +1441,7 @@
       "item.bettermc.amethyst_axe": "Amethyst Axe",
       "block.bettermc.eucalyptus_wood": "Eucalyptus Wood",
       "item.bettermc.copper_hoe": "Copper Hoe",
+      "item.bettermc.power_bow": "Power Bow",
       "block.bettermc.willow_log": "Willow Log",
       "block.bettermc.willow_button": "Willow Button",
       "block.bettermc.eucalyptus_planks": "Eucalyptus Planks",
@@ -1497,7 +1490,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
-    "credits": "Made with MCreator!",
+    "credits": "Made with MCreator! Texture sources: Minecraft Dungeons, and us!",
     "modElementsPackage": "info.coderqc.mc.bettermc",
     "lockBaseModFiles": false
   },
