@@ -1566,6 +1566,132 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "recipe_for_rusted"
+    },
+    {
+      "name": "ShadowArmor",
+      "type": "armor",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "ShadowArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_armor_helmet_recipe"
+    },
+    {
+      "name": "ShadowArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_armor_body_recipe"
+    },
+    {
+      "name": "ShadowArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_armor_leggings_recipe"
+    },
+    {
+      "name": "ShadowArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_armor_boots_recipe"
+    },
+    {
+      "name": "ShadowPickaxe",
+      "type": "tool",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_pickaxe"
+    },
+    {
+      "name": "ShadowAxe",
+      "type": "tool",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_axe"
+    },
+    {
+      "name": "ShadowSword",
+      "type": "tool",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_sword"
+    },
+    {
+      "name": "ShadowShovel",
+      "type": "tool",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_shovel"
+    },
+    {
+      "name": "ShadowHoe",
+      "type": "tool",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_hoe"
+    },
+    {
+      "name": "ShadowPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_pickaxe_recipe"
+    },
+    {
+      "name": "ShadowAxeRecipe",
+      "type": "recipe",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_axe_recipe"
+    },
+    {
+      "name": "ShadowSwordRecipe",
+      "type": "recipe",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_sword_recipe"
+    },
+    {
+      "name": "ShadowShovelRecipe",
+      "type": "recipe",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_shovel_recipe"
+    },
+    {
+      "name": "ShadowHoeRecipe",
+      "type": "recipe",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_hoe_recipe"
     }
   ],
   "variable_elements": [
@@ -1588,16 +1714,17 @@
       "item.minecraft.potion.effect.levitation": "Potion of Levitation",
       "block.bettermc.douglas_fir_button": "DouglasFir Button",
       "item.bettermc.amber_axe": "Amber Axe",
-      "block.bettermc.amber_block": "Block of Amber",
       "item.bettermc.shadow_ingot": "Shadow Ingot",
+      "block.bettermc.amber_block": "Block of Amber",
       "item.bettermc.copper_sword": "Copper Sword",
       "block.bettermc.douglas_fir_pressure_plate": "DouglasFir Pressure Plate",
       "item.bettermc.amber": "Amber",
       "item.bettermc.amber_pickaxe": "Amber Pickaxe",
       "block.bettermc.willow_wood": "Willow Wood",
       "block.bettermc.rusted_stairs": "Rusted Stairs",
-      "item.bettermc.amber_sword": "Amber Sword",
       "block.bettermc.rusted_button": "Rusted Button",
+      "item.bettermc.amber_sword": "Amber Sword",
+      "item.bettermc.shadow_sword": "Shadow Sword",
       "block.bettermc.baobab_slab": "Baobab Slab",
       "block.bettermc.baobab_fence_gate": "Baobab Fence Gate",
       "item.bettermc.beans": "Beans",
@@ -1633,8 +1760,10 @@
       "block.bettermc.eucalyptus_log": "Eucalyptus Log",
       "block.bettermc.baobab_log": "Baobab Log",
       "item.bettermc.emerald_armor_helmet": "Emerald Helmet",
+      "item.bettermc.shadow_axe": "Shadow Axe",
       "item.bettermc.emerald_pickaxe": "Emerald Pickaxe",
       "block.bettermc.willow_pressure_plate": "Willow Pressure Plate",
+      "item.bettermc.shadow_armor_boots": "Shadow Boots",
       "item.minecraft.tipped_arrow.effect.levitation": "Arrow of Levitation",
       "block.bettermc.douglas_fir_fence": "DouglasFir Fence",
       "block.bettermc.willow_fence": "Willow Fence",
@@ -1643,6 +1772,7 @@
       "block.bettermc.eucalyptus_fence_gate": "Eucalyptus Fence Gate",
       "item.bettermc.emerald_armor_leggings": "Emerald Leggings",
       "block.bettermc.willow_stairs": "Willow Stairs",
+      "item.bettermc.shadow_armor_chestplate": "Shadow Chestplate",
       "item.bettermc.amethyst_shovel": "Amethyst Shovel",
       "item.bettermc.obsidian_armor_leggings": "Obsidian Leggings",
       "block.bettermc.eucalyptus_button": "Eucalyptus Button",
@@ -1651,12 +1781,16 @@
       "block.bettermc.rusted_slab": "Rusted Slab",
       "block.bettermc.baobab_leaves": "Baobab Leaves",
       "item.bettermc.coconut": "Coconut",
+      "item.bettermc.shadow_armor_leggings": "Shadow Leggings",
       "block.bettermc.eucalyptus_stairs": "Eucalyptus Stairs",
       "block.bettermc.rock": "Stone of Rock",
+      "item.bettermc.shadow_hoe": "Shadow Hoe",
       "block.bettermc.baobab_wood": "Baobab Wood",
       "item.bettermc.amber_shovel": "Amber Shovel",
       "block.bettermc.rusted_log": "Rusted Log",
       "block.bettermc.douglas_fir_slab": "DouglasFir Slab",
+      "item.bettermc.shadow_pickaxe": "Shadow Pickaxe",
+      "item.bettermc.shadow_shovel": "Shadow Shovel",
       "item.bettermc.obsidian_armor_chestplate": "Obsidian Chestplate",
       "block.bettermc.eucalyptus_slab": "Eucalyptus Slab",
       "block.bettermc.douglas_fir_leaves": "DouglasFir Leaves",
@@ -1672,6 +1806,7 @@
       "item.bettermc.obsidian_armor_boots": "Obsidian Boots",
       "block.bettermc.willow_log": "Willow Log",
       "block.bettermc.eucalyptus_planks": "Eucalyptus Planks",
+      "item.bettermc.shadow_armor_helmet": "Shadow Helmet",
       "block.bettermc.eucalyptus_fence": "Eucalyptus Fence",
       "block.bettermc.eucalyptus_pressure_plate": "Eucalyptus Pressure Plate",
       "item.bettermc.emerald_shovel": "Emerald Shovel",

@@ -13,7 +13,13 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import info.coderqc.mc.bettermc.item.ShadowSwordItem;
+import info.coderqc.mc.bettermc.item.ShadowShovelItem;
+import info.coderqc.mc.bettermc.item.ShadowPickaxeItem;
 import info.coderqc.mc.bettermc.item.ShadowIngotItem;
+import info.coderqc.mc.bettermc.item.ShadowHoeItem;
+import info.coderqc.mc.bettermc.item.ShadowAxeItem;
+import info.coderqc.mc.bettermc.item.ShadowArmorItem;
 import info.coderqc.mc.bettermc.item.PowerBowItem;
 import info.coderqc.mc.bettermc.item.ObsidianArmorItem;
 import info.coderqc.mc.bettermc.item.MilkItem;
@@ -140,13 +146,13 @@ public class BettermcModItems {
 	public static final RegistryObject<Item> SHADOW_INGOT = REGISTRY.register("shadow_ingot", () -> new ShadowIngotItem());
 	public static final RegistryObject<Item> MILK_BUCKET = REGISTRY.register("milk_bucket", () -> new MilkItem());
 	public static final RegistryObject<Item> ROCK = block(BettermcModBlocks.ROCK, CreativeModeTab.TAB_MATERIALS);
+	public static final RegistryObject<Item> POWER_BOW = REGISTRY.register("power_bow", () -> new PowerBowItem());
 	public static final RegistryObject<Item> OBSIDIAN_ARMOR_HELMET = REGISTRY.register("obsidian_armor_helmet", () -> new ObsidianArmorItem.Helmet());
 	public static final RegistryObject<Item> OBSIDIAN_ARMOR_CHESTPLATE = REGISTRY.register("obsidian_armor_chestplate",
 			() -> new ObsidianArmorItem.Chestplate());
 	public static final RegistryObject<Item> OBSIDIAN_ARMOR_LEGGINGS = REGISTRY.register("obsidian_armor_leggings",
 			() -> new ObsidianArmorItem.Leggings());
 	public static final RegistryObject<Item> OBSIDIAN_ARMOR_BOOTS = REGISTRY.register("obsidian_armor_boots", () -> new ObsidianArmorItem.Boots());
-	public static final RegistryObject<Item> POWER_BOW = REGISTRY.register("power_bow", () -> new PowerBowItem());
 	public static final RegistryObject<Item> RUSTED_WOOD = block(BettermcModBlocks.RUSTED_WOOD, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> RUSTED_LOG = block(BettermcModBlocks.RUSTED_LOG, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> RUSTED_PLANKS = block(BettermcModBlocks.RUSTED_PLANKS, CreativeModeTab.TAB_BUILDING_BLOCKS);
@@ -157,6 +163,16 @@ public class BettermcModItems {
 	public static final RegistryObject<Item> RUSTED_FENCE_GATE = block(BettermcModBlocks.RUSTED_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> RUSTED_PRESSURE_PLATE = block(BettermcModBlocks.RUSTED_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> RUSTED_BUTTON = block(BettermcModBlocks.RUSTED_BUTTON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> SHADOW_ARMOR_HELMET = REGISTRY.register("shadow_armor_helmet", () -> new ShadowArmorItem.Helmet());
+	public static final RegistryObject<Item> SHADOW_ARMOR_CHESTPLATE = REGISTRY.register("shadow_armor_chestplate",
+			() -> new ShadowArmorItem.Chestplate());
+	public static final RegistryObject<Item> SHADOW_ARMOR_LEGGINGS = REGISTRY.register("shadow_armor_leggings", () -> new ShadowArmorItem.Leggings());
+	public static final RegistryObject<Item> SHADOW_ARMOR_BOOTS = REGISTRY.register("shadow_armor_boots", () -> new ShadowArmorItem.Boots());
+	public static final RegistryObject<Item> SHADOW_PICKAXE = REGISTRY.register("shadow_pickaxe", () -> new ShadowPickaxeItem());
+	public static final RegistryObject<Item> SHADOW_AXE = REGISTRY.register("shadow_axe", () -> new ShadowAxeItem());
+	public static final RegistryObject<Item> SHADOW_SWORD = REGISTRY.register("shadow_sword", () -> new ShadowSwordItem());
+	public static final RegistryObject<Item> SHADOW_SHOVEL = REGISTRY.register("shadow_shovel", () -> new ShadowShovelItem());
+	public static final RegistryObject<Item> SHADOW_HOE = REGISTRY.register("shadow_hoe", () -> new ShadowHoeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
