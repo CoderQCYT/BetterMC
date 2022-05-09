@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "bettermc:block/usable_fletching_table"
+    },
+    "facing=east": {
+      "model": "bettermc:block/usable_fletching_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "bettermc:block/usable_fletching_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "bettermc:block/usable_fletching_table",
+      "y": 270
+    }
+  }
+}

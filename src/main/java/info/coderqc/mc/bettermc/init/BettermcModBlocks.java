@@ -24,6 +24,7 @@ import info.coderqc.mc.bettermc.block.WillowLeavesBlock;
 import info.coderqc.mc.bettermc.block.WillowFenceGateBlock;
 import info.coderqc.mc.bettermc.block.WillowFenceBlock;
 import info.coderqc.mc.bettermc.block.WillowButtonBlock;
+import info.coderqc.mc.bettermc.block.UsableFletchingTableBlock;
 import info.coderqc.mc.bettermc.block.TintedWoodBlock;
 import info.coderqc.mc.bettermc.block.TintedStairsBlock;
 import info.coderqc.mc.bettermc.block.TintedSlabBlock;
@@ -133,6 +134,8 @@ public class BettermcModBlocks {
 	public static final RegistryObject<Block> TINTED_PRESSURE_PLATE = REGISTRY.register("tinted_pressure_plate",
 			() -> new TintedPressurePlateBlock());
 	public static final RegistryObject<Block> TINTED_BUTTON = REGISTRY.register("tinted_button", () -> new TintedButtonBlock());
+	public static final RegistryObject<Block> USABLE_FLETCHING_TABLE = REGISTRY.register("usable_fletching_table",
+			() -> new UsableFletchingTableBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

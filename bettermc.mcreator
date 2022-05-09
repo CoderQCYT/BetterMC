@@ -1732,6 +1732,46 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "UsableFletchingTable",
+      "type": "block",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "usable_fletching_table"
+    },
+    {
+      "name": "FletchingTableGUIWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fletching_table_gui_while_this_gui_is_open_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FletchingTableGUI",
+      "type": "gui",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fletching_table_gui"
+    },
+    {
+      "name": "UsableFletchingTableRecipe",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "usable_fletching_table_recipe"
     }
   ],
   "variable_elements": [
@@ -1756,8 +1796,8 @@
       "block.bettermc.douglas_fir_button": "DouglasFir Button",
       "item.bettermc.amber_axe": "Amber Axe",
       "item.bettermc.obsidian_axe": "Obsidian Axe",
-      "block.bettermc.amber_block": "Block of Amber",
       "item.bettermc.shadow_ingot": "Shadow Ingot",
+      "block.bettermc.amber_block": "Block of Amber",
       "item.bettermc.copper_sword": "Copper Sword",
       "block.bettermc.douglas_fir_pressure_plate": "DouglasFir Pressure Plate",
       "item.bettermc.amber": "Amber",
@@ -1826,6 +1866,7 @@
       "block.bettermc.tinted_fence": "Tinted Fence",
       "item.bettermc.amber_shovel": "Amber Shovel",
       "block.bettermc.douglas_fir_slab": "DouglasFir Slab",
+      "block.bettermc.usable_fletching_table": "Usable Fletching Table",
       "item.bettermc.obsidian_armor_chestplate": "Obsidian Chestplate",
       "block.bettermc.eucalyptus_slab": "Eucalyptus Slab",
       "block.bettermc.douglas_fir_leaves": "DouglasFir Leaves",

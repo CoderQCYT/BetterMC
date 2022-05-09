@@ -21,7 +21,7 @@ public class ObsidianSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 8f;
+				return 28f;
 			}
 
 			public int getLevel() {

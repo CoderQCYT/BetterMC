@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:fletching_table"
+  },
+  "addition": {
+    "item": "bettermc:shadow_ingot"
+  },
+  "result": {
+    "item": "bettermc:usable_fletching_table"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Blocks.FLETCHING_TABLE"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:ShadowIngot"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:UsableFletchingTable"
+    },
+    "name": "usable_fletching_table_recipe",
+    "namespace": "mod"
+  }
+}

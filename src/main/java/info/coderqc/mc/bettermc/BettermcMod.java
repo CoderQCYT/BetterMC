@@ -35,6 +35,7 @@ import info.coderqc.mc.bettermc.init.BettermcModItems;
 import info.coderqc.mc.bettermc.init.BettermcModFluids;
 import info.coderqc.mc.bettermc.init.BettermcModFeatures;
 import info.coderqc.mc.bettermc.init.BettermcModBlocks;
+import info.coderqc.mc.bettermc.init.BettermcModBlockEntities;
 
 @Mod("bettermc")
 public class BettermcMod {
@@ -51,6 +52,7 @@ public class BettermcMod {
 		BettermcModBlocks.REGISTRY.register(bus);
 		BettermcModItems.REGISTRY.register(bus);
 
+		BettermcModBlockEntities.REGISTRY.register(bus);
 		BettermcModFeatures.REGISTRY.register(bus);
 		BettermcModFluids.REGISTRY.register(bus);
 

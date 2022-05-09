@@ -167,6 +167,8 @@ public class BettermcModItems {
 	public static final RegistryObject<Item> OBSIDIAN_ARMOR_LEGGINGS = REGISTRY.register("obsidian_armor_leggings",
 			() -> new ObsidianArmorItem.Leggings());
 	public static final RegistryObject<Item> OBSIDIAN_ARMOR_BOOTS = REGISTRY.register("obsidian_armor_boots", () -> new ObsidianArmorItem.Boots());
+	public static final RegistryObject<Item> USABLE_FLETCHING_TABLE = block(BettermcModBlocks.USABLE_FLETCHING_TABLE,
+			CreativeModeTab.TAB_DECORATIONS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
