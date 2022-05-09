@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bettermc:blocks/rusted_log_top",
+    "up": "bettermc:blocks/rusted_log_top",
+    "north": "bettermc:blocks/rusted_log_side",
+    "east": "bettermc:blocks/rusted_log_side",
+    "south": "bettermc:blocks/rusted_log_side",
+    "west": "bettermc:blocks/rusted_log_side",
+    "particle": "bettermc:blocks/rusted_log_top"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:rusted_log"
+    }
+  ],
+  "result": {
+    "item": "bettermc:rusted_planks",
+    "count": 4
+  }
+}

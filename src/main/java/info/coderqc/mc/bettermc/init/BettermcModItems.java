@@ -140,13 +140,23 @@ public class BettermcModItems {
 	public static final RegistryObject<Item> SHADOW_INGOT = REGISTRY.register("shadow_ingot", () -> new ShadowIngotItem());
 	public static final RegistryObject<Item> MILK_BUCKET = REGISTRY.register("milk_bucket", () -> new MilkItem());
 	public static final RegistryObject<Item> ROCK = block(BettermcModBlocks.ROCK, CreativeModeTab.TAB_MATERIALS);
-	public static final RegistryObject<Item> POWER_BOW = REGISTRY.register("power_bow", () -> new PowerBowItem());
 	public static final RegistryObject<Item> OBSIDIAN_ARMOR_HELMET = REGISTRY.register("obsidian_armor_helmet", () -> new ObsidianArmorItem.Helmet());
 	public static final RegistryObject<Item> OBSIDIAN_ARMOR_CHESTPLATE = REGISTRY.register("obsidian_armor_chestplate",
 			() -> new ObsidianArmorItem.Chestplate());
 	public static final RegistryObject<Item> OBSIDIAN_ARMOR_LEGGINGS = REGISTRY.register("obsidian_armor_leggings",
 			() -> new ObsidianArmorItem.Leggings());
 	public static final RegistryObject<Item> OBSIDIAN_ARMOR_BOOTS = REGISTRY.register("obsidian_armor_boots", () -> new ObsidianArmorItem.Boots());
+	public static final RegistryObject<Item> POWER_BOW = REGISTRY.register("power_bow", () -> new PowerBowItem());
+	public static final RegistryObject<Item> RUSTED_WOOD = block(BettermcModBlocks.RUSTED_WOOD, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RUSTED_LOG = block(BettermcModBlocks.RUSTED_LOG, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RUSTED_PLANKS = block(BettermcModBlocks.RUSTED_PLANKS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RUSTED_LEAVES = block(BettermcModBlocks.RUSTED_LEAVES, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> RUSTED_STAIRS = block(BettermcModBlocks.RUSTED_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RUSTED_SLAB = block(BettermcModBlocks.RUSTED_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RUSTED_FENCE = block(BettermcModBlocks.RUSTED_FENCE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> RUSTED_FENCE_GATE = block(BettermcModBlocks.RUSTED_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> RUSTED_PRESSURE_PLATE = block(BettermcModBlocks.RUSTED_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> RUSTED_BUTTON = block(BettermcModBlocks.RUSTED_BUTTON, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

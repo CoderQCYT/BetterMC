@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "bettermc:rusted_log"
+    },
+    "1": {
+      "item": "bettermc:rusted_log"
+    },
+    "2": {
+      "item": "bettermc:rusted_log"
+    },
+    "3": {
+      "item": "bettermc:rusted_log"
+    }
+  },
+  "result": {
+    "item": "bettermc:rusted_wood",
+    "count": 3
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "bettermc:blocks/rusted_planks",
+    "particle": "bettermc:blocks/rusted_planks"
+  }
+}
