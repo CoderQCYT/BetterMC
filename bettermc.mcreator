@@ -1613,7 +1613,7 @@
       "name": "jokesEnabled",
       "type": "logic",
       "scope": "map",
-      "value": "false"
+      "value": "true"
     }
   ],
   "sound_elements": [],

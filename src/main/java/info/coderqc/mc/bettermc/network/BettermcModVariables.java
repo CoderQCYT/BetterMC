@@ -91,7 +91,7 @@ public class BettermcModVariables {
 
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "bettermc_mapvars";
-		public boolean jokesEnabled = false;
+		public boolean jokesEnabled = true;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
