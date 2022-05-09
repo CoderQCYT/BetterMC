@@ -1700,6 +1700,50 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "planks"
+    },
+    {
+      "name": "PowerCurse",
+      "type": "enchantment",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_curse"
+    },
+    {
+      "name": "PowerCurseProcedure",
+      "type": "procedure",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_curse_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1719,6 +1763,7 @@
       "item.bettermc.amber_armor_boots": "Amber Boots",
       "item.bettermc.emerald_axe": "Emerald Axe",
       "block.bettermc.willow_planks": "Willow Planks",
+      "enchantment.bettermc.power_curse": "Curse of Power",
       "item.minecraft.potion.effect.levitation": "Potion of Levitation",
       "block.bettermc.douglas_fir_button": "DouglasFir Button",
       "item.bettermc.amber_axe": "Amber Axe",
