@@ -1,7 +1,14 @@
 
 package info.coderqc.mc.bettermc.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+
+import info.coderqc.mc.bettermc.init.BettermcModItems;
 
 public class ShadowSwordItem extends SwordItem {
 	public ShadowSwordItem() {
@@ -29,11 +36,6 @@ public class ShadowSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(BettermcModItems.SHADOW_INGOT.get()));
 			}
-		},
-
-				3, -3f,
-
-				new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 	}
-
 }
