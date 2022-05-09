@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "bettermc:shadow_ingot"
+    },
+    "2": {
+      "item": "bettermc:shadow_ingot"
+    },
+    "3": {
+      "item": "bettermc:shadow_ingot"
+    },
+    "5": {
+      "item": "bettermc:shadow_ingot"
+    }
+  },
+  "result": {
+    "item": "bettermc:shadow_armor_boots",
+    "count": 1
+  }
+}
