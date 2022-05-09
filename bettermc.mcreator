@@ -1400,172 +1400,50 @@
       "registry_name": "obsidian_armor_boots_recipe"
     },
     {
-      "name": "RustedWood",
-      "type": "block",
+      "name": "ShadowArmor",
+      "type": "armor",
       "sortid": 216,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "rusted_wood"
+      "registry_name": "shadow_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     },
     {
-      "name": "RustedLog",
-      "type": "block",
-      "sortid": 217,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_log"
-    },
-    {
-      "name": "RustedPlanks",
-      "type": "block",
-      "sortid": 218,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_planks"
-    },
-    {
-      "name": "RustedLeaves",
-      "type": "block",
+      "name": "ShadowArmorLeggingsRecipe",
+      "type": "recipe",
       "sortid": 219,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "rusted_leaves"
+      "registry_name": "shadow_armor_leggings_recipe"
     },
     {
-      "name": "RustedStairs",
-      "type": "block",
+      "name": "ShadowArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_armor_body_recipe"
+    },
+    {
+      "name": "ShadowArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_armor_helmet_recipe"
+    },
+    {
+      "name": "ShadowArmorBootsRecipe",
+      "type": "recipe",
       "sortid": 220,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "rusted_stairs"
-    },
-    {
-      "name": "RustedSlab",
-      "type": "block",
-      "sortid": 221,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_slab"
-    },
-    {
-      "name": "RustedFence",
-      "type": "block",
-      "sortid": 222,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_fence"
-    },
-    {
-      "name": "RustedFenceGate",
-      "type": "block",
-      "sortid": 223,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_fence_gate"
-    },
-    {
-      "name": "RustedPressurePlate",
-      "type": "block",
-      "sortid": 224,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_pressure_plate"
-    },
-    {
-      "name": "RustedButton",
-      "type": "block",
-      "sortid": 225,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_button"
-    },
-    {
-      "name": "RustedItemsTag",
-      "type": "tag",
-      "sortid": 226,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_items_tag"
-    },
-    {
-      "name": "RustedWoodRecipe",
-      "type": "recipe",
-      "sortid": 227,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_wood_recipe"
-    },
-    {
-      "name": "RustedPlanksRecipe",
-      "type": "recipe",
-      "sortid": 228,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_planks_recipe"
-    },
-    {
-      "name": "RustedStairsRecipe",
-      "type": "recipe",
-      "sortid": 229,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_stairs_recipe"
-    },
-    {
-      "name": "RustedSlabRecipe",
-      "type": "recipe",
-      "sortid": 230,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_slab_recipe"
-    },
-    {
-      "name": "RustedFenceRecipe",
-      "type": "recipe",
-      "sortid": 231,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_fence_recipe"
-    },
-    {
-      "name": "RustedFenceGateRecipe",
-      "type": "recipe",
-      "sortid": 232,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_fence_gate_recipe"
-    },
-    {
-      "name": "RustedPressurePlateRecipe",
-      "type": "recipe",
-      "sortid": 233,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_pressure_plate_recipe"
-    },
-    {
-      "name": "RustedButtonRecipe",
-      "type": "recipe",
-      "sortid": 234,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_button_recipe"
-    },
-    {
-      "name": "RustedStickRecipe",
-      "type": "recipe",
-      "sortid": 235,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rusted_stick_recipe"
-    },
-    {
-      "name": "RecipeForRusted",
-      "type": "recipe",
-      "sortid": 236,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "recipe_for_rusted"
+      "registry_name": "shadow_armor_boots_recipe"
     }
   ],
   "variable_elements": [
@@ -1595,8 +1473,6 @@
       "item.bettermc.amber": "Amber",
       "item.bettermc.amber_pickaxe": "Amber Pickaxe",
       "block.bettermc.willow_wood": "Willow Wood",
-      "block.bettermc.rusted_stairs": "Rusted Stairs",
-      "block.bettermc.rusted_button": "Rusted Button",
       "item.bettermc.amber_sword": "Amber Sword",
       "block.bettermc.baobab_slab": "Baobab Slab",
       "block.bettermc.baobab_fence_gate": "Baobab Fence Gate",
@@ -1605,11 +1481,8 @@
       "block.bettermc.baobab_fence": "Baobab Fence",
       "item.bettermc.amber_armor_leggings": "Amber Leggings",
       "item.bettermc.emerald_hoe": "Emerald Hoe",
-      "block.bettermc.rusted_wood": "Rusted Wood",
-      "block.bettermc.rusted_leaves": "Rusted Leaves",
       "block.bettermc.amber_ore": "Amber Ore",
       "item.minecraft.lingering_potion.effect.levitation": "Lingering Potion of Levitation",
-      "block.bettermc.rusted_fence_gate": "Rusted Fence Gate",
       "item.bettermc.amber_armor_chestplate": "Amber Chestplate",
       "item.bettermc.amber_hoe": "Amber Hoe",
       "item.bettermc.obsidian_armor_helmet": "Obsidian Helmet",
@@ -1618,7 +1491,6 @@
       "block.bettermc.eucalyptus_wood": "Eucalyptus Wood",
       "item.bettermc.power_bow": "Power Bow",
       "block.bettermc.willow_button": "Willow Button",
-      "block.bettermc.rusted_planks": "Rusted Planks",
       "block.bettermc.baobab_planks": "Baobab Planks",
       "item.bettermc.amber_armor_helmet": "Amber Helmet",
       "block.bettermc.milk": "Watery Milk",
@@ -1635,6 +1507,7 @@
       "item.bettermc.emerald_armor_helmet": "Emerald Helmet",
       "item.bettermc.emerald_pickaxe": "Emerald Pickaxe",
       "block.bettermc.willow_pressure_plate": "Willow Pressure Plate",
+      "item.bettermc.shadow_armor_boots": "Shadow Boots",
       "item.minecraft.tipped_arrow.effect.levitation": "Arrow of Levitation",
       "block.bettermc.douglas_fir_fence": "DouglasFir Fence",
       "block.bettermc.willow_fence": "Willow Fence",
@@ -1643,24 +1516,23 @@
       "block.bettermc.eucalyptus_fence_gate": "Eucalyptus Fence Gate",
       "item.bettermc.emerald_armor_leggings": "Emerald Leggings",
       "block.bettermc.willow_stairs": "Willow Stairs",
+      "item.bettermc.shadow_armor_chestplate": "Shadow Chestplate",
       "item.bettermc.amethyst_shovel": "Amethyst Shovel",
       "item.bettermc.obsidian_armor_leggings": "Obsidian Leggings",
       "block.bettermc.eucalyptus_button": "Eucalyptus Button",
       "block.bettermc.douglas_fir_log": "DouglasFir Log",
       "item.bettermc.amethyst_hoe": "Amethyst Hoe",
-      "block.bettermc.rusted_slab": "Rusted Slab",
       "block.bettermc.baobab_leaves": "Baobab Leaves",
       "item.bettermc.coconut": "Coconut",
+      "item.bettermc.shadow_armor_leggings": "Shadow Leggings",
       "block.bettermc.eucalyptus_stairs": "Eucalyptus Stairs",
       "block.bettermc.rock": "Stone of Rock",
       "block.bettermc.baobab_wood": "Baobab Wood",
       "item.bettermc.amber_shovel": "Amber Shovel",
-      "block.bettermc.rusted_log": "Rusted Log",
       "block.bettermc.douglas_fir_slab": "DouglasFir Slab",
       "item.bettermc.obsidian_armor_chestplate": "Obsidian Chestplate",
       "block.bettermc.eucalyptus_slab": "Eucalyptus Slab",
       "block.bettermc.douglas_fir_leaves": "DouglasFir Leaves",
-      "block.bettermc.rusted_pressure_plate": "Rusted Pressure Plate",
       "block.bettermc.eucalyptus_leaves": "Eucalyptus Leaves",
       "block.bettermc.baobab_stairs": "Baobab Stairs",
       "fluid.bettermc.milk": "Watery Milk",
@@ -1672,6 +1544,7 @@
       "item.bettermc.obsidian_armor_boots": "Obsidian Boots",
       "block.bettermc.willow_log": "Willow Log",
       "block.bettermc.eucalyptus_planks": "Eucalyptus Planks",
+      "item.bettermc.shadow_armor_helmet": "Shadow Helmet",
       "block.bettermc.eucalyptus_fence": "Eucalyptus Fence",
       "block.bettermc.eucalyptus_pressure_plate": "Eucalyptus Pressure Plate",
       "item.bettermc.emerald_shovel": "Emerald Shovel",
@@ -1682,8 +1555,7 @@
       "item.bettermc.copper_armor_helmet": "Copper Helmet",
       "item.minecraft.splash_potion.effect.levitation": "Splash Potion of Levitation",
       "item.bettermc.amethyst_pickaxe": "Amethyst Pickaxe",
-      "item.bettermc.amethyst_sword": "Amethyst Sword",
-      "block.bettermc.rusted_fence": "Rusted Fence"
+      "item.bettermc.amethyst_sword": "Amethyst Sword"
     }
   },
   "foldersRoot": {
