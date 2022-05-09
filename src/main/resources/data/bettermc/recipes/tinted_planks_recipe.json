@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:tinted_log"
+    }
+  ],
+  "result": {
+    "item": "bettermc:deleted_mod_element",
+    "count": 4
+  }
+}

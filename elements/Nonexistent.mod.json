@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Nonexistent Effect",
+    "icon": "idk.png",
+    "color": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": false,
+    "isBenefitical": false,
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false
+  }
+}

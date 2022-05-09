@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_ingot"
+  },
+  "addition": {
+    "item": "minecraft:bucket"
+  },
+  "result": {
+    "item": "bettermc:shadow_ingot"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "obsidian_sword",
+    "customModelName": "Normal",
+    "name": "Obsidian Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 10,
+    "efficiency": 16.0,
+    "attackSpeed": 1.0,
+    "enchantability": 70,
+    "damageVsEntity": 30.0,
+    "usageCount": 2380,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.OBSIDIAN"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

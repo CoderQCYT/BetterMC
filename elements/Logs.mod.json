@@ -1,0 +1,35 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "Blocks.LOG"
+      },
+      {
+        "value": "Blocks.LOG2"
+      },
+      {
+        "value": "CUSTOM:BaobabLog"
+      },
+      {
+        "value": "CUSTOM:EucalyptusLog"
+      },
+      {
+        "value": "CUSTOM:DouglasFirLog"
+      },
+      {
+        "value": "CUSTOM:WillowLog"
+      },
+      {
+        "value": "CUSTOM:TintedLog"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "logs",
+    "namespace": "mod"
+  }
+}

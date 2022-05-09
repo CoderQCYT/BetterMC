@@ -13,34 +13,34 @@
         "value": ""
       },
       {
+        "value": "Blocks.OBSIDIAN"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
         "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:BaobabPlanks"
-      },
-      {
-        "value": "CUSTOM:BaobabPlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:BaobabPlanks"
-      },
-      {
-        "value": "CUSTOM:BaobabPlanks"
+        "value": "Items.STICK"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.CRAFTING_TABLE"
+      "value": "CUSTOM:ObsidianShovel"
     },
-    "name": "craftingtablebaobab",
+    "name": "obsidian_shovel_recipe",
     "namespace": "mod"
   }
 }

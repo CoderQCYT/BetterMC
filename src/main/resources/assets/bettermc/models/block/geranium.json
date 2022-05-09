@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "bettermc:blocks/geramium",
+    "particle": "bettermc:blocks/geramium"
+  }
+}

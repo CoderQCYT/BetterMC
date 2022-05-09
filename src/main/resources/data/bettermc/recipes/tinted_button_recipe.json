@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bettermc:deleted_mod_element"
+    }
+  ],
+  "result": {
+    "item": "bettermc:deleted_mod_element",
+    "count": 1
+  }
+}

@@ -5,16 +5,21 @@ import net.minecraft.world.level.material.Material;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
-public class RockBlock extends Block {
+public class TintedLeavesBlock extends LeavesBlock {
 
-	public RockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f));
+	public TintedLeavesBlock() {
+		super(BlockBehaviour.Properties.of(Material.LEAVES).sound(SoundType.GRASS).strength(0.2f).noOcclusion());
 
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
-		return 15;
+		return 1;
+	}
+
+	@Override
+	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+		return 30;
 	}
 
 	@Override

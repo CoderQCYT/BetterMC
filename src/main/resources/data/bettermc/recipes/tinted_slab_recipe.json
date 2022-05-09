@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "bettermc:deleted_mod_element"
+    },
+    "1": {
+      "item": "bettermc:deleted_mod_element"
+    },
+    "2": {
+      "item": "bettermc:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "bettermc:tinted_slab",
+    "count": 6
+  }
+}

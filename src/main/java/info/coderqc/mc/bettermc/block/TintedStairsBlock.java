@@ -5,16 +5,32 @@ import net.minecraft.world.level.material.Material;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
-public class RockBlock extends Block {
+public class TintedStairsBlock extends StairBlock {
 
-	public RockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f));
+	public TintedStairsBlock() {
+		super(() -> Blocks.AIR.defaultBlockState(),
+				BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3f, 2f).dynamicShape());
 
 	}
 
 	@Override
+	public float getExplosionResistance() {
+		return 2f;
+	}
+
+	@Override
+	public boolean isRandomlyTicking(BlockState p_56947_) {
+		return false;
+	}
+
+	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
-		return 15;
+		return 0;
+	}
+
+	@Override
+	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+		return 5;
 	}
 
 	@Override
