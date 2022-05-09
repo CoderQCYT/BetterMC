@@ -1398,6 +1398,14 @@
       "metadata": {
         "gb": true
       }
+    },
+    {
+      "name": "Planks",
+      "type": "tag",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planks"
     }
   ],
   "variable_elements": [
