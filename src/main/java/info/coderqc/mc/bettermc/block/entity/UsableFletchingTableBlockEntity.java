@@ -32,7 +32,7 @@ import info.coderqc.mc.bettermc.world.inventory.FletchingTableGUIMenu;
 import info.coderqc.mc.bettermc.init.BettermcModBlockEntities;
 
 public class UsableFletchingTableBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
-	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(3, ItemStack.EMPTY);
+	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(4, ItemStack.EMPTY);
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public UsableFletchingTableBlockEntity(BlockPos position, BlockState state) {

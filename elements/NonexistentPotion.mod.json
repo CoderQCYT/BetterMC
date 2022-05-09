@@ -1,0 +1,21 @@
+{
+  "_fv": 28,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Nonexistent Potion",
+    "splashName": "Nonexistent Splash Potion",
+    "lingeringName": "Nonexistent Lingering Potion",
+    "arrowName": "Nonexistent Arrow",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Nonexistent"
+        },
+        "duration": 1,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

@@ -18,4 +18,6 @@ public class BettermcModPotions {
 	public static final DeferredRegister<Potion> REGISTRY = DeferredRegister.create(ForgeRegistries.POTIONS, BettermcMod.MODID);
 	public static final RegistryObject<Potion> LEVITATION = REGISTRY.register("levitation",
 			() -> new Potion(new MobEffectInstance(MobEffects.LEVITATION, 3600, 1, false, true)));
+	public static final RegistryObject<Potion> NONEXISTENT_POTION = REGISTRY.register("nonexistent_potion",
+			() -> new Potion(new MobEffectInstance(BettermcModMobEffects.NONEXISTENT.get(), 1, 0, false, true)));
 }

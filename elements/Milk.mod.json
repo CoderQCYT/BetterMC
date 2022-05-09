@@ -41,9 +41,7 @@
     "fireSpreadSpeed": 0,
     "colorOnMap": "DEFAULT",
     "frequencyOnChunks": 5,
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": []
   }
 }

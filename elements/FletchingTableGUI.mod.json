@@ -87,6 +87,20 @@
           "x": 258,
           "y": 80
         }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 132,
+          "y": 53
+        }
       }
     ],
     "onTick": {

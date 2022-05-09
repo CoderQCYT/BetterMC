@@ -1772,6 +1772,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "usable_fletching_table_recipe"
+    },
+    {
+      "name": "Nonexistent",
+      "type": "potioneffect",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nonexistent"
+    },
+    {
+      "name": "NonexistentPotion",
+      "type": "potion",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nonexistent_potion"
     }
   ],
   "variable_elements": [
@@ -1799,6 +1815,7 @@
       "item.bettermc.shadow_ingot": "Shadow Ingot",
       "block.bettermc.amber_block": "Block of Amber",
       "item.bettermc.copper_sword": "Copper Sword",
+      "effect.bettermc.nonexistent": "Nonexistent Effect",
       "block.bettermc.douglas_fir_pressure_plate": "DouglasFir Pressure Plate",
       "item.bettermc.amber": "Amber",
       "item.bettermc.amber_pickaxe": "Amber Pickaxe",
@@ -1825,6 +1842,7 @@
       "block.bettermc.eucalyptus_wood": "Eucalyptus Wood",
       "block.bettermc.tinted_planks": "Tinted Planks",
       "block.bettermc.willow_button": "Willow Button",
+      "item.minecraft.lingering_potion.effect.nonexistent_potion": "Nonexistent Lingering Potion",
       "block.bettermc.baobab_planks": "Baobab Planks",
       "item.bettermc.amber_armor_helmet": "Amber Helmet",
       "block.bettermc.milk": "Watery Milk",
@@ -1867,7 +1885,9 @@
       "item.bettermc.amber_shovel": "Amber Shovel",
       "block.bettermc.douglas_fir_slab": "DouglasFir Slab",
       "block.bettermc.usable_fletching_table": "Usable Fletching Table",
+      "item.minecraft.tipped_arrow.effect.nonexistent_potion": "Nonexistent Arrow",
       "item.bettermc.obsidian_armor_chestplate": "Obsidian Chestplate",
+      "item.minecraft.potion.effect.nonexistent_potion": "Nonexistent Potion",
       "block.bettermc.eucalyptus_slab": "Eucalyptus Slab",
       "block.bettermc.douglas_fir_leaves": "DouglasFir Leaves",
       "item.bettermc.obsidian_sword": "Obsidian Sword",
@@ -1894,6 +1914,7 @@
       "item.bettermc.copper_armor_helmet": "Copper Helmet",
       "item.minecraft.splash_potion.effect.levitation": "Splash Potion of Levitation",
       "item.bettermc.amethyst_pickaxe": "Amethyst Pickaxe",
+      "item.minecraft.splash_potion.effect.nonexistent_potion": "Nonexistent Splash Potion",
       "item.bettermc.amethyst_sword": "Amethyst Sword",
       "item.bettermc.obsidian_pickaxe": "Obsidian Pickaxe"
     }
