@@ -108,4 +108,15 @@ public class BettermcModBlocks {
 	public static final RegistryObject<Block> AMBER_BLOCK = REGISTRY.register("amber_block", () -> new AmberBlockBlock());
 	public static final RegistryObject<Block> MILK = REGISTRY.register("milk", () -> new MilkBlock());
 	public static final RegistryObject<Block> ROCK = REGISTRY.register("rock", () -> new RockBlock());
+	public static final RegistryObject<Block> RUSTED_WOOD = REGISTRY.register("rusted_wood", () -> new RustedWoodBlock());
+	public static final RegistryObject<Block> RUSTED_LOG = REGISTRY.register("rusted_log", () -> new RustedLogBlock());
+	public static final RegistryObject<Block> RUSTED_PLANKS = REGISTRY.register("rusted_planks", () -> new RustedPlanksBlock());
+	public static final RegistryObject<Block> RUSTED_LEAVES = REGISTRY.register("rusted_leaves", () -> new RustedLeavesBlock());
+	public static final RegistryObject<Block> RUSTED_STAIRS = REGISTRY.register("rusted_stairs", () -> new RustedStairsBlock());
+	public static final RegistryObject<Block> RUSTED_SLAB = REGISTRY.register("rusted_slab", () -> new RustedSlabBlock());
+	public static final RegistryObject<Block> RUSTED_FENCE = REGISTRY.register("rusted_fence", () -> new RustedFenceBlock());
+	public static final RegistryObject<Block> RUSTED_FENCE_GATE = REGISTRY.register("rusted_fence_gate", () -> new RustedFenceGateBlock());
+	public static final RegistryObject<Block> RUSTED_PRESSURE_PLATE = REGISTRY.register("rusted_pressure_plate",
+			() -> new RustedPressurePlateBlock());
+	public static final RegistryObject<Block> RUSTED_BUTTON = REGISTRY.register("rusted_button", () -> new RustedButtonBlock());
 }
