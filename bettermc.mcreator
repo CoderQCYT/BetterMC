@@ -1629,8 +1629,8 @@
       "item.bettermc.coconut_water": "Coconut Water",
       "block.bettermc.douglas_fir_button": "DouglasFir Button",
       "item.bettermc.amber_axe": "Amber Axe",
-      "block.bettermc.amber_block": "Block of Amber",
       "item.bettermc.shadow_ingot": "Shadow Ingot",
+      "block.bettermc.amber_block": "Block of Amber",
       "item.bettermc.copper_sword": "Copper Sword",
       "block.bettermc.douglas_fir_pressure_plate": "DouglasFir Pressure Plate",
       "item.bettermc.amber": "Amber",
@@ -1729,7 +1729,7 @@
   "workspaceSettings": {
     "modid": "bettermc",
     "modName": "bettermc",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "author": "CoderQC, Robotkid0925, and Scratcharts900",
     "websiteURL": "http://www.coderqc.info",
     "license": "Academic Free License v3.0",
