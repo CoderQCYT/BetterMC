@@ -14,6 +14,12 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import info.coderqc.mc.bettermc.item.ShadowIngotItem;
+import info.coderqc.mc.bettermc.item.ObsidianSwordItem;
+import info.coderqc.mc.bettermc.item.ObsidianShovelItem;
+import info.coderqc.mc.bettermc.item.ObsidianPickaxeItem;
+import info.coderqc.mc.bettermc.item.ObsidianHoeItem;
+import info.coderqc.mc.bettermc.item.ObsidianAxeItem;
+import info.coderqc.mc.bettermc.item.ObsidianArmorItem;
 import info.coderqc.mc.bettermc.item.MilkItem;
 import info.coderqc.mc.bettermc.item.EmeraldzSwordItem;
 import info.coderqc.mc.bettermc.item.EmeraldzShovelItem;
@@ -150,6 +156,17 @@ public class BettermcModItems {
 	public static final RegistryObject<Item> TINTED_FENCE_GATE = block(BettermcModBlocks.TINTED_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> TINTED_PRESSURE_PLATE = block(BettermcModBlocks.TINTED_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> TINTED_BUTTON = block(BettermcModBlocks.TINTED_BUTTON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> OBSIDIAN_PICKAXE = REGISTRY.register("obsidian_pickaxe", () -> new ObsidianPickaxeItem());
+	public static final RegistryObject<Item> OBSIDIAN_AXE = REGISTRY.register("obsidian_axe", () -> new ObsidianAxeItem());
+	public static final RegistryObject<Item> OBSIDIAN_SWORD = REGISTRY.register("obsidian_sword", () -> new ObsidianSwordItem());
+	public static final RegistryObject<Item> OBSIDIAN_SHOVEL = REGISTRY.register("obsidian_shovel", () -> new ObsidianShovelItem());
+	public static final RegistryObject<Item> OBSIDIAN_HOE = REGISTRY.register("obsidian_hoe", () -> new ObsidianHoeItem());
+	public static final RegistryObject<Item> OBSIDIAN_ARMOR_HELMET = REGISTRY.register("obsidian_armor_helmet", () -> new ObsidianArmorItem.Helmet());
+	public static final RegistryObject<Item> OBSIDIAN_ARMOR_CHESTPLATE = REGISTRY.register("obsidian_armor_chestplate",
+			() -> new ObsidianArmorItem.Chestplate());
+	public static final RegistryObject<Item> OBSIDIAN_ARMOR_LEGGINGS = REGISTRY.register("obsidian_armor_leggings",
+			() -> new ObsidianArmorItem.Leggings());
+	public static final RegistryObject<Item> OBSIDIAN_ARMOR_BOOTS = REGISTRY.register("obsidian_armor_boots", () -> new ObsidianArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
