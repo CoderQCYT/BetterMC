@@ -15,10 +15,12 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.util.Mth;
 
 import javax.annotation.Nullable;
 
 import java.util.stream.Collectors;
+import java.util.Random;
 import java.util.List;
 import java.util.Comparator;
 
@@ -53,17 +55,17 @@ public class PowerCurseProcedureProcedure {
 						.collect(Collectors.toList());
 				for (Entity entityiterator : _entfound) {
 					if (entityiterator instanceof LivingEntity _entity)
-						_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 60,
+						_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 100,
 								(int) (EnchantmentHelper.getItemEnchantmentLevel(BettermcModEnchantments.POWER_CURSE.get(),
-										(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) * 2)));
+										(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) * 2)));
 					if (entityiterator instanceof LivingEntity _entity)
-						_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 60,
+						_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 100,
 								(int) (EnchantmentHelper.getItemEnchantmentLevel(BettermcModEnchantments.POWER_CURSE.get(),
-										(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) * 2)));
+										(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) * 2)));
 					if (entityiterator instanceof LivingEntity _entity)
-						_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 60,
+						_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 100,
 								(int) (EnchantmentHelper.getItemEnchantmentLevel(BettermcModEnchantments.POWER_CURSE.get(),
-										(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) * 2)));
+										(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) * 2)));
 				}
 			}
 		}
@@ -71,8 +73,13 @@ public class PowerCurseProcedureProcedure {
 				(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) != 0) {
 			if (entity instanceof LivingEntity _entity)
 				_entity.hurt(new DamageSource("voidstrike").bypassArmor(),
-						(float) (amount * (EnchantmentHelper.getItemEnchantmentLevel(BettermcModEnchantments.VOID_STRIKE.get(),
-								(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) + 1)));
+						(float) (amount
+								* (EnchantmentHelper.getItemEnchantmentLevel(BettermcModEnchantments.VOID_STRIKE.get(),
+										(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) + 1)
+								- Mth.nextInt(new Random(), 0,
+										(int) (amount * (EnchantmentHelper.getItemEnchantmentLevel(BettermcModEnchantments.VOID_STRIKE.get(),
+												(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY))
+												+ 1)))));
 		}
 	}
 }
