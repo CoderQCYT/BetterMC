@@ -53,20 +53,26 @@ public class PowerCurseProcedureProcedure {
 						.collect(Collectors.toList());
 				for (Entity entityiterator : _entfound) {
 					if (entityiterator instanceof LivingEntity _entity)
-						_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 60, 1));
+						_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 60,
+								(int) (EnchantmentHelper.getItemEnchantmentLevel(BettermcModEnchantments.POWER_CURSE.get(),
+										(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) * 2)));
 					if (entityiterator instanceof LivingEntity _entity)
-						_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 60, 1));
+						_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 60,
+								(int) (EnchantmentHelper.getItemEnchantmentLevel(BettermcModEnchantments.POWER_CURSE.get(),
+										(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) * 2)));
 					if (entityiterator instanceof LivingEntity _entity)
-						_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 60, 1));
+						_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 60,
+								(int) (EnchantmentHelper.getItemEnchantmentLevel(BettermcModEnchantments.POWER_CURSE.get(),
+										(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) * 2)));
 				}
 			}
 		}
 		if (EnchantmentHelper.getItemEnchantmentLevel(BettermcModEnchantments.VOID_STRIKE.get(),
 				(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) != 0) {
 			if (entity instanceof LivingEntity _entity)
-				_entity.hurt(new DamageSource("custom").bypassArmor(),
+				_entity.hurt(new DamageSource("voidstrike").bypassArmor(),
 						(float) (amount * (EnchantmentHelper.getItemEnchantmentLevel(BettermcModEnchantments.VOID_STRIKE.get(),
-								(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) + 1)));
+								(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) + 1)));
 		}
 	}
 }
