@@ -2192,6 +2192,118 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "obsidian_hoe_recipe"
+    },
+    {
+      "name": "VerticalOakSlabRecipe",
+      "type": "recipe",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_oak_slab_recipe"
+    },
+    {
+      "name": "VerticalSpruceSlabRecipe",
+      "type": "recipe",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_spruce_slab_recipe"
+    },
+    {
+      "name": "VerticalBirchSlabRecipe",
+      "type": "recipe",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_birch_slab_recipe"
+    },
+    {
+      "name": "VerticalJungleSlabRecipe",
+      "type": "recipe",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_jungle_slab_recipe"
+    },
+    {
+      "name": "VerticalAcaciaSlabRecipe",
+      "type": "recipe",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_acacia_slab_recipe"
+    },
+    {
+      "name": "VerticalDarkoakSlabRecipe",
+      "type": "recipe",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_darkoak_slab_recipe"
+    },
+    {
+      "name": "VerticalCrimsonSlabRecipe",
+      "type": "recipe",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_crimson_slab_recipe"
+    },
+    {
+      "name": "VerticalWarpedSlabRecipe",
+      "type": "recipe",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_warped_slab_recipe"
+    },
+    {
+      "name": "VerticalBaobabSlabRecipe",
+      "type": "recipe",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_baobab_slab_recipe"
+    },
+    {
+      "name": "VerticalDouglasfirSlabRecipe",
+      "type": "recipe",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_douglasfir_slab_recipe"
+    },
+    {
+      "name": "VerticalEucalyptusSlabRecipe",
+      "type": "recipe",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_eucalyptus_slab_recipe"
+    },
+    {
+      "name": "VerticalWIllowSlabRecipe",
+      "type": "recipe",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_w_illow_slab_recipe"
+    },
+    {
+      "name": "VerticalTintedSlabRecipe",
+      "type": "recipe",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_tinted_slab_recipe"
+    },
+    {
+      "name": "VerticalRustedSlabRecipe",
+      "type": "recipe",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_rusted_slab_recipe"
     }
   ],
   "variable_elements": [

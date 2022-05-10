@@ -1,16 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "01"
-  ],
-  "key": {
-    "0": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "minecraft:oak_log"
     },
-    "1": {
+    {
       "item": "minecraft:rotten_flesh"
     }
-  },
+  ],
   "result": {
     "item": "bettermc:rusted_log",
     "count": 1

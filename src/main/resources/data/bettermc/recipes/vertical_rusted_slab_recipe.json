@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "bettermc:rusted_slab"
+  },
+  "addition": {
+    "item": "bettermc:shadow_ingot"
+  },
+  "result": {
+    "item": "bettermc:vertical_rusted_slab"
+  }
+}

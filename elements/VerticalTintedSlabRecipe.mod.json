@@ -1,0 +1,23 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:TintedSlab"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:ShadowIngot"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:VerticalTintedSlab"
+    },
+    "name": "vertical_tinted_slab_recipe",
+    "namespace": "mod"
+  }
+}

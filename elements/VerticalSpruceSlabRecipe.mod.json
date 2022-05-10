@@ -1,0 +1,23 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Blocks.WOODEN_SLAB#1"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:ShadowIngot"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:VerticalSpruceSlab"
+    },
+    "name": "vertical_spruce_slab_recipe",
+    "namespace": "mod"
+  }
+}
