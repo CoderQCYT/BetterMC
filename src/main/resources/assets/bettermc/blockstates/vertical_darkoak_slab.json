@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "bettermc:block/vertical_darkoak_slab"
+    },
+    "facing=east": {
+      "model": "bettermc:block/vertical_darkoak_slab",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "bettermc:block/vertical_darkoak_slab",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "bettermc:block/vertical_darkoak_slab",
+      "y": 270
     }
   }
 }
