@@ -2112,6 +2112,86 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "geranium"
+    },
+    {
+      "name": "ObsidianPickaxe",
+      "type": "tool",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_pickaxe"
+    },
+    {
+      "name": "ObsidianAxe",
+      "type": "tool",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_axe"
+    },
+    {
+      "name": "ObsidianSword",
+      "type": "tool",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_sword"
+    },
+    {
+      "name": "ObsidianShovel",
+      "type": "tool",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_shovel"
+    },
+    {
+      "name": "ObsidianHoe",
+      "type": "tool",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_hoe"
+    },
+    {
+      "name": "ObsidianPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_pickaxe_recipe"
+    },
+    {
+      "name": "ObsidianAxeRecipe",
+      "type": "recipe",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_axe_recipe"
+    },
+    {
+      "name": "ObsidianSwordRecipe",
+      "type": "recipe",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_sword_recipe"
+    },
+    {
+      "name": "ObsidianShovelRecipe",
+      "type": "recipe",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_shovel_recipe"
+    },
+    {
+      "name": "ObsidianHoeRecipe",
+      "type": "recipe",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_hoe_recipe"
     }
   ],
   "variable_elements": [
@@ -2149,6 +2229,7 @@
       "block.bettermc.douglas_fir_button": "Douglas Fir Button",
       "block.bettermc.vertical_rusted_slab": "Vertical Rusted Slab",
       "item.bettermc.amber_axe": "Amber Axe",
+      "item.bettermc.obsidian_axe": "Obsidian Axe",
       "block.bettermc.amber_block": "Block of Amber",
       "item.bettermc.shadow_ingot": "Shadow Ingot",
       "item.bettermc.copper_sword": "Copper Sword",
@@ -2254,6 +2335,7 @@
       "block.bettermc.eucalyptus_slab": "Eucalyptus Slab",
       "death.attack.voidstrike": "%1$s was void-striked",
       "block.bettermc.douglas_fir_leaves": "Douglas Fir Leaves",
+      "item.bettermc.obsidian_sword": "Obsidian Sword",
       "block.bettermc.rusted_pressure_plate": "Rusted Pressure Plate",
       "block.bettermc.eucalyptus_leaves": "Eucalyptus Leaves",
       "block.bettermc.baobab_stairs": "Baobab Stairs",
@@ -2266,8 +2348,10 @@
       "item.bettermc.obsidian_armor_boots": "Obsidian Boots",
       "block.bettermc.willow_log": "Willow Log",
       "enchantment.bettermc.void_strike": "Void Strike",
+      "item.bettermc.obsidian_hoe": "Obsidian Hoe",
       "block.bettermc.eucalyptus_planks": "Eucalyptus Planks",
       "advancements.amber_advancement.title": "Amber! Amber!",
+      "item.bettermc.obsidian_shovel": "Obsidian Shovel",
       "item.bettermc.shadow_armor_helmet": "Shadow Helmet",
       "block.bettermc.vertical_jungle_slab": "Vertical Jungle Slab",
       "block.bettermc.eucalyptus_fence": "Eucalyptus Fence",
@@ -2283,7 +2367,8 @@
       "item.bettermc.amethyst_pickaxe": "Amethyst Pickaxe",
       "item.bettermc.amethyst_sword": "Amethyst Sword",
       "block.bettermc.vertical_tinted_slab": "Vertical Tinted Slab",
-      "block.bettermc.rusted_fence": "Rusted Fence"
+      "block.bettermc.rusted_fence": "Rusted Fence",
+      "item.bettermc.obsidian_pickaxe": "Obsidian Pickaxe"
     }
   },
   "foldersRoot": {
