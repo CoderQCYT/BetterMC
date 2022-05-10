@@ -4,11 +4,11 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="bettermc"
-version="1.0.0"
+version="0.2.0"
 displayName="bettermc"
 credits="Made with MCreator! Texture sources: Minecraft Dungeons, and us!"
 displayURL="http://www.coderqc.info"
-authors="CoderQC & Robotkid0925"
+authors="CoderQC & Robotkid0925 & ScratchArts900"
 
 [[dependencies.bettermc]]
     modId="minecraft"

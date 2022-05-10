@@ -1,0 +1,23 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.BOW"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.COPPER_INGOT"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:PowerBow"
+    },
+    "name": "power_bow_recipe",
+    "namespace": "mod"
+  }
+}
