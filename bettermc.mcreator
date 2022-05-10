@@ -1719,6 +1719,10 @@
             "type": "entity"
           },
           {
+            "name": "amount",
+            "type": "number"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -1752,6 +1756,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "amber_advancement"
+    },
+    {
+      "name": "VoidStrike",
+      "type": "enchantment",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_strike"
     }
   ],
   "variable_elements": [
@@ -1771,11 +1783,12 @@
       "item.bettermc.amber_armor_boots": "Amber Boots",
       "item.bettermc.emerald_axe": "Emerald Axe",
       "block.bettermc.willow_planks": "Willow Planks",
+      "enchantment.bettermc.power_curse": "Curse of Power",
       "item.minecraft.potion.effect.levitation": "Potion of Levitation",
       "block.bettermc.douglas_fir_button": "DouglasFir Button",
       "item.bettermc.amber_axe": "Amber Axe",
-      "block.bettermc.amber_block": "Block of Amber",
       "item.bettermc.shadow_ingot": "Shadow Ingot",
+      "block.bettermc.amber_block": "Block of Amber",
       "item.bettermc.copper_sword": "Copper Sword",
       "block.bettermc.douglas_fir_pressure_plate": "DouglasFir Pressure Plate",
       "item.bettermc.amber": "Amber",
@@ -1843,6 +1856,7 @@
       "item.bettermc.coconut": "Coconut",
       "item.bettermc.shadow_armor_leggings": "Shadow Leggings",
       "block.bettermc.eucalyptus_stairs": "Eucalyptus Stairs",
+      "advancements.amber_advancement.descr": "Finding Amber",
       "block.bettermc.rock": "Stone of Rock",
       "item.bettermc.shadow_hoe": "Shadow Hoe",
       "block.bettermc.baobab_wood": "Baobab Wood",
@@ -1865,7 +1879,9 @@
       "item.bettermc.copper_hoe": "Copper Hoe",
       "item.bettermc.obsidian_armor_boots": "Obsidian Boots",
       "block.bettermc.willow_log": "Willow Log",
+      "enchantment.bettermc.void_strike": "Void Strike",
       "block.bettermc.eucalyptus_planks": "Eucalyptus Planks",
+      "advancements.amber_advancement.title": "Amber! Amber!",
       "item.bettermc.shadow_armor_helmet": "Shadow Helmet",
       "block.bettermc.eucalyptus_fence": "Eucalyptus Fence",
       "block.bettermc.eucalyptus_pressure_plate": "Eucalyptus Pressure Plate",
