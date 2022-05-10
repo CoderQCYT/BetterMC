@@ -1,0 +1,19 @@
+{
+  "_fv": 28,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Curse of Power",
+    "type": "BREAKABLE",
+    "rarity": "UNCOMMON",
+    "minLevel": 1,
+    "maxLevel": 5,
+    "damageModifier": 0,
+    "compatibleEnchantments": [],
+    "compatibleItems": [],
+    "isTreasureEnchantment": false,
+    "isCurse": true,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

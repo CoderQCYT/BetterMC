@@ -1702,6 +1702,50 @@
       "registry_name": "planks"
     },
     {
+      "name": "PowerCurseProcedure",
+      "type": "procedure",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_curse_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PowerCurse",
+      "type": "enchantment",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_curse"
+    },
+    {
       "name": "AmberAdvancement",
       "type": "achievement",
       "sortid": 253,
@@ -1799,7 +1843,6 @@
       "item.bettermc.coconut": "Coconut",
       "item.bettermc.shadow_armor_leggings": "Shadow Leggings",
       "block.bettermc.eucalyptus_stairs": "Eucalyptus Stairs",
-      "advancements.amber_advancement.descr": "Finding Amber",
       "block.bettermc.rock": "Stone of Rock",
       "item.bettermc.shadow_hoe": "Shadow Hoe",
       "block.bettermc.baobab_wood": "Baobab Wood",
@@ -1823,7 +1866,6 @@
       "item.bettermc.obsidian_armor_boots": "Obsidian Boots",
       "block.bettermc.willow_log": "Willow Log",
       "block.bettermc.eucalyptus_planks": "Eucalyptus Planks",
-      "advancements.amber_advancement.title": "Amber! Amber!",
       "item.bettermc.shadow_armor_helmet": "Shadow Helmet",
       "block.bettermc.eucalyptus_fence": "Eucalyptus Fence",
       "block.bettermc.eucalyptus_pressure_plate": "Eucalyptus Pressure Plate",
