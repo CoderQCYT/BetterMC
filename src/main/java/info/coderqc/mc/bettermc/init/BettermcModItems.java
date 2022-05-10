@@ -183,6 +183,32 @@ public class BettermcModItems {
 	public static final RegistryObject<Item> TINTED_FENCE_GATE = block(BettermcModBlocks.TINTED_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> TINTED_PRESSURE_PLATE = block(BettermcModBlocks.TINTED_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> TINTED_BUTTON = block(BettermcModBlocks.TINTED_BUTTON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_OAK_SLAB = block(BettermcModBlocks.VERTICAL_OAK_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_SPRUCE_SLAB = block(BettermcModBlocks.VERTICAL_SPRUCE_SLAB,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_BIRCH_SLAB = block(BettermcModBlocks.VERTICAL_BIRCH_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_JUNGLE_SLAB = block(BettermcModBlocks.VERTICAL_JUNGLE_SLAB,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_ACACIA_SLAB = block(BettermcModBlocks.VERTICAL_ACACIA_SLAB,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_DARKOAK_SLAB = block(BettermcModBlocks.VERTICAL_DARKOAK_SLAB,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_CRIMSON_SLAB = block(BettermcModBlocks.VERTICAL_CRIMSON_SLAB,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_WARPED_SLAB = block(BettermcModBlocks.VERTICAL_WARPED_SLAB,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_BAOBAB_SLAB = block(BettermcModBlocks.VERTICAL_BAOBAB_SLAB,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_DOUGLAS_FIR_SLAB = block(BettermcModBlocks.VERTICAL_DOUGLAS_FIR_SLAB,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_EUCALYPTUS_SLAB = block(BettermcModBlocks.VERTICAL_EUCALYPTUS_SLAB,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_WILLOW_SLAB = block(BettermcModBlocks.VERTICAL_WILLOW_SLAB,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_TINTED_SLAB = block(BettermcModBlocks.VERTICAL_TINTED_SLAB,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_RUSTED_SLAB = block(BettermcModBlocks.VERTICAL_RUSTED_SLAB,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

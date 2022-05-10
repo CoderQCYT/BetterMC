@@ -1,0 +1,8 @@
+{
+  "parent": "bettermc:custom/vertical_slab",
+  "textures": {
+    "all": "bettermc:blocks/warped_planks",
+    "particle": "bettermc:blocks/warped_planks",
+    "missing": "bettermc:blocks/"
+  }
+}

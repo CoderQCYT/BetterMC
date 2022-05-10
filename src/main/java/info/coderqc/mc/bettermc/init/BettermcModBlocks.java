@@ -7,6 +7,10 @@ package info.coderqc.mc.bettermc.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
@@ -20,6 +24,20 @@ import info.coderqc.mc.bettermc.block.WillowLeavesBlock;
 import info.coderqc.mc.bettermc.block.WillowFenceGateBlock;
 import info.coderqc.mc.bettermc.block.WillowFenceBlock;
 import info.coderqc.mc.bettermc.block.WillowButtonBlock;
+import info.coderqc.mc.bettermc.block.VerticalWillowSlabBlock;
+import info.coderqc.mc.bettermc.block.VerticalWarpedSlabBlock;
+import info.coderqc.mc.bettermc.block.VerticalTintedSlabBlock;
+import info.coderqc.mc.bettermc.block.VerticalSpruceSlabBlock;
+import info.coderqc.mc.bettermc.block.VerticalRustedSlabBlock;
+import info.coderqc.mc.bettermc.block.VerticalOakSlabBlock;
+import info.coderqc.mc.bettermc.block.VerticalJungleSlabBlock;
+import info.coderqc.mc.bettermc.block.VerticalEucalyptusSlabBlock;
+import info.coderqc.mc.bettermc.block.VerticalDouglasFirSlabBlock;
+import info.coderqc.mc.bettermc.block.VerticalDarkoakSlabBlock;
+import info.coderqc.mc.bettermc.block.VerticalCrimsonSlabBlock;
+import info.coderqc.mc.bettermc.block.VerticalBirchSlabBlock;
+import info.coderqc.mc.bettermc.block.VerticalBaobabSlabBlock;
+import info.coderqc.mc.bettermc.block.VerticalAcaciaSlabBlock;
 import info.coderqc.mc.bettermc.block.TintedWoodBlock;
 import info.coderqc.mc.bettermc.block.TintedStairsBlock;
 import info.coderqc.mc.bettermc.block.TintedSlabBlock;
@@ -150,4 +168,43 @@ public class BettermcModBlocks {
 	public static final RegistryObject<Block> TINTED_PRESSURE_PLATE = REGISTRY.register("tinted_pressure_plate",
 			() -> new TintedPressurePlateBlock());
 	public static final RegistryObject<Block> TINTED_BUTTON = REGISTRY.register("tinted_button", () -> new TintedButtonBlock());
+	public static final RegistryObject<Block> VERTICAL_OAK_SLAB = REGISTRY.register("vertical_oak_slab", () -> new VerticalOakSlabBlock());
+	public static final RegistryObject<Block> VERTICAL_SPRUCE_SLAB = REGISTRY.register("vertical_spruce_slab", () -> new VerticalSpruceSlabBlock());
+	public static final RegistryObject<Block> VERTICAL_BIRCH_SLAB = REGISTRY.register("vertical_birch_slab", () -> new VerticalBirchSlabBlock());
+	public static final RegistryObject<Block> VERTICAL_JUNGLE_SLAB = REGISTRY.register("vertical_jungle_slab", () -> new VerticalJungleSlabBlock());
+	public static final RegistryObject<Block> VERTICAL_ACACIA_SLAB = REGISTRY.register("vertical_acacia_slab", () -> new VerticalAcaciaSlabBlock());
+	public static final RegistryObject<Block> VERTICAL_DARKOAK_SLAB = REGISTRY.register("vertical_darkoak_slab",
+			() -> new VerticalDarkoakSlabBlock());
+	public static final RegistryObject<Block> VERTICAL_CRIMSON_SLAB = REGISTRY.register("vertical_crimson_slab",
+			() -> new VerticalCrimsonSlabBlock());
+	public static final RegistryObject<Block> VERTICAL_WARPED_SLAB = REGISTRY.register("vertical_warped_slab", () -> new VerticalWarpedSlabBlock());
+	public static final RegistryObject<Block> VERTICAL_BAOBAB_SLAB = REGISTRY.register("vertical_baobab_slab", () -> new VerticalBaobabSlabBlock());
+	public static final RegistryObject<Block> VERTICAL_DOUGLAS_FIR_SLAB = REGISTRY.register("vertical_douglas_fir_slab",
+			() -> new VerticalDouglasFirSlabBlock());
+	public static final RegistryObject<Block> VERTICAL_EUCALYPTUS_SLAB = REGISTRY.register("vertical_eucalyptus_slab",
+			() -> new VerticalEucalyptusSlabBlock());
+	public static final RegistryObject<Block> VERTICAL_WILLOW_SLAB = REGISTRY.register("vertical_willow_slab", () -> new VerticalWillowSlabBlock());
+	public static final RegistryObject<Block> VERTICAL_TINTED_SLAB = REGISTRY.register("vertical_tinted_slab", () -> new VerticalTintedSlabBlock());
+	public static final RegistryObject<Block> VERTICAL_RUSTED_SLAB = REGISTRY.register("vertical_rusted_slab", () -> new VerticalRustedSlabBlock());
+
+	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+	public static class ClientSideHandler {
+		@SubscribeEvent
+		public static void clientSetup(FMLClientSetupEvent event) {
+			VerticalOakSlabBlock.registerRenderLayer();
+			VerticalSpruceSlabBlock.registerRenderLayer();
+			VerticalBirchSlabBlock.registerRenderLayer();
+			VerticalJungleSlabBlock.registerRenderLayer();
+			VerticalAcaciaSlabBlock.registerRenderLayer();
+			VerticalDarkoakSlabBlock.registerRenderLayer();
+			VerticalCrimsonSlabBlock.registerRenderLayer();
+			VerticalWarpedSlabBlock.registerRenderLayer();
+			VerticalBaobabSlabBlock.registerRenderLayer();
+			VerticalDouglasFirSlabBlock.registerRenderLayer();
+			VerticalEucalyptusSlabBlock.registerRenderLayer();
+			VerticalWillowSlabBlock.registerRenderLayer();
+			VerticalTintedSlabBlock.registerRenderLayer();
+			VerticalRustedSlabBlock.registerRenderLayer();
+		}
+	}
 }
