@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "bettermc:amber_ore",
-    "bettermc:amber_block"
+    "bettermc:amber_block",
+    "bettermc:platinum_ore",
+    "bettermc:platinum_block"
   ]
 }

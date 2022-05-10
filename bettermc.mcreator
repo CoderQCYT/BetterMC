@@ -2304,6 +2304,180 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "vertical_rusted_slab_recipe"
+    },
+    {
+      "name": "PlatinumIngot",
+      "type": "item",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ingot"
+    },
+    {
+      "name": "PlatinumOre",
+      "type": "block",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ore"
+    },
+    {
+      "name": "PlatinumBlock",
+      "type": "block",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_block"
+    },
+    {
+      "name": "PlatinumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ore_block_recipe"
+    },
+    {
+      "name": "PlatinumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_block_ore_recipe"
+    },
+    {
+      "name": "PlatinumOreSmelting",
+      "type": "recipe",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ore_smelting"
+    },
+    {
+      "name": "PlatinumPickaxe",
+      "type": "tool",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_pickaxe"
+    },
+    {
+      "name": "PlatinumAxe",
+      "type": "tool",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_axe"
+    },
+    {
+      "name": "PlatinumSword",
+      "type": "tool",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_sword"
+    },
+    {
+      "name": "PlatinumShovel",
+      "type": "tool",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_shovel"
+    },
+    {
+      "name": "PlatinumHoe",
+      "type": "tool",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_hoe"
+    },
+    {
+      "name": "PlatinumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_pickaxe_recipe"
+    },
+    {
+      "name": "PlatinumAxeRecipe",
+      "type": "recipe",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_axe_recipe"
+    },
+    {
+      "name": "PlatinumSwordRecipe",
+      "type": "recipe",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_sword_recipe"
+    },
+    {
+      "name": "PlatinumShovelRecipe",
+      "type": "recipe",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_shovel_recipe"
+    },
+    {
+      "name": "PlatinumHoeRecipe",
+      "type": "recipe",
+      "sortid": 334,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_hoe_recipe"
+    },
+    {
+      "name": "PlatinumArmor",
+      "type": "armor",
+      "sortid": 335,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "PlatinumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_armor_helmet_recipe"
+    },
+    {
+      "name": "PlatinumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 337,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_armor_body_recipe"
+    },
+    {
+      "name": "PlatinumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_armor_leggings_recipe"
+    },
+    {
+      "name": "PlatinumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_armor_boots_recipe"
     }
   ],
   "variable_elements": [
@@ -2336,28 +2510,31 @@
       "item.bettermc.emerald_axe": "Emerald Axe",
       "block.bettermc.willow_planks": "Willow Planks",
       "enchantment.bettermc.power_curse": "Curse of Power",
-      "block.bettermc.vertical_douglas_fir_slab": "Vertical Douglas Fir Slab",
       "item.minecraft.potion.effect.levitation": "Potion of Levitation",
+      "block.bettermc.vertical_douglas_fir_slab": "Vertical Douglas Fir Slab",
       "block.bettermc.douglas_fir_button": "Douglas Fir Button",
+      "item.bettermc.platinum_armor_leggings": "Platinum Leggings",
       "block.bettermc.vertical_rusted_slab": "Vertical Rusted Slab",
       "item.bettermc.amber_axe": "Amber Axe",
       "item.bettermc.obsidian_axe": "Obsidian Axe",
       "block.bettermc.amber_block": "Block of Amber",
       "item.bettermc.shadow_ingot": "Shadow Ingot",
       "item.bettermc.copper_sword": "Copper Sword",
-      "item.bettermc.amber_pickaxe": "Amber Pickaxe",
-      "item.bettermc.amber": "Amber",
       "block.bettermc.douglas_fir_pressure_plate": "Douglas Fir Pressure Plate",
+      "item.bettermc.amber": "Amber",
+      "item.bettermc.amber_pickaxe": "Amber Pickaxe",
       "block.bettermc.willow_wood": "Willow Wood",
+      "item.bettermc.platinum_axe": "Platinum Axe",
       "death.fell.accident.water": "%1$s fell on a waterlogged slab",
       "block.bettermc.rusted_stairs": "Rusted Stairs",
       "block.bettermc.vertical_eucalyptus_slab": "Vertical Eucalyptus Slab",
-      "block.bettermc.vertical_willow_slab": "Vertical Willow Slab",
-      "item.bettermc.amber_sword": "Amber Sword",
       "block.bettermc.rusted_button": "Rusted Button",
+      "item.bettermc.amber_sword": "Amber Sword",
+      "block.bettermc.vertical_willow_slab": "Vertical Willow Slab",
       "item.bettermc.shadow_sword": "Shadow Sword",
       "block.bettermc.baobab_slab": "Baobab Slab",
       "block.bettermc.baobab_fence_gate": "Baobab Fence Gate",
+      "item.bettermc.platinum_hoe": "Platinum Hoe",
       "item.bettermc.beans": "Beans",
       "item.bettermc.amethyst_armor_boots": "Amethyst Boots",
       "block.bettermc.baobab_fence": "Baobab Fence",
@@ -2373,6 +2550,7 @@
       "item.bettermc.amber_hoe": "Amber Hoe",
       "block.bettermc.tinted_pressure_plate": "Tinted Pressure Plate",
       "block.bettermc.tinted_fence_gate": "Tinted Fence Gate",
+      "item.bettermc.platinum_armor_boots": "Platinum Boots",
       "block.bettermc.vertical_oak_slab": "Vertical Oak Slab",
       "block.bettermc.vertical_warped_slab": "Vertical Warped Slab",
       "item.bettermc.obsidian_armor_helmet": "Obsidian Helmet",
@@ -2381,7 +2559,9 @@
       "item.bettermc.amethyst_armor_leggings": "Amethyst Leggings",
       "death.fell.accident.water.player": "%1$s was doomed to fall on a waterlogged slab by %2$s",
       "block.bettermc.eucalyptus_wood": "Eucalyptus Wood",
+      "block.bettermc.platinum_block": "Block of Platinum",
       "item.bettermc.power_bow": "Power Bow",
+      "item.bettermc.platinum_pickaxe": "Platinum Pickaxe",
       "block.bettermc.tinted_planks": "Tinted Planks",
       "block.bettermc.willow_button": "Willow Button",
       "block.bettermc.rusted_planks": "Rusted Planks",
@@ -2394,6 +2574,7 @@
       "item.bettermc.emerald_armor_chestplate": "Emerald Chestplate",
       "item.bettermc.amethyst_armor_helmet": "Amethyst Helmet",
       "block.bettermc.willow_fence_gate": "Willow Fence Gate",
+      "item.bettermc.platinum_shovel": "Platinum Shovel",
       "item.bettermc.copper_shovel": "Copper Shovel",
       "block.bettermc.vertical_crimson_slab": "Vertical Crimson Slab",
       "item.bettermc.amethyst_armor_chestplate": "Amethyst Chestplate",
@@ -2414,6 +2595,7 @@
       "block.bettermc.douglas_fir_fence": "Douglas Fir Fence",
       "block.bettermc.willow_fence": "Willow Fence",
       "block.bettermc.willow_leaves": "Willow Leaves",
+      "block.bettermc.platinum_ore": "Platinum Ore",
       "block.bettermc.willow_slab": "Willow Slab",
       "block.bettermc.eucalyptus_fence_gate": "Eucalyptus Fence Gate",
       "death.attack.voidstrike.player": "%1$s was void-striked by %2$s",
@@ -2421,8 +2603,10 @@
       "block.bettermc.willow_stairs": "Willow Stairs",
       "item.bettermc.shadow_armor_chestplate": "Shadow Chestplate",
       "item.bettermc.amethyst_shovel": "Amethyst Shovel",
+      "item.bettermc.platinum_ingot": "Platinum",
       "item.bettermc.obsidian_armor_leggings": "Obsidian Leggings",
       "block.bettermc.eucalyptus_button": "Eucalyptus Button",
+      "item.bettermc.platinum_sword": "Platinum Sword",
       "block.bettermc.vertical_darkoak_slab": "Vertical Dark Oak Slab",
       "block.bettermc.douglas_fir_log": "Douglas Fir Log",
       "item.bettermc.amethyst_hoe": "Amethyst Hoe",
@@ -2432,6 +2616,7 @@
       "item.bettermc.shadow_armor_leggings": "Shadow Leggings",
       "block.bettermc.eucalyptus_stairs": "Eucalyptus Stairs",
       "advancements.amber_advancement.descr": "Finding Amber",
+      "item.bettermc.platinum_armor_chestplate": "Platinum Chestplate",
       "block.bettermc.tinted_slab": "Tinted Slab",
       "block.bettermc.rock": "Stone of Rock",
       "item.bettermc.shadow_hoe": "Shadow Hoe",
@@ -2480,7 +2665,8 @@
       "item.bettermc.amethyst_sword": "Amethyst Sword",
       "block.bettermc.vertical_tinted_slab": "Vertical Tinted Slab",
       "block.bettermc.rusted_fence": "Rusted Fence",
-      "item.bettermc.obsidian_pickaxe": "Obsidian Pickaxe"
+      "item.bettermc.obsidian_pickaxe": "Obsidian Pickaxe",
+      "item.bettermc.platinum_armor_helmet": "Platinum Helmet"
     }
   },
   "foldersRoot": {

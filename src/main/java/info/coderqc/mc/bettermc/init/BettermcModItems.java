@@ -21,6 +21,13 @@ import info.coderqc.mc.bettermc.item.ShadowHoeItem;
 import info.coderqc.mc.bettermc.item.ShadowAxeItem;
 import info.coderqc.mc.bettermc.item.ShadowArmorItem;
 import info.coderqc.mc.bettermc.item.PowerBowItem;
+import info.coderqc.mc.bettermc.item.PlatinumSwordItem;
+import info.coderqc.mc.bettermc.item.PlatinumShovelItem;
+import info.coderqc.mc.bettermc.item.PlatinumPickaxeItem;
+import info.coderqc.mc.bettermc.item.PlatinumIngotItem;
+import info.coderqc.mc.bettermc.item.PlatinumHoeItem;
+import info.coderqc.mc.bettermc.item.PlatinumAxeItem;
+import info.coderqc.mc.bettermc.item.PlatinumArmorItem;
 import info.coderqc.mc.bettermc.item.ObsidianSwordItem;
 import info.coderqc.mc.bettermc.item.ObsidianShovelItem;
 import info.coderqc.mc.bettermc.item.ObsidianPickaxeItem;
@@ -220,6 +227,20 @@ public class BettermcModItems {
 	public static final RegistryObject<Item> OBSIDIAN_SWORD = REGISTRY.register("obsidian_sword", () -> new ObsidianSwordItem());
 	public static final RegistryObject<Item> OBSIDIAN_SHOVEL = REGISTRY.register("obsidian_shovel", () -> new ObsidianShovelItem());
 	public static final RegistryObject<Item> OBSIDIAN_HOE = REGISTRY.register("obsidian_hoe", () -> new ObsidianHoeItem());
+	public static final RegistryObject<Item> PLATINUM_INGOT = REGISTRY.register("platinum_ingot", () -> new PlatinumIngotItem());
+	public static final RegistryObject<Item> PLATINUM_ORE = block(BettermcModBlocks.PLATINUM_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> PLATINUM_BLOCK = block(BettermcModBlocks.PLATINUM_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> PLATINUM_PICKAXE = REGISTRY.register("platinum_pickaxe", () -> new PlatinumPickaxeItem());
+	public static final RegistryObject<Item> PLATINUM_AXE = REGISTRY.register("platinum_axe", () -> new PlatinumAxeItem());
+	public static final RegistryObject<Item> PLATINUM_SWORD = REGISTRY.register("platinum_sword", () -> new PlatinumSwordItem());
+	public static final RegistryObject<Item> PLATINUM_SHOVEL = REGISTRY.register("platinum_shovel", () -> new PlatinumShovelItem());
+	public static final RegistryObject<Item> PLATINUM_HOE = REGISTRY.register("platinum_hoe", () -> new PlatinumHoeItem());
+	public static final RegistryObject<Item> PLATINUM_ARMOR_HELMET = REGISTRY.register("platinum_armor_helmet", () -> new PlatinumArmorItem.Helmet());
+	public static final RegistryObject<Item> PLATINUM_ARMOR_CHESTPLATE = REGISTRY.register("platinum_armor_chestplate",
+			() -> new PlatinumArmorItem.Chestplate());
+	public static final RegistryObject<Item> PLATINUM_ARMOR_LEGGINGS = REGISTRY.register("platinum_armor_leggings",
+			() -> new PlatinumArmorItem.Leggings());
+	public static final RegistryObject<Item> PLATINUM_ARMOR_BOOTS = REGISTRY.register("platinum_armor_boots", () -> new PlatinumArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

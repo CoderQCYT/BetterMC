@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "bettermc:platinum_ingot"
+    },
+    "1": {
+      "item": "bettermc:platinum_ingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "bettermc:platinum_sword",
+    "count": 1
+  }
+}

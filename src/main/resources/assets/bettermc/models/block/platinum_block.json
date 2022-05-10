@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bettermc:blocks/platinum_ore_block",
+    "particle": "bettermc:blocks/platinum_ore_block"
+  }
+}

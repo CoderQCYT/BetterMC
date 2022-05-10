@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "platinum_ore_block_outline"
+      },
+      "name": "default"
+    }
+  }
+}

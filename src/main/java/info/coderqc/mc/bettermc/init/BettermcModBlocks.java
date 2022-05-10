@@ -59,6 +59,8 @@ import info.coderqc.mc.bettermc.block.RustedFenceGateBlock;
 import info.coderqc.mc.bettermc.block.RustedFenceBlock;
 import info.coderqc.mc.bettermc.block.RustedButtonBlock;
 import info.coderqc.mc.bettermc.block.RockBlock;
+import info.coderqc.mc.bettermc.block.PlatinumOreBlock;
+import info.coderqc.mc.bettermc.block.PlatinumBlockBlock;
 import info.coderqc.mc.bettermc.block.MilkBlock;
 import info.coderqc.mc.bettermc.block.GeraniumBlock;
 import info.coderqc.mc.bettermc.block.EucalyptusWoodBlock;
@@ -188,6 +190,8 @@ public class BettermcModBlocks {
 	public static final RegistryObject<Block> VERTICAL_TINTED_SLAB = REGISTRY.register("vertical_tinted_slab", () -> new VerticalTintedSlabBlock());
 	public static final RegistryObject<Block> VERTICAL_RUSTED_SLAB = REGISTRY.register("vertical_rusted_slab", () -> new VerticalRustedSlabBlock());
 	public static final RegistryObject<Block> GERANIUM = REGISTRY.register("geranium", () -> new GeraniumBlock());
+	public static final RegistryObject<Block> PLATINUM_ORE = REGISTRY.register("platinum_ore", () -> new PlatinumOreBlock());
+	public static final RegistryObject<Block> PLATINUM_BLOCK = REGISTRY.register("platinum_block", () -> new PlatinumBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
