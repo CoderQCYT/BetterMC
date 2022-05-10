@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "eucalyptus_planks"
+      },
+      "name": "default"
+    }
+  }
+}

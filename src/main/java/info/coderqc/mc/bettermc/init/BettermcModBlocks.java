@@ -60,6 +60,7 @@ import info.coderqc.mc.bettermc.block.RustedFenceBlock;
 import info.coderqc.mc.bettermc.block.RustedButtonBlock;
 import info.coderqc.mc.bettermc.block.RockBlock;
 import info.coderqc.mc.bettermc.block.MilkBlock;
+import info.coderqc.mc.bettermc.block.GeraniumBlock;
 import info.coderqc.mc.bettermc.block.EucalyptusWoodBlock;
 import info.coderqc.mc.bettermc.block.EucalyptusStairsBlock;
 import info.coderqc.mc.bettermc.block.EucalyptusSlabBlock;
@@ -186,6 +187,7 @@ public class BettermcModBlocks {
 	public static final RegistryObject<Block> VERTICAL_WILLOW_SLAB = REGISTRY.register("vertical_willow_slab", () -> new VerticalWillowSlabBlock());
 	public static final RegistryObject<Block> VERTICAL_TINTED_SLAB = REGISTRY.register("vertical_tinted_slab", () -> new VerticalTintedSlabBlock());
 	public static final RegistryObject<Block> VERTICAL_RUSTED_SLAB = REGISTRY.register("vertical_rusted_slab", () -> new VerticalRustedSlabBlock());
+	public static final RegistryObject<Block> GERANIUM = REGISTRY.register("geranium", () -> new GeraniumBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -205,6 +207,7 @@ public class BettermcModBlocks {
 			VerticalWillowSlabBlock.registerRenderLayer();
 			VerticalTintedSlabBlock.registerRenderLayer();
 			VerticalRustedSlabBlock.registerRenderLayer();
+			GeraniumBlock.registerRenderLayer();
 		}
 	}
 }

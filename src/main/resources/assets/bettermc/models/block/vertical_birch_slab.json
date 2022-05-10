@@ -1,8 +1,8 @@
 {
-  "parent": "bettermc:custom/vertical_slab",
+  "parent": "bettermc:custom/birch_vertical_slab",
   "textures": {
     "all": "bettermc:blocks/planks_birch",
     "particle": "bettermc:blocks/planks_birch",
-    "missing": "bettermc:blocks/"
+    "0": "bettermc:blocks/planks_birch"
   }
 }

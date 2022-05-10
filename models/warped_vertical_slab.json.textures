@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "missing": ""
+        "0": "warped_planks"
       },
       "name": "default"
     }

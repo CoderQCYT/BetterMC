@@ -1,8 +1,8 @@
 {
-  "parent": "bettermc:custom/vertical_slab",
+  "parent": "bettermc:custom/crimson_vertical_slab",
   "textures": {
     "all": "bettermc:blocks/crimson_planks",
     "particle": "bettermc:blocks/crimson_planks",
-    "missing": "bettermc:blocks/"
+    "0": "bettermc:blocks/crimson_planks"
   }
 }
