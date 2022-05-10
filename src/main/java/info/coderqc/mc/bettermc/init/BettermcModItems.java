@@ -173,6 +173,16 @@ public class BettermcModItems {
 	public static final RegistryObject<Item> SHADOW_SWORD = REGISTRY.register("shadow_sword", () -> new ShadowSwordItem());
 	public static final RegistryObject<Item> SHADOW_SHOVEL = REGISTRY.register("shadow_shovel", () -> new ShadowShovelItem());
 	public static final RegistryObject<Item> SHADOW_HOE = REGISTRY.register("shadow_hoe", () -> new ShadowHoeItem());
+	public static final RegistryObject<Item> TINTED_WOOD = block(BettermcModBlocks.TINTED_WOOD, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> TINTED_LOG = block(BettermcModBlocks.TINTED_LOG, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> TINTED_PLANKS = block(BettermcModBlocks.TINTED_PLANKS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> TINTED_LEAVES = block(BettermcModBlocks.TINTED_LEAVES, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> TINTED_STAIRS = block(BettermcModBlocks.TINTED_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> TINTED_SLAB = block(BettermcModBlocks.TINTED_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> TINTED_FENCE = block(BettermcModBlocks.TINTED_FENCE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> TINTED_FENCE_GATE = block(BettermcModBlocks.TINTED_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> TINTED_PRESSURE_PLATE = block(BettermcModBlocks.TINTED_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> TINTED_BUTTON = block(BettermcModBlocks.TINTED_BUTTON, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

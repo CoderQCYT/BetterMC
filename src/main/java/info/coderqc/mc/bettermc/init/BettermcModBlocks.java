@@ -20,6 +20,16 @@ import info.coderqc.mc.bettermc.block.WillowLeavesBlock;
 import info.coderqc.mc.bettermc.block.WillowFenceGateBlock;
 import info.coderqc.mc.bettermc.block.WillowFenceBlock;
 import info.coderqc.mc.bettermc.block.WillowButtonBlock;
+import info.coderqc.mc.bettermc.block.TintedWoodBlock;
+import info.coderqc.mc.bettermc.block.TintedStairsBlock;
+import info.coderqc.mc.bettermc.block.TintedSlabBlock;
+import info.coderqc.mc.bettermc.block.TintedPressurePlateBlock;
+import info.coderqc.mc.bettermc.block.TintedPlanksBlock;
+import info.coderqc.mc.bettermc.block.TintedLogBlock;
+import info.coderqc.mc.bettermc.block.TintedLeavesBlock;
+import info.coderqc.mc.bettermc.block.TintedFenceGateBlock;
+import info.coderqc.mc.bettermc.block.TintedFenceBlock;
+import info.coderqc.mc.bettermc.block.TintedButtonBlock;
 import info.coderqc.mc.bettermc.block.RustedWoodBlock;
 import info.coderqc.mc.bettermc.block.RustedStairsBlock;
 import info.coderqc.mc.bettermc.block.RustedSlabBlock;
@@ -129,4 +139,15 @@ public class BettermcModBlocks {
 	public static final RegistryObject<Block> RUSTED_PRESSURE_PLATE = REGISTRY.register("rusted_pressure_plate",
 			() -> new RustedPressurePlateBlock());
 	public static final RegistryObject<Block> RUSTED_BUTTON = REGISTRY.register("rusted_button", () -> new RustedButtonBlock());
+	public static final RegistryObject<Block> TINTED_WOOD = REGISTRY.register("tinted_wood", () -> new TintedWoodBlock());
+	public static final RegistryObject<Block> TINTED_LOG = REGISTRY.register("tinted_log", () -> new TintedLogBlock());
+	public static final RegistryObject<Block> TINTED_PLANKS = REGISTRY.register("tinted_planks", () -> new TintedPlanksBlock());
+	public static final RegistryObject<Block> TINTED_LEAVES = REGISTRY.register("tinted_leaves", () -> new TintedLeavesBlock());
+	public static final RegistryObject<Block> TINTED_STAIRS = REGISTRY.register("tinted_stairs", () -> new TintedStairsBlock());
+	public static final RegistryObject<Block> TINTED_SLAB = REGISTRY.register("tinted_slab", () -> new TintedSlabBlock());
+	public static final RegistryObject<Block> TINTED_FENCE = REGISTRY.register("tinted_fence", () -> new TintedFenceBlock());
+	public static final RegistryObject<Block> TINTED_FENCE_GATE = REGISTRY.register("tinted_fence_gate", () -> new TintedFenceGateBlock());
+	public static final RegistryObject<Block> TINTED_PRESSURE_PLATE = REGISTRY.register("tinted_pressure_plate",
+			() -> new TintedPressurePlateBlock());
+	public static final RegistryObject<Block> TINTED_BUTTON = REGISTRY.register("tinted_button", () -> new TintedButtonBlock());
 }

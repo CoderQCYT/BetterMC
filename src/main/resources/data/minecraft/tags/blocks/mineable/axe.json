@@ -15,6 +15,9 @@
     "bettermc:willow_planks",
     "bettermc:rusted_wood",
     "bettermc:rusted_log",
-    "bettermc:rusted_planks"
+    "bettermc:rusted_planks",
+    "bettermc:tinted_wood",
+    "bettermc:tinted_log",
+    "bettermc:tinted_planks"
   ]
 }

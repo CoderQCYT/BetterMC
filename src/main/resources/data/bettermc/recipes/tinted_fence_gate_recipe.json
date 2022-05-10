@@ -9,7 +9,7 @@
       "item": "minecraft:stick"
     },
     "1": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:tinted_planks"
     },
     "2": {
       "item": "minecraft:stick"
@@ -18,14 +18,14 @@
       "item": "minecraft:stick"
     },
     "4": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:tinted_planks"
     },
     "5": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "bettermc:deleted_mod_element",
+    "item": "bettermc:tinted_fence_gate",
     "count": 1
   }
 }
