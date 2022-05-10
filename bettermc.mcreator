@@ -1940,6 +1940,58 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "tinted_log_recipe"
+    },
+    {
+      "name": "SaturateCommandExecuted",
+      "type": "procedure",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saturate_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "cmdparams",
+            "type": "map"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Saturate",
+      "type": "command",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saturate"
+    },
+    {
+      "name": "PlayerTickProcess",
+      "type": "procedure",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_tick_process",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1948,13 +2000,25 @@
       "type": "logic",
       "scope": "map",
       "value": "false"
+    },
+    {
+      "name": "Saturated",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "SaturationEnabled",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.bettermc.copper_pickaxe": "Copper Pickaxe",
       "item.bettermc.copper_armor_chestplate": "Copper Chestplate",
+      "item.bettermc.copper_pickaxe": "Copper Pickaxe",
       "item.bettermc.copper_axe": "Copper Axe",
       "item.bettermc.amber_armor_boots": "Amber Boots",
       "item.bettermc.emerald_axe": "Emerald Axe",
@@ -1970,9 +2034,10 @@
       "item.bettermc.amber": "Amber",
       "item.bettermc.amber_pickaxe": "Amber Pickaxe",
       "block.bettermc.willow_wood": "Willow Wood",
+      "death.fell.accident.water": "%1$s fell on a waterlogged slab",
       "block.bettermc.rusted_stairs": "Rusted Stairs",
-      "item.bettermc.amber_sword": "Amber Sword",
       "block.bettermc.rusted_button": "Rusted Button",
+      "item.bettermc.amber_sword": "Amber Sword",
       "item.bettermc.shadow_sword": "Shadow Sword",
       "block.bettermc.baobab_slab": "Baobab Slab",
       "block.bettermc.baobab_fence_gate": "Baobab Fence Gate",
@@ -1995,6 +2060,7 @@
       "block.bettermc.douglas_fir_wood": "Douglas Fir Wood",
       "block.bettermc.tinted_leaves": "Tinted Leaves",
       "item.bettermc.amethyst_armor_leggings": "Amethyst Leggings",
+      "death.fell.accident.water.player": "%1$s was doomed to fall on a waterlogged slab by %2$s",
       "block.bettermc.eucalyptus_wood": "Eucalyptus Wood",
       "item.bettermc.power_bow": "Power Bow",
       "block.bettermc.tinted_planks": "Tinted Planks",
@@ -2090,7 +2156,7 @@
   "workspaceSettings": {
     "modid": "bettermc",
     "modName": "bettermc",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "author": "CoderQC \u0026 Robotkid0925 \u0026 ScratchArts900",
     "websiteURL": "http://www.coderqc.info",
     "license": "Academic Free License v3.0",
