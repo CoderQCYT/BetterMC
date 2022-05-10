@@ -154,6 +154,11 @@ public class BettermcModItems {
 			() -> new ObsidianArmorItem.Leggings());
 	public static final RegistryObject<Item> OBSIDIAN_ARMOR_BOOTS = REGISTRY.register("obsidian_armor_boots", () -> new ObsidianArmorItem.Boots());
 	public static final RegistryObject<Item> RUSTED_WOOD = block(BettermcModBlocks.RUSTED_WOOD, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> SHADOW_ARMOR_HELMET = REGISTRY.register("shadow_armor_helmet", () -> new ShadowArmorItem.Helmet());
+	public static final RegistryObject<Item> SHADOW_ARMOR_CHESTPLATE = REGISTRY.register("shadow_armor_chestplate",
+			() -> new ShadowArmorItem.Chestplate());
+	public static final RegistryObject<Item> SHADOW_ARMOR_LEGGINGS = REGISTRY.register("shadow_armor_leggings", () -> new ShadowArmorItem.Leggings());
+	public static final RegistryObject<Item> SHADOW_ARMOR_BOOTS = REGISTRY.register("shadow_armor_boots", () -> new ShadowArmorItem.Boots());
 	public static final RegistryObject<Item> RUSTED_LOG = block(BettermcModBlocks.RUSTED_LOG, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> RUSTED_PLANKS = block(BettermcModBlocks.RUSTED_PLANKS, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> RUSTED_LEAVES = block(BettermcModBlocks.RUSTED_LEAVES, CreativeModeTab.TAB_DECORATIONS);
@@ -163,11 +168,6 @@ public class BettermcModItems {
 	public static final RegistryObject<Item> RUSTED_FENCE_GATE = block(BettermcModBlocks.RUSTED_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> RUSTED_PRESSURE_PLATE = block(BettermcModBlocks.RUSTED_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> RUSTED_BUTTON = block(BettermcModBlocks.RUSTED_BUTTON, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final RegistryObject<Item> SHADOW_ARMOR_HELMET = REGISTRY.register("shadow_armor_helmet", () -> new ShadowArmorItem.Helmet());
-	public static final RegistryObject<Item> SHADOW_ARMOR_CHESTPLATE = REGISTRY.register("shadow_armor_chestplate",
-			() -> new ShadowArmorItem.Chestplate());
-	public static final RegistryObject<Item> SHADOW_ARMOR_LEGGINGS = REGISTRY.register("shadow_armor_leggings", () -> new ShadowArmorItem.Leggings());
-	public static final RegistryObject<Item> SHADOW_ARMOR_BOOTS = REGISTRY.register("shadow_armor_boots", () -> new ShadowArmorItem.Boots());
 	public static final RegistryObject<Item> SHADOW_PICKAXE = REGISTRY.register("shadow_pickaxe", () -> new ShadowPickaxeItem());
 	public static final RegistryObject<Item> SHADOW_AXE = REGISTRY.register("shadow_axe", () -> new ShadowAxeItem());
 	public static final RegistryObject<Item> SHADOW_SWORD = REGISTRY.register("shadow_sword", () -> new ShadowSwordItem());

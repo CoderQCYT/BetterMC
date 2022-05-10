@@ -35,7 +35,6 @@ import info.coderqc.mc.bettermc.init.BettermcModItems;
 import info.coderqc.mc.bettermc.init.BettermcModFluids;
 import info.coderqc.mc.bettermc.init.BettermcModFeatures;
 import info.coderqc.mc.bettermc.init.BettermcModEntities;
-import info.coderqc.mc.bettermc.init.BettermcModEnchantments;
 import info.coderqc.mc.bettermc.init.BettermcModBlocks;
 
 @Mod("bettermc")
@@ -56,7 +55,6 @@ public class BettermcMod {
 
 		BettermcModFeatures.REGISTRY.register(bus);
 		BettermcModFluids.REGISTRY.register(bus);
-		BettermcModEnchantments.REGISTRY.register(bus);
 
 		BettermcModPotions.REGISTRY.register(bus);
 
