@@ -13,14 +13,10 @@ import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.item.SpawnEggItem;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.projectile.ThrownEgg;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.Spider;
-import net.minecraft.world.entity.monster.CaveSpider;
 import net.minecraft.world.entity.animal.TropicalFish;
 import net.minecraft.world.entity.ai.navigation.PathNavigation;
 import net.minecraft.world.entity.ai.navigation.FlyingPathNavigation;
@@ -28,38 +24,35 @@ import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.LeapAtTargetGoal;
-import net.minecraft.world.entity.ai.goal.FollowParentGoal;
+import net.minecraft.world.entity.ai.goal.Goal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.control.FlyingMoveControl;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
-import net.minecraft.world.entity.TamableAnimal;
 import net.minecraft.world.entity.SpawnPlacements;
+import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
-import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.core.BlockPos;
 
 import java.util.Set;
 import java.util.Random;
-import java.util.List;
+import java.util.EnumSet;
 
 import info.coderqc.mc.bettermc.init.BettermcModEntities;
 
 @Mod.EventBusSubscriber
-public class BirdEntity extends TamableAnimal {
+public class BirdEntity extends PathfinderMob {
 	private static final Set<ResourceLocation> SPAWN_BIOMES = Set.of(new ResourceLocation("forest"), new ResourceLocation("sunflower_plains"),
 			new ResourceLocation("dark_forest"), new ResourceLocation("plains"), new ResourceLocation("beach"), new ResourceLocation("birch_forest"),
 			new ResourceLocation("swamp"));
@@ -94,8 +87,49 @@ public class BirdEntity extends TamableAnimal {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new FollowParentGoal(this, 0.8));
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.75, 20) {
+		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, TropicalFish.class, true, false));
+		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, Spider.class, true, false));
+		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, ThrownEgg.class, true, false));
+		this.goalSelector.addGoal(5, new Goal() {
+			{
+				this.setFlags(EnumSet.of(Goal.Flag.MOVE));
+			}
+
+			public boolean canUse() {
+				if (BirdEntity.this.getTarget() != null && !BirdEntity.this.getMoveControl().hasWanted()) {
+					return true;
+				} else {
+					return false;
+				}
+			}
+
+			@Override
+			public boolean canContinueToUse() {
+				return BirdEntity.this.getMoveControl().hasWanted() && BirdEntity.this.getTarget() != null && BirdEntity.this.getTarget().isAlive();
+			}
+
+			@Override
+			public void start() {
+				LivingEntity livingentity = BirdEntity.this.getTarget();
+				Vec3 vec3d = livingentity.getEyePosition(1);
+				BirdEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 1);
+			}
+
+			@Override
+			public void tick() {
+				LivingEntity livingentity = BirdEntity.this.getTarget();
+				if (BirdEntity.this.getBoundingBox().intersects(livingentity.getBoundingBox())) {
+					BirdEntity.this.doHurtTarget(livingentity);
+				} else {
+					double d0 = BirdEntity.this.distanceToSqr(livingentity);
+					if (d0 < 16) {
+						Vec3 vec3d = livingentity.getEyePosition(1);
+						BirdEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 1);
+					}
+				}
+			}
+		});
+		this.goalSelector.addGoal(6, new RandomStrollGoal(this, 0.75, 20) {
 			@Override
 			protected Vec3 getPosition() {
 				Random random = BirdEntity.this.getRandom();
@@ -105,13 +139,10 @@ public class BirdEntity extends TamableAnimal {
 				return new Vec3(dir_x, dir_y, dir_z);
 			}
 		});
-		this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(4, new FloatGoal(this));
-		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, ThrownEgg.class, true, false));
-		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, Spider.class, true, true));
-		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, CaveSpider.class, true, true));
-		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, TropicalFish.class, true, true));
-		this.goalSelector.addGoal(9, new LeapAtTargetGoal(this, (float) 0.5));
+		this.goalSelector.addGoal(7, new RandomStrollGoal(this, 0.8));
+		this.goalSelector.addGoal(8, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(9, new FloatGoal(this));
+		this.goalSelector.addGoal(10, new LeapAtTargetGoal(this, (float) 0.5));
 	}
 
 	@Override
@@ -157,58 +188,9 @@ public class BirdEntity extends TamableAnimal {
 	public InteractionResult mobInteract(Player sourceentity, InteractionHand hand) {
 		ItemStack itemstack = sourceentity.getItemInHand(hand);
 		InteractionResult retval = InteractionResult.sidedSuccess(this.level.isClientSide());
-		Item item = itemstack.getItem();
-		if (itemstack.getItem() instanceof SpawnEggItem) {
-			retval = super.mobInteract(sourceentity, hand);
-		} else if (this.level.isClientSide()) {
-			retval = (this.isTame() && this.isOwnedBy(sourceentity) || this.isFood(itemstack))
-					? InteractionResult.sidedSuccess(this.level.isClientSide())
-					: InteractionResult.PASS;
-		} else {
-			if (this.isTame()) {
-				if (this.isOwnedBy(sourceentity)) {
-					if (item.isEdible() && this.isFood(itemstack) && this.getHealth() < this.getMaxHealth()) {
-						this.usePlayerItem(sourceentity, hand, itemstack);
-						this.heal((float) item.getFoodProperties().getNutrition());
-						retval = InteractionResult.sidedSuccess(this.level.isClientSide());
-					} else if (this.isFood(itemstack) && this.getHealth() < this.getMaxHealth()) {
-						this.usePlayerItem(sourceentity, hand, itemstack);
-						this.heal(4);
-						retval = InteractionResult.sidedSuccess(this.level.isClientSide());
-					} else {
-						retval = super.mobInteract(sourceentity, hand);
-					}
-				}
-			} else if (this.isFood(itemstack)) {
-				this.usePlayerItem(sourceentity, hand, itemstack);
-				if (this.random.nextInt(3) == 0 && !net.minecraftforge.event.ForgeEventFactory.onAnimalTame(this, sourceentity)) {
-					this.tame(sourceentity);
-					this.level.broadcastEntityEvent(this, (byte) 7);
-				} else {
-					this.level.broadcastEntityEvent(this, (byte) 6);
-				}
-				this.setPersistenceRequired();
-				retval = InteractionResult.sidedSuccess(this.level.isClientSide());
-			} else {
-				retval = super.mobInteract(sourceentity, hand);
-				if (retval == InteractionResult.SUCCESS || retval == InteractionResult.CONSUME)
-					this.setPersistenceRequired();
-			}
-		}
+		super.mobInteract(sourceentity, hand);
 		sourceentity.startRiding(this);
 		return retval;
-	}
-
-	@Override
-	public AgeableMob getBreedOffspring(ServerLevel serverWorld, AgeableMob ageable) {
-		BirdEntity retval = BettermcModEntities.BIRD.get().create(serverWorld);
-		retval.finalizeSpawn(serverWorld, serverWorld.getCurrentDifficultyAt(retval.blockPosition()), MobSpawnType.BREEDING, null, null);
-		return retval;
-	}
-
-	@Override
-	public boolean isFood(ItemStack stack) {
-		return List.of(Items.WHEAT_SEEDS).contains(stack.getItem());
 	}
 
 	@Override
