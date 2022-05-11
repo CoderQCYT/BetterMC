@@ -95,7 +95,7 @@ public class BirdEntity extends TamableAnimal {
 	protected void registerGoals() {
 		super.registerGoals();
 		this.goalSelector.addGoal(1, new FollowParentGoal(this, 0.8));
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.45, 20) {
+		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.75, 20) {
 			@Override
 			protected Vec3 getPosition() {
 				Random random = BirdEntity.this.getRandom();
@@ -117,6 +117,11 @@ public class BirdEntity extends TamableAnimal {
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEFINED;
+	}
+
+	@Override
+	public double getPassengersRidingOffset() {
+		return super.getPassengersRidingOffset() + 0.7999999999999999;
 	}
 
 	@Override
@@ -260,11 +265,11 @@ public class BirdEntity extends TamableAnimal {
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.7000000000000001);
 		builder = builder.add(Attributes.MAX_HEALTH, 10);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
-		builder = builder.add(Attributes.FLYING_SPEED, 0.3);
+		builder = builder.add(Attributes.FLYING_SPEED, 0.7000000000000001);
 		return builder;
 	}
 }
