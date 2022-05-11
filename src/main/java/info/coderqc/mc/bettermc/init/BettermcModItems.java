@@ -7,6 +7,7 @@ package info.coderqc.mc.bettermc.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -241,6 +242,8 @@ public class BettermcModItems {
 	public static final RegistryObject<Item> PLATINUM_ARMOR_LEGGINGS = REGISTRY.register("platinum_armor_leggings",
 			() -> new PlatinumArmorItem.Leggings());
 	public static final RegistryObject<Item> PLATINUM_ARMOR_BOOTS = REGISTRY.register("platinum_armor_boots", () -> new PlatinumArmorItem.Boots());
+	public static final RegistryObject<Item> BIRD = REGISTRY.register("bird_spawn_egg",
+			() -> new ForgeSpawnEggItem(BettermcModEntities.BIRD, -26317, -39322, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

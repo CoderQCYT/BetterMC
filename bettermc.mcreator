@@ -2478,6 +2478,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "platinum_armor_boots_recipe"
+    },
+    {
+      "name": "BirdPrey",
+      "type": "tag",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bird_prey"
+    },
+    {
+      "name": "Bird",
+      "type": "livingentity",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bird"
     }
   ],
   "variable_elements": [
@@ -2510,8 +2526,8 @@
       "item.bettermc.emerald_axe": "Emerald Axe",
       "block.bettermc.willow_planks": "Willow Planks",
       "enchantment.bettermc.power_curse": "Curse of Power",
-      "item.minecraft.potion.effect.levitation": "Potion of Levitation",
       "block.bettermc.vertical_douglas_fir_slab": "Vertical Douglas Fir Slab",
+      "item.minecraft.potion.effect.levitation": "Potion of Levitation",
       "block.bettermc.douglas_fir_button": "Douglas Fir Button",
       "item.bettermc.platinum_armor_leggings": "Platinum Leggings",
       "block.bettermc.vertical_rusted_slab": "Vertical Rusted Slab",
@@ -2533,6 +2549,7 @@
       "block.bettermc.vertical_willow_slab": "Vertical Willow Slab",
       "item.bettermc.shadow_sword": "Shadow Sword",
       "block.bettermc.baobab_slab": "Baobab Slab",
+      "item.bettermc.bird_spawn_egg": "Bird Spawn Egg",
       "block.bettermc.baobab_fence_gate": "Baobab Fence Gate",
       "item.bettermc.platinum_hoe": "Platinum Hoe",
       "item.bettermc.beans": "Beans",
@@ -2638,6 +2655,7 @@
       "block.bettermc.baobab_stairs": "Baobab Stairs",
       "fluid.bettermc.milk": "Watery Milk",
       "block.bettermc.douglas_fir_planks": "Douglas Fir Planks",
+      "entity.bettermc.bird": "Bird",
       "item.bettermc.emerald_sword": "Emerald Sword",
       "block.bettermc.baobab_pressure_plate": "Baobab Pressure Plate",
       "item.bettermc.amethyst_axe": "Amethyst Axe",
