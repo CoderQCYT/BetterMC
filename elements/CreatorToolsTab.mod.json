@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "Creator Tools Tab",
+    "icon": {
+      "value": "Items.DIAMOND_PICKAXE"
+    },
+    "showSearch": false
+  }
+}

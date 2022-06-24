@@ -2494,6 +2494,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bird"
+    },
+    {
+      "name": "CreatorToolsTab",
+      "type": "tab",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creator_tools_tab"
     }
   ],
   "variable_elements": [
@@ -2609,6 +2617,7 @@
       "item.minecraft.tipped_arrow.effect.levitation": "Arrow of Levitation",
       "block.bettermc.tinted_button": "Tinted Button",
       "block.bettermc.vertical_baobab_slab": "Vertical Baobab Slab",
+      "itemGroup.tabcreator_tools_tab": "Creator Tools Tab",
       "block.bettermc.douglas_fir_fence": "Douglas Fir Fence",
       "block.bettermc.willow_fence": "Willow Fence",
       "block.bettermc.willow_leaves": "Willow Leaves",
