@@ -2502,6 +2502,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "creator_tools_tab"
+    },
+    {
+      "name": "InstantKillerLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "instant_killer_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InstantKiller",
+      "type": "tool",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "instant_killer"
     }
   ],
   "variable_elements": [
@@ -2688,6 +2712,7 @@
       "block.bettermc.douglas_fir_fence_gate": "Douglas Fir Fence Gate",
       "item.bettermc.copper_armor_helmet": "Copper Helmet",
       "item.minecraft.splash_potion.effect.levitation": "Splash Potion of Levitation",
+      "item.bettermc.instant_killer": "Instant Killer",
       "item.bettermc.amethyst_pickaxe": "Amethyst Pickaxe",
       "item.bettermc.amethyst_sword": "Amethyst Sword",
       "block.bettermc.vertical_tinted_slab": "Vertical Tinted Slab",
