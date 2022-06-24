@@ -1,0 +1,8 @@
+{
+  "parent": "bettermc:custom/rusted_vertical_slab",
+  "textures": {
+    "all": "bettermc:blocks/rusted_planks",
+    "particle": "bettermc:blocks/rusted_planks",
+    "0": "bettermc:blocks/rusted_planks"
+  }
+}

@@ -1783,6 +1783,736 @@
       "metadata": {
         "gb": true
       }
+    },
+    {
+      "name": "TintedFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinted_fence_gate_recipe"
+    },
+    {
+      "name": "PlatinumShovelRecipe",
+      "type": "recipe",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_shovel_recipe"
+    },
+    {
+      "name": "PlatinumShovel",
+      "type": "tool",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_shovel"
+    },
+    {
+      "name": "PlatinumHoeRecipe",
+      "type": "recipe",
+      "sortid": 334,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_hoe_recipe"
+    },
+    {
+      "name": "TintedStickRecipe",
+      "type": "recipe",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinted_stick_recipe"
+    },
+    {
+      "name": "BirdPrey",
+      "type": "tag",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bird_prey"
+    },
+    {
+      "name": "TintedWood",
+      "type": "block",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinted_wood"
+    },
+    {
+      "name": "TintedLog",
+      "type": "block",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinted_log"
+    },
+    {
+      "name": "VerticalOakSlabRecipe",
+      "type": "recipe",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_oak_slab_recipe"
+    },
+    {
+      "name": "VerticalBaobabSlab",
+      "type": "block",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_baobab_slab"
+    },
+    {
+      "name": "TintedFenceGate",
+      "type": "block",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinted_fence_gate"
+    },
+    {
+      "name": "VerticalWarpedSlabRecipe",
+      "type": "recipe",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_warped_slab_recipe"
+    },
+    {
+      "name": "CreatorToolsTab",
+      "type": "tab",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creator_tools_tab"
+    },
+    {
+      "name": "VerticalWarpedSlab",
+      "type": "block",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_warped_slab"
+    },
+    {
+      "name": "VerticalRustedSlab",
+      "type": "block",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_rusted_slab"
+    },
+    {
+      "name": "VerticalAcaciaSlabRecipe",
+      "type": "recipe",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_acacia_slab_recipe"
+    },
+    {
+      "name": "VerticalWIllowSlabRecipe",
+      "type": "recipe",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_w_illow_slab_recipe"
+    },
+    {
+      "name": "TintedItemsTag",
+      "type": "tag",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinted_items_tag"
+    },
+    {
+      "name": "PlatinumBlock",
+      "type": "block",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_block"
+    },
+    {
+      "name": "PlatinumAxe",
+      "type": "tool",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_axe"
+    },
+    {
+      "name": "TintedSlab",
+      "type": "block",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinted_slab"
+    },
+    {
+      "name": "VerticalAcaciaSlab",
+      "type": "block",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_acacia_slab"
+    },
+    {
+      "name": "ObsidianPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_pickaxe_recipe"
+    },
+    {
+      "name": "VerticalBaobabSlabRecipe",
+      "type": "recipe",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_baobab_slab_recipe"
+    },
+    {
+      "name": "TintedPressurePlate",
+      "type": "block",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinted_pressure_plate"
+    },
+    {
+      "name": "Saturate",
+      "type": "command",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saturate"
+    },
+    {
+      "name": "PlatinumSwordRecipe",
+      "type": "recipe",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_sword_recipe"
+    },
+    {
+      "name": "TintedPlanksRecipe",
+      "type": "recipe",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinted_planks_recipe"
+    },
+    {
+      "name": "ObsidianShovelRecipe",
+      "type": "recipe",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_shovel_recipe"
+    },
+    {
+      "name": "TintedPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinted_pressure_plate_recipe"
+    },
+    {
+      "name": "Geranium",
+      "type": "plant",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geranium"
+    },
+    {
+      "name": "VerticalBirchSlabRecipe",
+      "type": "recipe",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_birch_slab_recipe"
+    },
+    {
+      "name": "PlatinumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ore_block_recipe"
+    },
+    {
+      "name": "VerticalJungleSlabRecipe",
+      "type": "recipe",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_jungle_slab_recipe"
+    },
+    {
+      "name": "TintedFenceRecipe",
+      "type": "recipe",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinted_fence_recipe"
+    },
+    {
+      "name": "VerticalBirchSlab",
+      "type": "block",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_birch_slab"
+    },
+    {
+      "name": "PlatinumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_block_ore_recipe"
+    },
+    {
+      "name": "ObsidianHoe",
+      "type": "tool",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_hoe"
+    },
+    {
+      "name": "PlatinumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_armor_leggings_recipe"
+    },
+    {
+      "name": "PlatinumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 337,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_armor_body_recipe"
+    },
+    {
+      "name": "VerticalDarkoakSlabRecipe",
+      "type": "recipe",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_darkoak_slab_recipe"
+    },
+    {
+      "name": "VerticalEucalyptusSlabRecipe",
+      "type": "recipe",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_eucalyptus_slab_recipe"
+    },
+    {
+      "name": "VerticalCrimsonSlab",
+      "type": "block",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_crimson_slab"
+    },
+    {
+      "name": "PlayerTickProcess",
+      "type": "procedure",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_tick_process",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlatinumSword",
+      "type": "tool",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_sword"
+    },
+    {
+      "name": "ObsidianShovel",
+      "type": "tool",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_shovel"
+    },
+    {
+      "name": "TintedSlabRecipe",
+      "type": "recipe",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinted_slab_recipe"
+    },
+    {
+      "name": "TintedStairs",
+      "type": "block",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinted_stairs"
+    },
+    {
+      "name": "PlatinumOre",
+      "type": "block",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ore"
+    },
+    {
+      "name": "Bird",
+      "type": "livingentity",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bird"
+    },
+    {
+      "name": "VerticalDouglasfirSlabRecipe",
+      "type": "recipe",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_douglasfir_slab_recipe"
+    },
+    {
+      "name": "TintedFence",
+      "type": "block",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinted_fence"
+    },
+    {
+      "name": "VerticalDouglasFirSlab",
+      "type": "block",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_douglas_fir_slab"
+    },
+    {
+      "name": "PlatinumIngot",
+      "type": "item",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ingot"
+    },
+    {
+      "name": "VerticalWillowSlab",
+      "type": "block",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_willow_slab"
+    },
+    {
+      "name": "TintedButtonRecipe",
+      "type": "recipe",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinted_button_recipe"
+    },
+    {
+      "name": "VerticalSpruceSlabRecipe",
+      "type": "recipe",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_spruce_slab_recipe"
+    },
+    {
+      "name": "TintedStairsRecipe",
+      "type": "recipe",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinted_stairs_recipe"
+    },
+    {
+      "name": "PlatinumAxeRecipe",
+      "type": "recipe",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_axe_recipe"
+    },
+    {
+      "name": "ObsidianSword",
+      "type": "tool",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_sword"
+    },
+    {
+      "name": "ObsidianHoeRecipe",
+      "type": "recipe",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_hoe_recipe"
+    },
+    {
+      "name": "PlatinumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_armor_helmet_recipe"
+    },
+    {
+      "name": "PlatinumHoe",
+      "type": "tool",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_hoe"
+    },
+    {
+      "name": "SaturateCommandExecuted",
+      "type": "procedure",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saturate_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "cmdparams",
+            "type": "map"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TintedWoodRecipe",
+      "type": "recipe",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinted_wood_recipe"
+    },
+    {
+      "name": "VerticalRustedSlabRecipe",
+      "type": "recipe",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_rusted_slab_recipe"
+    },
+    {
+      "name": "PlatinumOreSmelting",
+      "type": "recipe",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ore_smelting"
+    },
+    {
+      "name": "VerticalSpruceSlab",
+      "type": "block",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_spruce_slab"
+    },
+    {
+      "name": "ObsidianPickaxe",
+      "type": "tool",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_pickaxe"
+    },
+    {
+      "name": "PlatinumPickaxe",
+      "type": "tool",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_pickaxe"
+    },
+    {
+      "name": "TintedLeaves",
+      "type": "block",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinted_leaves"
+    },
+    {
+      "name": "VerticalOakSlab",
+      "type": "block",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_oak_slab"
+    },
+    {
+      "name": "VerticalJungleSlab",
+      "type": "block",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_jungle_slab"
+    },
+    {
+      "name": "VerticalCrimsonSlabRecipe",
+      "type": "recipe",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_crimson_slab_recipe"
+    },
+    {
+      "name": "VerticalTintedSlabRecipe",
+      "type": "recipe",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_tinted_slab_recipe"
+    },
+    {
+      "name": "PlatinumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_armor_boots_recipe"
+    },
+    {
+      "name": "VerticalEucalyptusSlab",
+      "type": "block",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_eucalyptus_slab"
+    },
+    {
+      "name": "TintedLogRecipe",
+      "type": "recipe",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinted_log_recipe"
+    },
+    {
+      "name": "VerticalDarkoakSlab",
+      "type": "block",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_darkoak_slab"
+    },
+    {
+      "name": "PlatinumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_pickaxe_recipe"
+    },
+    {
+      "name": "TintedButton",
+      "type": "block",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinted_button"
+    },
+    {
+      "name": "TintedPlanks",
+      "type": "block",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinted_planks"
+    },
+    {
+      "name": "ObsidianAxeRecipe",
+      "type": "recipe",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_axe_recipe"
+    },
+    {
+      "name": "PlatinumArmor",
+      "type": "armor",
+      "sortid": 335,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "VerticalTintedSlab",
+      "type": "block",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_tinted_slab"
+    },
+    {
+      "name": "ObsidianAxe",
+      "type": "tool",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_axe"
+    },
+    {
+      "name": "ObsidianSwordRecipe",
+      "type": "recipe",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_sword_recipe"
     }
   ],
   "variable_elements": [
@@ -1791,13 +2521,25 @@
       "type": "logic",
       "scope": "map",
       "value": "false"
+    },
+    {
+      "name": "SaturationEnabled",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "Saturated",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.bettermc.copper_armor_chestplate": "Copper Chestplate",
       "item.bettermc.copper_pickaxe": "Copper Pickaxe",
+      "item.bettermc.copper_armor_chestplate": "Copper Chestplate",
       "item.bettermc.copper_axe": "Copper Axe",
       "item.bettermc.amber_armor_boots": "Amber Boots",
       "item.bettermc.emerald_axe": "Emerald Axe",
@@ -1813,9 +2555,10 @@
       "item.bettermc.amber": "Amber",
       "item.bettermc.amber_pickaxe": "Amber Pickaxe",
       "block.bettermc.willow_wood": "Willow Wood",
+      "death.fell.accident.water": "%1$s fell on a waterlogged slab",
       "block.bettermc.rusted_stairs": "Rusted Stairs",
-      "block.bettermc.rusted_button": "Rusted Button",
       "item.bettermc.amber_sword": "Amber Sword",
+      "block.bettermc.rusted_button": "Rusted Button",
       "item.bettermc.shadow_sword": "Shadow Sword",
       "block.bettermc.baobab_slab": "Baobab Slab",
       "block.bettermc.baobab_fence_gate": "Baobab Fence Gate",
@@ -1834,9 +2577,9 @@
       "item.bettermc.obsidian_armor_helmet": "Obsidian Helmet",
       "block.bettermc.douglas_fir_wood": "Douglas Fir Wood",
       "item.bettermc.amethyst_armor_leggings": "Amethyst Leggings",
+      "death.fell.accident.water.player": "%1$s was doomed to fall on a waterlogged slab by %2$s",
       "block.bettermc.eucalyptus_wood": "Eucalyptus Wood",
       "item.bettermc.power_bow": "Power Bow",
-      "item.bettermc.acid_bucket": "Acid Bucket",
       "block.bettermc.willow_button": "Willow Button",
       "block.bettermc.rusted_planks": "Rusted Planks",
       "block.bettermc.baobab_planks": "Baobab Planks",
@@ -1863,7 +2606,7 @@
       "block.bettermc.willow_leaves": "Willow Leaves",
       "block.bettermc.willow_slab": "Willow Slab",
       "block.bettermc.eucalyptus_fence_gate": "Eucalyptus Fence Gate",
-      "fluid.bettermc.acid": "Acid",
+      "death.attack.voidstrike.player": "%1$s was void-striked by %2$s",
       "item.bettermc.emerald_armor_leggings": "Emerald Leggings",
       "block.bettermc.willow_stairs": "Willow Stairs",
       "item.bettermc.shadow_armor_chestplate": "Shadow Chestplate",
@@ -1888,6 +2631,7 @@
       "item.bettermc.shadow_shovel": "Shadow Shovel",
       "item.bettermc.obsidian_armor_chestplate": "Obsidian Chestplate",
       "block.bettermc.eucalyptus_slab": "Eucalyptus Slab",
+      "death.attack.voidstrike": "%1$s was void-striked",
       "block.bettermc.douglas_fir_leaves": "Douglas Fir Leaves",
       "block.bettermc.rusted_pressure_plate": "Rusted Pressure Plate",
       "block.bettermc.eucalyptus_leaves": "Eucalyptus Leaves",
@@ -1914,7 +2658,6 @@
       "item.bettermc.copper_armor_helmet": "Copper Helmet",
       "item.minecraft.splash_potion.effect.levitation": "Splash Potion of Levitation",
       "item.bettermc.amethyst_pickaxe": "Amethyst Pickaxe",
-      "block.bettermc.acid": "Acid",
       "item.bettermc.amethyst_sword": "Amethyst Sword",
       "block.bettermc.rusted_fence": "Rusted Fence"
     }

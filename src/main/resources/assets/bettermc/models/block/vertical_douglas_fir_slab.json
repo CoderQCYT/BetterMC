@@ -1,0 +1,8 @@
+{
+  "parent": "bettermc:custom/douglasfir_vertical_slab",
+  "textures": {
+    "all": "bettermc:blocks/douglasfir_planks",
+    "particle": "bettermc:blocks/douglasfir_planks",
+    "0": "bettermc:blocks/douglasfir_planks"
+  }
+}

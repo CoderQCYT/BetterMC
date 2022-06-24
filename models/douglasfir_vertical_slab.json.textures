@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "douglasfir_planks"
+      },
+      "name": "default"
+    }
+  }
+}

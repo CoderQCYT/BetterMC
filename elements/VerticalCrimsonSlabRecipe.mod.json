@@ -1,0 +1,23 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Blocks.CRIMSON_SLAB"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:ShadowIngot"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:VerticalCrimsonSlab"
+    },
+    "name": "vertical_crimson_slab_recipe",
+    "namespace": "mod"
+  }
+}

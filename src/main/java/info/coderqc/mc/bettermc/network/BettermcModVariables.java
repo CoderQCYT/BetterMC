@@ -92,6 +92,8 @@ public class BettermcModVariables {
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "bettermc_mapvars";
 		public boolean jokesEnabled = false;
+		public boolean SaturationEnabled = true;
+		public boolean Saturated = false;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -101,11 +103,15 @@ public class BettermcModVariables {
 
 		public void read(CompoundTag nbt) {
 			jokesEnabled = nbt.getBoolean("jokesEnabled");
+			SaturationEnabled = nbt.getBoolean("SaturationEnabled");
+			Saturated = nbt.getBoolean("Saturated");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
 			nbt.putBoolean("jokesEnabled", jokesEnabled);
+			nbt.putBoolean("SaturationEnabled", SaturationEnabled);
+			nbt.putBoolean("Saturated", Saturated);
 			return nbt;
 		}
 

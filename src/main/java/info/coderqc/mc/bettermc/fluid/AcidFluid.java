@@ -1,20 +1,8 @@
 
 package info.coderqc.mc.bettermc.fluid;
 
-import net.minecraftforge.fluids.ForgeFlowingFluid;
-import net.minecraftforge.fluids.FluidAttributes;
-
-import net.minecraft.world.level.material.FluidState;
-import net.minecraft.world.level.material.Fluid;
-import net.minecraft.world.level.block.state.StateDefinition;
-import net.minecraft.world.level.block.LiquidBlock;
-import net.minecraft.resources.ResourceLocation;
-
-import info.coderqc.mc.bettermc.init.BettermcModItems;
-import info.coderqc.mc.bettermc.init.BettermcModFluids;
-import info.coderqc.mc.bettermc.init.BettermcModBlocks;
-
 public abstract class AcidFluid extends ForgeFlowingFluid {
+
 	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(BettermcModFluids.ACID,
 			BettermcModFluids.FLOWING_ACID,
 			FluidAttributes.builder(new ResourceLocation("bettermc:blocks/acid"), new ResourceLocation("bettermc:blocks/acid"))
@@ -59,4 +47,5 @@ public abstract class AcidFluid extends ForgeFlowingFluid {
 			return false;
 		}
 	}
+
 }

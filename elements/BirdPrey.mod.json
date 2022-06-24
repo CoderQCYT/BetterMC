@@ -1,0 +1,26 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "EntityTropicalFish"
+      },
+      {
+        "value": "EntitySpider"
+      },
+      {
+        "value": "EntityCaveSpider"
+      },
+      {
+        "value": "EntityEgg"
+      }
+    ],
+    "name": "bird_prey",
+    "namespace": "mod"
+  }
+}

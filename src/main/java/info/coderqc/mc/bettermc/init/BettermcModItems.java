@@ -7,6 +7,7 @@ package info.coderqc.mc.bettermc.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -21,6 +22,18 @@ import info.coderqc.mc.bettermc.item.ShadowHoeItem;
 import info.coderqc.mc.bettermc.item.ShadowAxeItem;
 import info.coderqc.mc.bettermc.item.ShadowArmorItem;
 import info.coderqc.mc.bettermc.item.PowerBowItem;
+import info.coderqc.mc.bettermc.item.PlatinumSwordItem;
+import info.coderqc.mc.bettermc.item.PlatinumShovelItem;
+import info.coderqc.mc.bettermc.item.PlatinumPickaxeItem;
+import info.coderqc.mc.bettermc.item.PlatinumIngotItem;
+import info.coderqc.mc.bettermc.item.PlatinumHoeItem;
+import info.coderqc.mc.bettermc.item.PlatinumAxeItem;
+import info.coderqc.mc.bettermc.item.PlatinumArmorItem;
+import info.coderqc.mc.bettermc.item.ObsidianSwordItem;
+import info.coderqc.mc.bettermc.item.ObsidianShovelItem;
+import info.coderqc.mc.bettermc.item.ObsidianPickaxeItem;
+import info.coderqc.mc.bettermc.item.ObsidianHoeItem;
+import info.coderqc.mc.bettermc.item.ObsidianAxeItem;
 import info.coderqc.mc.bettermc.item.ObsidianArmorItem;
 import info.coderqc.mc.bettermc.item.MilkItem;
 import info.coderqc.mc.bettermc.item.EmeraldzSwordItem;
@@ -175,6 +188,64 @@ public class BettermcModItems {
 	public static final RegistryObject<Item> SHADOW_SHOVEL = REGISTRY.register("shadow_shovel", () -> new ShadowShovelItem());
 	public static final RegistryObject<Item> SHADOW_HOE = REGISTRY.register("shadow_hoe", () -> new ShadowHoeItem());
 	public static final RegistryObject<Item> ACID_BUCKET = REGISTRY.register("acid_bucket", () -> new AcidItem());
+	public static final RegistryObject<Item> TINTED_WOOD = block(BettermcModBlocks.TINTED_WOOD, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> TINTED_LOG = block(BettermcModBlocks.TINTED_LOG, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> TINTED_PLANKS = block(BettermcModBlocks.TINTED_PLANKS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> TINTED_LEAVES = block(BettermcModBlocks.TINTED_LEAVES, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> TINTED_STAIRS = block(BettermcModBlocks.TINTED_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> TINTED_SLAB = block(BettermcModBlocks.TINTED_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> TINTED_FENCE = block(BettermcModBlocks.TINTED_FENCE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> TINTED_FENCE_GATE = block(BettermcModBlocks.TINTED_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> TINTED_PRESSURE_PLATE = block(BettermcModBlocks.TINTED_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> TINTED_BUTTON = block(BettermcModBlocks.TINTED_BUTTON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_OAK_SLAB = block(BettermcModBlocks.VERTICAL_OAK_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_SPRUCE_SLAB = block(BettermcModBlocks.VERTICAL_SPRUCE_SLAB,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_BIRCH_SLAB = block(BettermcModBlocks.VERTICAL_BIRCH_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_JUNGLE_SLAB = block(BettermcModBlocks.VERTICAL_JUNGLE_SLAB,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_ACACIA_SLAB = block(BettermcModBlocks.VERTICAL_ACACIA_SLAB,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_DARKOAK_SLAB = block(BettermcModBlocks.VERTICAL_DARKOAK_SLAB,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_CRIMSON_SLAB = block(BettermcModBlocks.VERTICAL_CRIMSON_SLAB,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_WARPED_SLAB = block(BettermcModBlocks.VERTICAL_WARPED_SLAB,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_BAOBAB_SLAB = block(BettermcModBlocks.VERTICAL_BAOBAB_SLAB,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_DOUGLAS_FIR_SLAB = block(BettermcModBlocks.VERTICAL_DOUGLAS_FIR_SLAB,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_EUCALYPTUS_SLAB = block(BettermcModBlocks.VERTICAL_EUCALYPTUS_SLAB,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_WILLOW_SLAB = block(BettermcModBlocks.VERTICAL_WILLOW_SLAB,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_TINTED_SLAB = block(BettermcModBlocks.VERTICAL_TINTED_SLAB,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> VERTICAL_RUSTED_SLAB = block(BettermcModBlocks.VERTICAL_RUSTED_SLAB,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> GERANIUM = block(BettermcModBlocks.GERANIUM, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> OBSIDIAN_PICKAXE = REGISTRY.register("obsidian_pickaxe", () -> new ObsidianPickaxeItem());
+	public static final RegistryObject<Item> OBSIDIAN_AXE = REGISTRY.register("obsidian_axe", () -> new ObsidianAxeItem());
+	public static final RegistryObject<Item> OBSIDIAN_SWORD = REGISTRY.register("obsidian_sword", () -> new ObsidianSwordItem());
+	public static final RegistryObject<Item> OBSIDIAN_SHOVEL = REGISTRY.register("obsidian_shovel", () -> new ObsidianShovelItem());
+	public static final RegistryObject<Item> OBSIDIAN_HOE = REGISTRY.register("obsidian_hoe", () -> new ObsidianHoeItem());
+	public static final RegistryObject<Item> PLATINUM_INGOT = REGISTRY.register("platinum_ingot", () -> new PlatinumIngotItem());
+	public static final RegistryObject<Item> PLATINUM_ORE = block(BettermcModBlocks.PLATINUM_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> PLATINUM_BLOCK = block(BettermcModBlocks.PLATINUM_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> PLATINUM_PICKAXE = REGISTRY.register("platinum_pickaxe", () -> new PlatinumPickaxeItem());
+	public static final RegistryObject<Item> PLATINUM_AXE = REGISTRY.register("platinum_axe", () -> new PlatinumAxeItem());
+	public static final RegistryObject<Item> PLATINUM_SWORD = REGISTRY.register("platinum_sword", () -> new PlatinumSwordItem());
+	public static final RegistryObject<Item> PLATINUM_SHOVEL = REGISTRY.register("platinum_shovel", () -> new PlatinumShovelItem());
+	public static final RegistryObject<Item> PLATINUM_HOE = REGISTRY.register("platinum_hoe", () -> new PlatinumHoeItem());
+	public static final RegistryObject<Item> PLATINUM_ARMOR_HELMET = REGISTRY.register("platinum_armor_helmet", () -> new PlatinumArmorItem.Helmet());
+	public static final RegistryObject<Item> PLATINUM_ARMOR_CHESTPLATE = REGISTRY.register("platinum_armor_chestplate",
+			() -> new PlatinumArmorItem.Chestplate());
+	public static final RegistryObject<Item> PLATINUM_ARMOR_LEGGINGS = REGISTRY.register("platinum_armor_leggings",
+			() -> new PlatinumArmorItem.Leggings());
+	public static final RegistryObject<Item> PLATINUM_ARMOR_BOOTS = REGISTRY.register("platinum_armor_boots", () -> new PlatinumArmorItem.Boots());
+	public static final RegistryObject<Item> BIRD = REGISTRY.register("bird_spawn_egg",
+			() -> new ForgeSpawnEggItem(BettermcModEntities.BIRD, -26317, -39322, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

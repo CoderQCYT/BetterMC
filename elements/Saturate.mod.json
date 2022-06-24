@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "command",
+  "definition": {
+    "commandName": "saturate",
+    "permissionLevel": "1",
+    "onCommandExecuted": {
+      "name": "SaturateCommandExecuted"
+    }
+  }
+}

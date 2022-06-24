@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:spruce_slab"
+  },
+  "addition": {
+    "item": "bettermc:shadow_ingot"
+  },
+  "result": {
+    "item": "bettermc:deleted_mod_element"
+  }
+}

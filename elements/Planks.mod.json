@@ -43,6 +43,9 @@
       },
       {
         "value": "Blocks.WARPED_PLANKS"
+      },
+      {
+        "value": "CUSTOM:TintedPlanks"
       }
     ],
     "functions": [],

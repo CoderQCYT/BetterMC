@@ -30,6 +30,7 @@ import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
 
+import info.coderqc.mc.bettermc.init.BettermcModTabs;
 import info.coderqc.mc.bettermc.init.BettermcModPotions;
 import info.coderqc.mc.bettermc.init.BettermcModItems;
 import info.coderqc.mc.bettermc.init.BettermcModFluids;
@@ -48,7 +49,7 @@ public class BettermcMod {
 	private static int messageID = 0;
 
 	public BettermcMod() {
-
+		BettermcModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		BettermcModBlocks.REGISTRY.register(bus);
 		BettermcModItems.REGISTRY.register(bus);
