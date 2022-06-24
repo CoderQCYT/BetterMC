@@ -95,6 +95,7 @@ import info.coderqc.mc.bettermc.block.BaobabFenceBlock;
 import info.coderqc.mc.bettermc.block.BaobabButtonBlock;
 import info.coderqc.mc.bettermc.block.AmberOreBlock;
 import info.coderqc.mc.bettermc.block.AmberBlockBlock;
+import info.coderqc.mc.bettermc.block.AcidBlock;
 import info.coderqc.mc.bettermc.BettermcMod;
 
 public class BettermcModBlocks {
@@ -161,6 +162,7 @@ public class BettermcModBlocks {
 			() -> new RustedPressurePlateBlock());
 	public static final RegistryObject<Block> RUSTED_BUTTON = REGISTRY.register("rusted_button", () -> new RustedButtonBlock());
 	public static final RegistryObject<Block> TINTED_WOOD = REGISTRY.register("tinted_wood", () -> new TintedWoodBlock());
+	public static final RegistryObject<Block> ACID = REGISTRY.register("acid", () -> new AcidBlock());
 	public static final RegistryObject<Block> TINTED_LOG = REGISTRY.register("tinted_log", () -> new TintedLogBlock());
 	public static final RegistryObject<Block> TINTED_PLANKS = REGISTRY.register("tinted_planks", () -> new TintedPlanksBlock());
 	public static final RegistryObject<Block> TINTED_LEAVES = REGISTRY.register("tinted_leaves", () -> new TintedLeavesBlock());

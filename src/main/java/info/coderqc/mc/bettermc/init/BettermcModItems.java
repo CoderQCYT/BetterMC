@@ -64,6 +64,7 @@ import info.coderqc.mc.bettermc.item.AmberItem;
 import info.coderqc.mc.bettermc.item.AmberHoeItem;
 import info.coderqc.mc.bettermc.item.AmberAxeItem;
 import info.coderqc.mc.bettermc.item.AmberArmorItem;
+import info.coderqc.mc.bettermc.item.AcidItem;
 import info.coderqc.mc.bettermc.BettermcMod;
 
 public class BettermcModItems {
@@ -188,6 +189,7 @@ public class BettermcModItems {
 	public static final RegistryObject<Item> SHADOW_SHOVEL = REGISTRY.register("shadow_shovel", () -> new ShadowShovelItem());
 	public static final RegistryObject<Item> SHADOW_HOE = REGISTRY.register("shadow_hoe", () -> new ShadowHoeItem());
 	public static final RegistryObject<Item> TINTED_WOOD = block(BettermcModBlocks.TINTED_WOOD, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> ACID_BUCKET = REGISTRY.register("acid_bucket", () -> new AcidItem());
 	public static final RegistryObject<Item> TINTED_LOG = block(BettermcModBlocks.TINTED_LOG, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> TINTED_PLANKS = block(BettermcModBlocks.TINTED_PLANKS, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> TINTED_LEAVES = block(BettermcModBlocks.TINTED_LEAVES, CreativeModeTab.TAB_DECORATIONS);
