@@ -39,6 +39,7 @@
   "item.bettermc.amethyst_armor_leggings": "Amethyst Leggings",
   "block.bettermc.eucalyptus_wood": "Eucalyptus Wood",
   "item.bettermc.power_bow": "Power Bow",
+  "item.bettermc.acid_bucket": "Acid Bucket",
   "block.bettermc.willow_button": "Willow Button",
   "block.bettermc.rusted_planks": "Rusted Planks",
   "block.bettermc.baobab_planks": "Baobab Planks",
@@ -65,6 +66,7 @@
   "block.bettermc.willow_leaves": "Willow Leaves",
   "block.bettermc.willow_slab": "Willow Slab",
   "block.bettermc.eucalyptus_fence_gate": "Eucalyptus Fence Gate",
+  "fluid.bettermc.acid": "Acid",
   "item.bettermc.emerald_armor_leggings": "Emerald Leggings",
   "block.bettermc.willow_stairs": "Willow Stairs",
   "item.bettermc.shadow_armor_chestplate": "Shadow Chestplate",
@@ -115,6 +117,7 @@
   "item.bettermc.copper_armor_helmet": "Copper Helmet",
   "item.minecraft.splash_potion.effect.levitation": "Splash Potion of Levitation",
   "item.bettermc.amethyst_pickaxe": "Amethyst Pickaxe",
+  "block.bettermc.acid": "Acid",
   "item.bettermc.amethyst_sword": "Amethyst Sword",
   "block.bettermc.rusted_fence": "Rusted Fence"
 }

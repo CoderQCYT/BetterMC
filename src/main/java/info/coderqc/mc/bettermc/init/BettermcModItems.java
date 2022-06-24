@@ -50,6 +50,7 @@ import info.coderqc.mc.bettermc.item.AmberItem;
 import info.coderqc.mc.bettermc.item.AmberHoeItem;
 import info.coderqc.mc.bettermc.item.AmberAxeItem;
 import info.coderqc.mc.bettermc.item.AmberArmorItem;
+import info.coderqc.mc.bettermc.item.AcidItem;
 import info.coderqc.mc.bettermc.BettermcMod;
 
 public class BettermcModItems {
@@ -173,6 +174,7 @@ public class BettermcModItems {
 	public static final RegistryObject<Item> SHADOW_SWORD = REGISTRY.register("shadow_sword", () -> new ShadowSwordItem());
 	public static final RegistryObject<Item> SHADOW_SHOVEL = REGISTRY.register("shadow_shovel", () -> new ShadowShovelItem());
 	public static final RegistryObject<Item> SHADOW_HOE = REGISTRY.register("shadow_hoe", () -> new ShadowHoeItem());
+	public static final RegistryObject<Item> ACID_BUCKET = REGISTRY.register("acid_bucket", () -> new AcidItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
