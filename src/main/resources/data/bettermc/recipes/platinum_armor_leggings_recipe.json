@@ -7,29 +7,29 @@
   ],
   "key": {
     "0": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:platinum_ingot"
     },
     "1": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:platinum_ingot"
     },
     "2": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:platinum_ingot"
     },
     "3": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:platinum_ingot"
     },
     "5": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:platinum_ingot"
     },
     "6": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:platinum_ingot"
     },
     "8": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:platinum_ingot"
     }
   },
   "result": {
-    "item": "bettermc:deleted_mod_element_leggings",
+    "item": "bettermc:platinum_armor_leggings",
     "count": 1
   }
 }

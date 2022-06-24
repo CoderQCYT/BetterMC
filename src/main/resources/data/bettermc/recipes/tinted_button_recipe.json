@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:tinted_planks"
     }
   ],
   "result": {
-    "item": "bettermc:deleted_mod_element",
+    "item": "bettermc:tinted_button",
     "count": 1
   }
 }

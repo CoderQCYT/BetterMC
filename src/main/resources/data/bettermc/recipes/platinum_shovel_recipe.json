@@ -7,7 +7,7 @@
   ],
   "key": {
     "0": {
-      "item": "bettermc:deleted_mod_element"
+      "item": "bettermc:platinum_ingot"
     },
     "1": {
       "item": "minecraft:stick"
@@ -17,7 +17,7 @@
     }
   },
   "result": {
-    "item": "bettermc:deleted_mod_element",
+    "item": "bettermc:platinum_shovel",
     "count": 1
   }
 }
