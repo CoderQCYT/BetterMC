@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "bettermc:blocks/planks",
-    "particle": "bettermc:blocks/planks"
+    "all": "bettermc:blocks/baobab_planks",
+    "particle": "bettermc:blocks/baobab_planks"
   },
   "render_type": "solid"
 }
