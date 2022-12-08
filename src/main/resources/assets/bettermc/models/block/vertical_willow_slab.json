@@ -4,5 +4,6 @@
     "all": "bettermc:blocks/willow_planks",
     "particle": "bettermc:blocks/willow_planks",
     "0": "bettermc:blocks/willow_planks"
-  }
+  },
+  "render_type": "solid"
 }

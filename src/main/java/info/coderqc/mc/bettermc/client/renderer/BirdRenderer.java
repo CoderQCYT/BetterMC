@@ -15,6 +15,6 @@ public class BirdRenderer extends MobRenderer<BirdEntity, Modelbird<BirdEntity>>
 
 	@Override
 	public ResourceLocation getTextureLocation(BirdEntity entity) {
-		return new ResourceLocation("bettermc:textures/bird_texture.png");
+		return new ResourceLocation("bettermc:textures/entities/bird_texture.png");
 	}
 }

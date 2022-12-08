@@ -3,5 +3,6 @@
   "textures": {
     "all": "bettermc:blocks/douglasfir_planks",
     "particle": "bettermc:blocks/douglasfir_planks"
-  }
+  },
+  "render_type": "solid"
 }

@@ -4,5 +4,6 @@
     "all": "bettermc:blocks/crimson_planks",
     "particle": "bettermc:blocks/crimson_planks",
     "0": "bettermc:blocks/crimson_planks"
-  }
+  },
+  "render_type": "solid"
 }

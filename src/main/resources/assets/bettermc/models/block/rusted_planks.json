@@ -3,5 +3,6 @@
   "textures": {
     "all": "bettermc:blocks/rusted_planks",
     "particle": "bettermc:blocks/rusted_planks"
-  }
+  },
+  "render_type": "solid"
 }

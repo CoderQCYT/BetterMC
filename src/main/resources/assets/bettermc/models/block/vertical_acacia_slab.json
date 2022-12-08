@@ -4,5 +4,6 @@
     "all": "bettermc:blocks/planks_acacia",
     "particle": "bettermc:blocks/planks_acacia",
     "0": "bettermc:blocks/planks_acacia"
-  }
+  },
+  "render_type": "solid"
 }

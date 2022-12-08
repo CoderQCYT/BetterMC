@@ -3,5 +3,6 @@
   "textures": {
     "texture": "bettermc:blocks/tinted_planks",
     "particle": "bettermc:blocks/tinted_planks"
-  }
+  },
+  "render_type": "solid"
 }

@@ -4,5 +4,6 @@
     "all": "bettermc:blocks/tinted_planks",
     "particle": "bettermc:blocks/tinted_planks",
     "0": "bettermc:blocks/tinted_planks"
-  }
+  },
+  "render_type": "solid"
 }

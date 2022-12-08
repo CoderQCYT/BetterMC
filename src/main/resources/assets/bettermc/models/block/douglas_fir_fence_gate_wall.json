@@ -2,5 +2,6 @@
   "parent": "block/template_fence_gate_wall",
   "textures": {
     "texture": "bettermc:blocks/douglasfir_planks"
-  }
+  },
+  "render_type": "solid"
 }

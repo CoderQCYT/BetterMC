@@ -8,5 +8,6 @@
     "south": "bettermc:blocks/tinted_log_side",
     "west": "bettermc:blocks/tinted_log_side",
     "particle": "bettermc:blocks/tinted_log_top"
-  }
+  },
+  "render_type": "solid"
 }

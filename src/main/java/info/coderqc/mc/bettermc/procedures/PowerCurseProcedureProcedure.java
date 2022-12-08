@@ -15,12 +15,12 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
 
 import javax.annotation.Nullable;
 
 import java.util.stream.Collectors;
-import java.util.Random;
 import java.util.List;
 import java.util.Comparator;
 
@@ -76,7 +76,7 @@ public class PowerCurseProcedureProcedure {
 						(float) (amount
 								* (EnchantmentHelper.getItemEnchantmentLevel(BettermcModEnchantments.VOID_STRIKE.get(),
 										(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) + 1)
-								- Mth.nextInt(new Random(), 0,
+								- Mth.nextInt(RandomSource.create(), 0,
 										(int) (amount * (EnchantmentHelper.getItemEnchantmentLevel(BettermcModEnchantments.VOID_STRIKE.get(),
 												(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY))
 												+ 1)))));

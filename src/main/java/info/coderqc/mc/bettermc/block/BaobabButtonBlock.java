@@ -17,7 +17,7 @@ import java.util.Collections;
 
 public class BaobabButtonBlock extends WoodButtonBlock {
 	public BaobabButtonBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2f, 3f));
+		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2f, 3f).dynamicShape());
 	}
 
 	@Override

@@ -3,5 +3,6 @@
   "textures": {
     "all": "bettermc:blocks/willow_planks",
     "particle": "bettermc:blocks/willow_planks"
-  }
+  },
+  "render_type": "solid"
 }

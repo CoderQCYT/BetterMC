@@ -7,10 +7,6 @@ package info.coderqc.mc.bettermc.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
@@ -194,26 +190,4 @@ public class BettermcModBlocks {
 	public static final RegistryObject<Block> GERANIUM = REGISTRY.register("geranium", () -> new GeraniumBlock());
 	public static final RegistryObject<Block> PLATINUM_ORE = REGISTRY.register("platinum_ore", () -> new PlatinumOreBlock());
 	public static final RegistryObject<Block> PLATINUM_BLOCK = REGISTRY.register("platinum_block", () -> new PlatinumBlockBlock());
-
-	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-	public static class ClientSideHandler {
-		@SubscribeEvent
-		public static void clientSetup(FMLClientSetupEvent event) {
-			VerticalOakSlabBlock.registerRenderLayer();
-			VerticalSpruceSlabBlock.registerRenderLayer();
-			VerticalBirchSlabBlock.registerRenderLayer();
-			VerticalJungleSlabBlock.registerRenderLayer();
-			VerticalAcaciaSlabBlock.registerRenderLayer();
-			VerticalDarkoakSlabBlock.registerRenderLayer();
-			VerticalCrimsonSlabBlock.registerRenderLayer();
-			VerticalWarpedSlabBlock.registerRenderLayer();
-			VerticalBaobabSlabBlock.registerRenderLayer();
-			VerticalDouglasFirSlabBlock.registerRenderLayer();
-			VerticalEucalyptusSlabBlock.registerRenderLayer();
-			VerticalWillowSlabBlock.registerRenderLayer();
-			VerticalTintedSlabBlock.registerRenderLayer();
-			VerticalRustedSlabBlock.registerRenderLayer();
-			GeraniumBlock.registerRenderLayer();
-		}
-	}
 }

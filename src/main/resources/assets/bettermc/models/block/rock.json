@@ -8,5 +8,6 @@
     "south": "bettermc:blocks/rock",
     "west": "bettermc:blocks/rock",
     "particle": "bettermc:blocks/rock"
-  }
+  },
+  "render_type": "solid"
 }

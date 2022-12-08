@@ -2,5 +2,6 @@
   "parent": "block/button_inventory",
   "textures": {
     "texture": "bettermc:blocks/douglasfir_planks"
-  }
+  },
+  "render_type": "solid"
 }

@@ -4,5 +4,6 @@
     "bottom": "bettermc:blocks/tinted_planks",
     "top": "bettermc:blocks/tinted_planks",
     "side": "bettermc:blocks/tinted_planks"
-  }
+  },
+  "render_type": "solid"
 }

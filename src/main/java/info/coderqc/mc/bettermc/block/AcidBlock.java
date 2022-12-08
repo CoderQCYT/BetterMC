@@ -2,7 +2,6 @@
 package info.coderqc.mc.bettermc.block;
 
 import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.LiquidBlock;
@@ -13,9 +12,7 @@ import info.coderqc.mc.bettermc.init.BettermcModFluids;
 
 public class AcidBlock extends LiquidBlock {
 	public AcidBlock() {
-		super(() -> (FlowingFluid) BettermcModFluids.ACID.get(), BlockBehaviour.Properties.of(Material.LAVA).strength(100f)
-
-		);
+		super(() -> BettermcModFluids.ACID.get(), BlockBehaviour.Properties.of(Material.LAVA).strength(100f).noCollission().noLootTable());
 	}
 
 	@Override

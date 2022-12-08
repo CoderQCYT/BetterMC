@@ -3,5 +3,6 @@
   "textures": {
     "all": "bettermc:blocks/amber_ore_block",
     "particle": "bettermc:blocks/amber_ore_block"
-  }
+  },
+  "render_type": "solid"
 }

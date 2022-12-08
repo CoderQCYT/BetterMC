@@ -4,5 +4,6 @@
     "all": "bettermc:blocks/planks_jungle",
     "particle": "bettermc:blocks/planks_jungle",
     "0": "bettermc:blocks/planks_jungle"
-  }
+  },
+  "render_type": "solid"
 }

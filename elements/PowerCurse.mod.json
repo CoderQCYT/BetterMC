@@ -1,5 +1,5 @@
 {
-  "_fv": 28,
+  "_fv": 34,
   "_type": "enchantment",
   "definition": {
     "name": "Curse of Power",
@@ -9,7 +9,9 @@
     "maxLevel": 5,
     "damageModifier": 0,
     "compatibleEnchantments": [],
+    "excludeEnchantments": false,
     "compatibleItems": [],
+    "excludeItems": false,
     "isTreasureEnchantment": false,
     "isCurse": true,
     "isAllowedOnBooks": true,

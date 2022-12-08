@@ -4,5 +4,6 @@
     "all": "bettermc:blocks/warped_planks",
     "particle": "bettermc:blocks/warped_planks",
     "0": "bettermc:blocks/warped_planks"
-  }
+  },
+  "render_type": "solid"
 }

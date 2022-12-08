@@ -14,11 +14,10 @@ import net.minecraft.world.entity.projectile.ItemSupplier;
 import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.util.RandomSource;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
-
-import java.util.Random;
 
 import info.coderqc.mc.bettermc.init.BettermcModEntities;
 
@@ -69,7 +68,7 @@ public class PowerBowEntity extends AbstractArrow implements ItemSupplier {
 			this.discard();
 	}
 
-	public static PowerBowEntity shoot(Level world, LivingEntity entity, Random random, float power, double damage, int knockback) {
+	public static PowerBowEntity shoot(Level world, LivingEntity entity, RandomSource random, float power, double damage, int knockback) {
 		PowerBowEntity entityarrow = new PowerBowEntity(BettermcModEntities.POWER_BOW.get(), entity, world);
 		entityarrow.shoot(entity.getViewVector(1).x, entity.getViewVector(1).y, entity.getViewVector(1).z, power * 2, 0);
 		entityarrow.setSilent(true);
@@ -96,7 +95,7 @@ public class PowerBowEntity extends AbstractArrow implements ItemSupplier {
 		entity.level.addFreshEntity(entityarrow);
 		entity.level.playSound(null, entity.getX(), entity.getY(), entity.getZ(),
 				ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.arrow.shoot")), SoundSource.PLAYERS, 1,
-				1f / (new Random().nextFloat() * 0.5f + 1));
+				1f / (RandomSource.create().nextFloat() * 0.5f + 1));
 		return entityarrow;
 	}
 }

@@ -4,5 +4,6 @@
     "bottom": "bettermc:blocks/willow_planks",
     "top": "bettermc:blocks/willow_planks",
     "side": "bettermc:blocks/willow_planks"
-  }
+  },
+  "render_type": "solid"
 }

@@ -1,11 +1,9 @@
 {
-  "_fv": 28,
+  "_fv": 34,
   "_type": "command",
   "definition": {
     "commandName": "saturate",
     "permissionLevel": "1",
-    "onCommandExecuted": {
-      "name": "SaturateCommandExecuted"
-    }
+    "argsxml": "<xml><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"old_command\"><field name=\"procedure\">SaturateCommandExecuted</field></block></next></block></xml>"
   }
 }

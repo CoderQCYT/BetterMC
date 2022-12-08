@@ -8,5 +8,6 @@
     "south": "bettermc:blocks/douglasfir_log_side",
     "west": "bettermc:blocks/douglasfir_log_side",
     "particle": "bettermc:blocks/douglasfir_log_top"
-  }
+  },
+  "render_type": "solid"
 }

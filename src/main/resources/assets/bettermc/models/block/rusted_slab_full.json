@@ -4,5 +4,6 @@
     "bottom": "bettermc:blocks/rusted_planks",
     "top": "bettermc:blocks/rusted_planks",
     "side": "bettermc:blocks/rusted_planks"
-  }
+  },
+  "render_type": "solid"
 }

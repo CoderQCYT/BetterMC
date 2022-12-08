@@ -3,5 +3,6 @@
   "textures": {
     "all": "bettermc:blocks/douglasfir_log_side",
     "particle": "bettermc:blocks/douglasfir_log_side"
-  }
+  },
+  "render_type": "solid"
 }

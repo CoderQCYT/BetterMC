@@ -8,5 +8,6 @@
     "south": "bettermc:blocks/willow_log_side",
     "west": "bettermc:blocks/willow_log_side",
     "particle": "bettermc:blocks/willow_log_top"
-  }
+  },
+  "render_type": "solid"
 }

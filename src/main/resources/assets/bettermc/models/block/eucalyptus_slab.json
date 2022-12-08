@@ -4,5 +4,6 @@
     "bottom": "bettermc:blocks/eucalyptus_planks",
     "top": "bettermc:blocks/eucalyptus_planks",
     "side": "bettermc:blocks/eucalyptus_planks"
-  }
+  },
+  "render_type": "solid"
 }

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "plains",
+  "features": "bettermc:douglas_fir_tree",
+  "step": "surface_structures"
+}

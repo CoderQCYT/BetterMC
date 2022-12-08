@@ -4,5 +4,6 @@
     "bottom": "bettermc:blocks/douglasfir_planks",
     "top": "bettermc:blocks/douglasfir_planks",
     "side": "bettermc:blocks/douglasfir_planks"
-  }
+  },
+  "render_type": "solid"
 }

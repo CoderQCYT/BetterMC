@@ -4,14 +4,10 @@ package info.coderqc.mc.bettermc.entity;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.world.BiomeLoadingEvent;
 
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.ThrownEgg;
@@ -32,7 +28,6 @@ import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
-import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
@@ -40,29 +35,17 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
+import net.minecraft.util.RandomSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.core.BlockPos;
 
-import java.util.Set;
-import java.util.Random;
 import java.util.EnumSet;
 
 import info.coderqc.mc.bettermc.init.BettermcModEntities;
 
-@Mod.EventBusSubscriber
 public class BirdEntity extends PathfinderMob {
-	private static final Set<ResourceLocation> SPAWN_BIOMES = Set.of(new ResourceLocation("forest"), new ResourceLocation("sunflower_plains"),
-			new ResourceLocation("dark_forest"), new ResourceLocation("plains"), new ResourceLocation("beach"), new ResourceLocation("birch_forest"),
-			new ResourceLocation("swamp"));
-
-	@SubscribeEvent
-	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		if (SPAWN_BIOMES.contains(event.getName()))
-			event.getSpawns().getSpawner(MobCategory.AMBIENT).add(new MobSpawnSettings.SpawnerData(BettermcModEntities.BIRD.get(), 20, 1, 2));
-	}
-
 	public BirdEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(BettermcModEntities.BIRD.get(), world);
 	}
@@ -132,7 +115,7 @@ public class BirdEntity extends PathfinderMob {
 		this.goalSelector.addGoal(6, new RandomStrollGoal(this, 0.75, 20) {
 			@Override
 			protected Vec3 getPosition() {
-				Random random = BirdEntity.this.getRandom();
+				RandomSource random = BirdEntity.this.getRandom();
 				double dir_x = BirdEntity.this.getX() + ((random.nextFloat() * 2 - 1) * 16);
 				double dir_y = BirdEntity.this.getY() + ((random.nextFloat() * 2 - 1) * 16);
 				double dir_z = BirdEntity.this.getZ() + ((random.nextFloat() * 2 - 1) * 16);
@@ -251,6 +234,7 @@ public class BirdEntity extends PathfinderMob {
 		builder = builder.add(Attributes.MAX_HEALTH, 10);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
+		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
 		builder = builder.add(Attributes.FLYING_SPEED, 0.7000000000000001);
 		return builder;
 	}

@@ -5,7 +5,6 @@ import net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemp
 import net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlaceSettings;
 import net.minecraft.world.level.levelgen.structure.templatesystem.BlockIgnoreProcessor;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
-import net.minecraft.world.level.levelgen.placement.BiomeFilter;
 import net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration;
 import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
 import net.minecraft.world.level.levelgen.feature.FeaturePlaceContext;
@@ -33,15 +32,10 @@ public class BaobabTreeFeature extends Feature<NoneFeatureConfiguration> {
 	public static Feature<?> feature() {
 		FEATURE = new BaobabTreeFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("bettermc:baobab_tree", FEATURE, FeatureConfiguration.NONE);
-		PLACED_FEATURE = PlacementUtils.register("bettermc:baobab_tree", CONFIGURED_FEATURE, List.of(BiomeFilter.biome()));
+		PLACED_FEATURE = PlacementUtils.register("bettermc:baobab_tree", CONFIGURED_FEATURE, List.of());
 		return FEATURE;
 	}
 
-	public static Holder<PlacedFeature> placedFeature() {
-		return PLACED_FEATURE;
-	}
-
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("savanna"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 	private StructureTemplate template = null;
 

@@ -3,5 +3,6 @@
   "textures": {
     "all": "bettermc:blocks/baobab_log_side",
     "particle": "bettermc:blocks/baobab_log_side"
-  }
+  },
+  "render_type": "solid"
 }

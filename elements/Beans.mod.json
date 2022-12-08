@@ -1,5 +1,5 @@
 {
-  "_fv": 28,
+  "_fv": 34,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -32,7 +32,6 @@
     "onFinishUsingItem": {
       "name": "BeansPlayerFinishesUsingItem"
     },
-    "hasDispenseBehavior": false,
     "isFood": true,
     "nutritionalValue": 3,
     "saturation": 3.5,

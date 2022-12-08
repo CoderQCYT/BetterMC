@@ -8,5 +8,6 @@
     "south": "bettermc:blocks/rusted_log_side",
     "west": "bettermc:blocks/rusted_log_side",
     "particle": "bettermc:blocks/rusted_log_top"
-  }
+  },
+  "render_type": "solid"
 }

@@ -4,5 +4,6 @@
     "all": "bettermc:blocks/eucalyptus_planks",
     "particle": "bettermc:blocks/eucalyptus_planks",
     "0": "bettermc:blocks/eucalyptus_planks"
-  }
+  },
+  "render_type": "solid"
 }

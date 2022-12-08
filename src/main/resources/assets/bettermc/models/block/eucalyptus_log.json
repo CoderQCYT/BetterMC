@@ -8,5 +8,6 @@
     "south": "bettermc:blocks/eucalyptus_log_side",
     "west": "bettermc:blocks/eucalyptus_log_side",
     "particle": "bettermc:blocks/eucalyptus_log_top"
-  }
+  },
+  "render_type": "solid"
 }

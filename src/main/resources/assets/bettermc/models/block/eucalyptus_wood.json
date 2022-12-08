@@ -3,5 +3,6 @@
   "textures": {
     "all": "bettermc:blocks/eucalyptus_log_side",
     "particle": "bettermc:blocks/eucalyptus_log_side"
-  }
+  },
+  "render_type": "solid"
 }

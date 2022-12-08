@@ -1,11 +1,9 @@
 {
-  "_fv": 28,
+  "_fv": 34,
   "_type": "command",
   "definition": {
     "commandName": "jokes",
     "permissionLevel": "2",
-    "onCommandExecuted": {
-      "name": "JokesCommandExecuted"
-    }
+    "argsxml": "<xml><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"old_command\"><field name=\"procedure\">JokesCommandExecuted</field></block></next></block></xml>"
   }
 }

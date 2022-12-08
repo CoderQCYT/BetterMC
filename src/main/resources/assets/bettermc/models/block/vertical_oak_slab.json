@@ -4,5 +4,6 @@
     "all": "bettermc:blocks/planks_oak",
     "particle": "bettermc:blocks/planks_oak",
     "0": "bettermc:blocks/planks_oak"
-  }
+  },
+  "render_type": "solid"
 }

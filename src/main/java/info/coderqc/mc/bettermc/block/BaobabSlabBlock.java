@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class BaobabSlabBlock extends SlabBlock {
 	public BaobabSlabBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2f, 3f));
+		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2f, 3f).dynamicShape());
 	}
 
 	@Override

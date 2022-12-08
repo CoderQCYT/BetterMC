@@ -1,0 +1,18 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "forest",
+    "sunflower_plains",
+    "dark_forest",
+    "plains",
+    "beach",
+    "birch_forest",
+    "swamp"
+  ],
+  "spawners": {
+    "type": "bettermc:bird",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

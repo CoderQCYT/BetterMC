@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "savanna",
+  "features": "bettermc:baobab_tree",
+  "step": "surface_structures"
+}

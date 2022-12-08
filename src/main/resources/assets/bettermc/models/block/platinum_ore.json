@@ -3,5 +3,6 @@
   "textures": {
     "all": "bettermc:blocks/platinum_ore",
     "particle": "bettermc:blocks/platinum_ore"
-  }
+  },
+  "render_type": "solid"
 }

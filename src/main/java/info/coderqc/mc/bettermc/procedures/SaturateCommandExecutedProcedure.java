@@ -3,7 +3,7 @@ package info.coderqc.mc.bettermc.procedures;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.network.chat.TextComponent;
+import net.minecraft.network.chat.Component;
 
 import java.util.HashMap;
 
@@ -18,36 +18,36 @@ public class SaturateCommandExecutedProcedure {
 				BettermcModVariables.MapVariables.get(world).SaturationEnabled = true;
 				BettermcModVariables.MapVariables.get(world).syncData(world);
 				if (entity instanceof Player _player && !_player.level.isClientSide())
-					_player.displayClientMessage(new TextComponent("Saturation has been allowed!"), (false));
+					_player.displayClientMessage(Component.literal("Saturation has been allowed!"), (false));
 			} else {
 				if (entity instanceof Player _player && !_player.level.isClientSide())
-					_player.displayClientMessage(new TextComponent("You do not have permission to do this!"), (false));
+					_player.displayClientMessage(Component.literal("You do not have permission to do this!"), (false));
 			}
 		} else if ((cmdparams.containsKey("0") ? cmdparams.get("0").toString() : "").equals("block")) {
 			if (entity.hasPermissions(3)) {
 				BettermcModVariables.MapVariables.get(world).SaturationEnabled = false;
 				BettermcModVariables.MapVariables.get(world).syncData(world);
 				if (entity instanceof Player _player && !_player.level.isClientSide())
-					_player.displayClientMessage(new TextComponent("Saturation has been blocked!"), (false));
+					_player.displayClientMessage(Component.literal("Saturation has been blocked!"), (false));
 			} else {
 				if (entity instanceof Player _player && !_player.level.isClientSide())
-					_player.displayClientMessage(new TextComponent("You do not have permission to do this!"), (false));
+					_player.displayClientMessage(Component.literal("You do not have permission to do this!"), (false));
 			}
 		} else if ((cmdparams.containsKey("0") ? cmdparams.get("0").toString() : "").equals("")) {
 			if (BettermcModVariables.MapVariables.get(world).Saturated) {
 				BettermcModVariables.MapVariables.get(world).Saturated = false;
 				BettermcModVariables.MapVariables.get(world).syncData(world);
 				if (entity instanceof Player _player && !_player.level.isClientSide())
-					_player.displayClientMessage(new TextComponent("You are no longer being saturated."), (false));
+					_player.displayClientMessage(Component.literal("You are no longer being saturated."), (false));
 			} else {
 				BettermcModVariables.MapVariables.get(world).Saturated = true;
 				BettermcModVariables.MapVariables.get(world).syncData(world);
 				if (entity instanceof Player _player && !_player.level.isClientSide())
-					_player.displayClientMessage(new TextComponent("You are now being saturated."), (false));
+					_player.displayClientMessage(Component.literal("You are now being saturated."), (false));
 			}
 		} else {
 			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(new TextComponent("Unknown option, possible options: \" \", \"allow\", and \"deny\"."), (false));
+				_player.displayClientMessage(Component.literal("Unknown option, possible options: \" \", \"allow\", and \"deny\"."), (false));
 		}
 	}
 }
